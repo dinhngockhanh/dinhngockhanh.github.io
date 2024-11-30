@@ -53,13 +53,13 @@
             "position": "Associate Research Scientist",
             "url": "https://dinhngockhanh.github.io",
             "startDate": "2023-07-01",
-            "endDate": "Present",
-            "summary": "I develop novel mathematical models and computational algorithms to analyze cancer evolution from genomic sequencing data. My fields of study include:",
-            "highlights": [
-                "Computational oncology",
-                "Mathematical modeling",
-                "Analysis of DNA-sequencing data"
-            ]
+            "endDate": "Present"
+            // "summary": "I develop novel mathematical models and computational algorithms to analyze cancer evolution from genomic sequencing data. My fields of study include:",
+            // "highlights": [
+            //     "Computational oncology",
+            //     "Mathematical modeling",
+            //     "Analysis of DNA-sequencing data"
+            // ]
         }
     ],
     // "volunteer": [
