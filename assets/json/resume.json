@@ -6,7 +6,7 @@
         "email": "knd2127@columbia.edu",
         "phone": "+1 (212) 851-2132",
         "url": "https://dinhngockhanh.github.io",
-        "summary": "An Associate Research Scientist in the Irving Institute for Cancer Dynamics at Columbia University",
+        "summary": "Associate Research Scientist in the Irving Institute for Cancer Dynamics at Columbia University",
         "location": {
             "address": "1190 Amsterdam Avenue, Suite 601, Mail Code: 5560",
             "postalCode": "NY 10027",
@@ -57,7 +57,8 @@
             "summary": "I develop novel mathematical models and computational algorithms to analyze cancer evolution from genomic sequencing data.",
             "highlights": [
                 "Computational oncology",
-                "Mathematical modeling"
+                "Mathematical modeling",
+                "Analysis of DNA-sequencing data"
             ]
         }
     ],
