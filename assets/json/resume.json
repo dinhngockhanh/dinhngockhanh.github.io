@@ -16,9 +16,34 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "AlbertEinstein",
-                "url": "https://twitter.com/AlbertEinstein"
+                "network": "Columbia University",
+                "username": "khanh-ngoc-dinh-phd",
+                "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "khanh-dinh-691355106",
+                "url": "https://www.linkedin.com/in/khanh-dinh-691355106/"
+            },
+            {
+                "network": "Google Scholar",
+                "username": "sso8kFYAAAAJ&hl",
+                "url": "https://scholar.google.com/citations?user=sso8kFYAAAAJ&hl"
+            },
+            {
+                "network": "ORCiD",
+                "username": "0000-0002-0010-4251",
+                "url": "https://orcid.org/0000-0002-0010-4251"
+            },
+            {
+                "network": "GitHub",
+                "username": "dinhngockhanh",
+                "url": "https://github.com/dinhngockhanh"
+            },
+            {
+                "network": "ResearchGate",
+                "username": "Khanh-Dinh-14",
+                "url": "https://www.researchgate.net/profile/Khanh-Dinh-14"
             }
         ]
     },
