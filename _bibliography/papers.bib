@@ -33,13 +33,16 @@
   year={2017},
   publisher={Elsevier},
   doi={10.1016/j.matcom.2017.01.002},
-  html={https://www.sciencedirect.com/science/article/abs/pii/S0378475417300034?casa_token=5UO4tjMvIgIAAAAA:AAJawrkl_7eZvNz7-PX4GSfVdFNpnLgNhY-_BgZzyNSQrb-LX_89MtVI9p1Y-o-yFbd_XEov},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0378475417300034?via%3Dihub},
   pdf={dinh2017analysis.pdf},
   preview={dinh2017analysis.png},
   abstract={Krylov subspace methods have proved quite effective at approximating the action of a large sparse matrix exponential on a vector. Their numerical robustness and matrix-free nature have enabled them to make inroads into a variety of applications. A case in point is solving the chemical master equation (CME) in the context of modeling biochemical reactions in biological cells. This is a challenging problem that gives rise to an extremely large matrix due to the curse of dimensionality. Inexact Krylov subspace methods that build on truncation techniques have helped solve some CME models that were considered computationally out of reach as recently as a few years ago. However, as models grow, truncating them means using an even smaller fraction of their whole extent, thereby introducing more inexactness. But experimental evidence suggests an apparent success and the aim of this study is to give theoretical insights into the reasons why. Essentially, we show that the truncation can be put in the framework of inexact Krylov methods that relax matrix–vector products and compute them expediently by trading accuracy for speed. This allows us to analyze both the residual (or defect) and the error of the resulting approximations to the matrix exponential from the viewpoint of inexact Krylov methods.}
 }
 
 @article{dinh2017application,
+  selected={false},
+  bibtex_show={true},
+  dimensions={true},
   title={An application of the Krylov-FSP-SSA method to parameter fitting with maximum likelihood},
   author={Dinh, Khanh N. and Sidje, Roger B.},
   journal={Physical Biology},
@@ -47,5 +50,10 @@
   number={6},
   pages={065001},
   year={2017},
-  publisher={IOP Publishing}
+  publisher={IOP Publishing},
+  doi={10.1088/1478-3975/aa868a},
+  html={https://iopscience.iop.org/article/10.1088/1478-3975/aa868a},
+  pdf={dinh2017application.pdf},
+  preview={dinh2017application.png},
+  abstract={Monte Carlo methods such as the stochastic simulation algorithm (SSA) have traditionally been employed in gene regulation problems. However, there has been increasing interest to directly obtain the probability distribution of the molecules involved by solving the chemical master equation (CME). This requires addressing the curse of dimensionality that is inherent in most gene regulation problems. The finite state projection (FSP) seeks to address the challenge and there have been variants that further reduce the size of the projection or that accelerate the resulting matrix exponential. The Krylov-FSP-SSA variant has proved numerically efficient by combining, on one hand, the SSA to adaptively drive the FSP, and on the other hand, adaptive Krylov techniques to evaluate the matrix exponential. Here we apply this Krylov-FSP-SSA to a mutual inhibitory gene network synthetically engineered in Saccharomyces cerevisiae, in which bimodality arises. We show numerically that the approach can efficiently approximate the transient probability distribution, and this has important implications for parameter fitting, where the CME has to be solved for many different parameter sets. The fitting scheme amounts to an optimization problem of finding the parameter set so that the transient probability distributions fit the observations with maximum likelihood. We compare five optimization schemes for this difficult problem, thereby providing further insights into this approach of parameter estimation that is often applied to models in systems biology where there is a need to calibrate free parameters.}
 }
