@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: is an Associate Research Scientist in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and <a href='https://stat.columbia.edu'>Department of Statistics</a> at <a href='https://www.columbia.edu'>Columbia University</a>.
 
 profile:
   align: right
