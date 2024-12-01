@@ -76,27 +76,12 @@
             "endDate": "2029-06-30"
         }
     ],
-    // "volunteer": [
-    //     {
-    //         "organization": "People's Climate March",
-    //         "location": "Zurich, Switzerland",
-    //         "position": "Lead Organizer",
-    //         "url": "https://example.com",
-    //         "startDate": "2014-04-01",
-    //         "endDate": "2015-07-01",
-    //         "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-    //         "highlights": [
-    //             "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-    //             "Men of the year 2014 by Time magazine"
-    //         ]
-    //     }
-    // ],
     "education": [
         {
             "institution": "University of Alabama",
             "location": "Tuscaloosa, AL, USA",
             "url": "https://math.ua.edu",
-            "area": "Numerical Analysis",
+            "area": "Applied Mathematics",
             "studyType": "PhD",
             "startDate": "2013-01-15",
             "endDate": "2018-05-30"
@@ -118,6 +103,21 @@
             // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
         }
     ]
+    // "volunteer": [
+    //     {
+    //         "organization": "People's Climate March",
+    //         "location": "Zurich, Switzerland",
+    //         "position": "Lead Organizer",
+    //         "url": "https://example.com",
+    //         "startDate": "2014-04-01",
+    //         "endDate": "2015-07-01",
+    //         "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+    //         "highlights": [
+    //             "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
+    //             "Men of the year 2014 by Time magazine"
+    //         ]
+    //     }
+    // ],
     // "certificates": [
     //     {
     //         "name": "Machine Learning",
