@@ -17,3 +17,19 @@
 "tavare":
   - firstname: ["Simon"]
     url: https://tavarelab.cancerdynamics.columbia.edu
+
+"corey":
+  - firstname: ["Seth J.", "Seth", "Seth J"]
+    url: https://www.lerner.ccf.org/cancer-biology/corey/
+
+"vazquez-garcia":
+  - firstname: ["Ignacio"]
+    url: https://researchers.mgh.harvard.edu/profile/39994917/Ignacio-Vazquez-Garcia
+
+"mcpherson":
+  - firstname: ["Andrew W.", "Andrew", "Andrew W"]
+    url: https://www.mskcc.org/profile/andrew-mcpherson
+
+"kurpus":
+  - firstname: ["Monika K.", "Monika", "Monika K"]
+    url: https://omega.polsl.pl/info/author/PSLcd398552d9ca46288a013d77ff4976bc?r=publication&ps=20&tab=publications&lang=en&title=Person%2Bprofile%2B%25E2%2580%2593%2BMonika%2BKurpas%2B%25E2%2580%2593%2BSilesian%2BUniversity%2Bof%2BTechnology&pn=1&cid=611238
