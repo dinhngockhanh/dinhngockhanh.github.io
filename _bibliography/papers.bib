@@ -271,3 +271,18 @@
   preview={dinh2024cinner.png},
   abstract={Cancer development is characterized by chromosomal instability, manifesting in frequent occurrences of different genomic alteration mechanisms ranging in extent and impact. Mathematical modeling can help evaluate the role of each mutational process during tumor progression, however existing frameworks can only capture certain aspects of chromosomal instability (CIN). We present CINner, a mathematical framework for modeling genomic diversity and selection during tumor evolution. The main advantage of CINner is its flexibility to incorporate many genomic events that directly impact cellular fitness, from driver gene mutations to copy number alterations (CNAs), including focal amplifications and deletions, missegregations and whole-genome duplication (WGD). We apply CINner to find chromosome-arm selection parameters that drive tumorigenesis in the absence of WGD in chromosomally stable cancer types. We found that the selection parameters predict WGD prevalence among different chromosomally unstable tumors, hinting that the selective advantage of WGD cells hinges on their tolerance for aneuploidy and escape from nullisomy. Direct application of CINner to model the WGD proportion and fraction of genome altered (FGA) further uncovers the increase in CNA probabilities associated with WGD in each cancer type. CINner can also be utilized to study chromosomally stable cancer types, by applying a selection model based on driver gene mutations and focal amplifications or deletions. Finally, we used CINner to analyze the impact of CNA probabilities, chromosome selection parameters, tumor growth dynamics and population size on cancer fitness and heterogeneity. We expect that CINner will provide a powerful modeling tool for the oncology community to quantify the impact of newly uncovered genomic alteration mechanisms on shaping tumor progression and adaptation.}
 }
+
+@article{dinh2024approximate,
+  selected={true},
+  bibtex_show={true},
+  dimensions={true},
+  title={Approximate Bayesian Computation sequential Monte Carlo via random forests},
+  author={Dinh, Khanh N. and Xiang, Zijin and Liu, Zhihan and Tavar{\'e}, Simon},
+  journal={arXiv},
+  year={2024},
+  doi={10.48550/arXiv.2406.15865},
+  html={https://www.arxiv.org/abs/2406.15865},
+  pdf={dinh2024approximate.pdf},
+  preview={dinh2024approximate.png},
+  abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we adapt distributional random forests to the ABC setting, and introduce Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-(D)RF). This updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that ABC-SMC-(D)RF can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
+}
