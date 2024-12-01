@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Office 601B</p>
     <p>Schermerhorn Hall</p>
+    <p>Columbia University</p>
     <p>1190 Amsterdam Avenue</p>
     <p>New York, NY 10027</p>
 
