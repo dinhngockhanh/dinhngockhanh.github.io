@@ -9,11 +9,11 @@ profile:
   image: KhanhNDinh.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Office 601B</p>
-    <p>Schermerhorn Hall</p>
-    <p>Columbia University</p>
-    <p>1190 Amsterdam Avenue</p>
-    <p>New York, NY 10027</p>
+    <p style="text-align: right;">Office 601B</p>
+    <p style="text-align: right;">Schermerhorn Hall</p>
+    <p style="text-align: right;">Columbia University</p>
+    <p style="text-align: right;">1190 Amsterdam Avenue</p>
+    <p style="text-align: right;">New York, NY 10027</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
