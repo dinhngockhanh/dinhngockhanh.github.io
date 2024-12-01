@@ -76,3 +76,20 @@
   preview={dinh2017adaptive.png},
   abstract={The chemical master equation (CME) is a system of ordinary differential equations (ODEs) to model the chemical interaction of molecular species. The largeness of the state space of the system makes solving the CME difficult, and this has motivated reduction strategies such as the finite state projection (FSP). Moreover, if the reaction rates are functions of the time, the CME becomes an ODE problem with time-dependent coefficients. Solution techniques include Monte Carlo algorithms, such as the stochastic simulation algorithm (SSA) or ODE solvers, such as Adams-PECE, Runge-Kutta and backward-differentiation formula (BDF). There are also Magnus-based solvers that have however not been thoroughly explored in the CME context. Here we introduce an adaptive time-stepping Magnus-SSA algorithm, in which the CME is solved using a Magnus expansion with not only a variable time-step but also with a variable state space that changes at each step via the SSA, and several error approximation approaches are attempted to monitor the adaptivity. We perform comparative tests against the classical Adams-PECE, Runge-Kutta and BDF methods on three biological problems, showing that the proposed adaptive Magnus-based variants can be efficient when the CME with time-dependent rates is stiff.}
 }
+
+@inproceedings{dinh2018comparison,
+  selected={false},
+  bibtex_show={true},
+  dimensions={true},
+  title={A comparison of the Magnus expansion and other solvers for the chemical master equation with variable rates},
+  author={Dinh, Khanh N. and Sidje, Roger B.},
+  booktitle={Recent Advances in Mathematical and Statistical Methods: IV AMMCS International Conference, Waterloo, Canada, August 20--25, 2017 IV},
+  pages={261--270},
+  year={2018},
+  organization={Springer},
+  doi={10.1007/978-3-319-99719-3_24},
+  html={https://link.springer.com/chapter/10.1007/978-3-319-99719-3_24},
+  pdf={dinh2018comparison.pdf},
+  preview={dinh2018comparison.png},
+  abstract={Many traditional approaches for solving the chemical master equation (CME) cannot be used in their basic form when reaction rates change over time, for instance due to cell volume or temperature. One technique is to use the Magnus expansion to represent the solution to the CME as the action of a matrix exponential, for which Krylov-based approximation methods can be applied. In this paper, we compare two variants of the Magnus scheme with some popular ordinary differential equations (ODE) solvers, such as Adams-Bashforth, Runge-Kutta and Backward-differentiation formula (BDF). Our numerical tests show that the Magnus variants are remarkably efficient at computing the transient probability distributions of a transcriptional regulatory system where propensities vary over time due to cell volume increase.}
+}
