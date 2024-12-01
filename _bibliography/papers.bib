@@ -203,3 +203,22 @@
   preview={jaksik2024multiomics.png},
   abstract={Lung cancer is a global health challenge, hindered by delayed diagnosis and the disease’s complex molecular landscape. Accurate patient survival prediction is critical, motivating the exploration of various -omics datasets using machine learning methods. Leveraging multi-omics data, this study seeks to enhance the accuracy of survival prediction by proposing new feature extraction techniques combined with unbiased feature selection. Two lung adenocarcinoma multi-omics datasets, originating from the TCGA and CPTAC-3 projects, were employed for this purpose, emphasizing gene expression, methylation, and mutations as the most relevant data sources that provide features for the survival prediction models. Additionally, gene set aggregation was shown to be the most effective feature extraction method for mutation and copy number variation data. Using the TCGA dataset, we identified 32 molecular features that allowed the construction of a 2-year survival prediction model with an AUC of 0.839. The selected features were additionally tested on an independent CPTAC-3 dataset, achieving an AUC of 0.815 in nested cross-validation, which confirmed the robustness of the identified features.}
 }
+
+@article{xiang2024inference,
+  selected={true},
+  bibtex_show={true},
+  dimensions={true},
+  title={Inference of chromosome selection parameters and missegregation rate in cancer from DNA-sequencing data},
+  author={Xiang, Zijin and Liu, Zhihan and Dinh, Khanh N.},
+  journal={Scientific Reports},
+  volume={14},
+  number={1},
+  pages={17699},
+  year={2024},
+  publisher={Nature Publishing Group UK London},
+  doi={10.1038/s41598},
+  html={https://www.nature.com/articles/s41598-024-67842-9},
+  pdf={xiang2024inference.pdf},
+  preview={xiang2024inference.png},
+  abstract={Aneuploidy is frequently observed in cancers and has been linked to poor patient outcome. Analysis of aneuploidy in DNA-sequencing (DNA-seq) data necessitates untangling the effects of the Copy Number Aberration (CNA) occurrence rates and the selection coefficients that act upon the resulting karyotypes. We introduce a parameter inference algorithm that takes advantage of both bulk and single-cell DNA-seq cohorts. The method is based on Approximate Bayesian Computation (ABC) and utilizes CINner, our recently introduced simulation algorithm of chromosomal instability in cancer. We examine three groups of statistics to summarize the data in the ABC routine: (A) Copy Number-based measures, (B) phylogeny tip statistics, and (C) phylogeny balance indices. Using these statistics, our method can recover both the CNA probabilities and selection parameters from ground truth data, and performs well even for data cohorts of relatively small sizes. We find that only statistics in groups A and C are well-suited for identifying CNA probabilities, and only group A carries the signals for estimating selection parameters. Moreover, the low number of CNA events at large scale compared to cell counts in single-cell samples means that statistics in group B cannot be estimated accurately using phylogeny reconstruction algorithms at the chromosome level. As data from both bulk and single-cell DNA-sequencing techniques becomes increasingly available, our inference framework promises to facilitate the analysis of distinct cancer types, differentiation between selection and neutral drift, and prediction of cancer clonal dynamics.}
+}
