@@ -5,3 +5,15 @@
 "jaksik":
   - firstname: ["Roman"]
     url: https://omega.polsl.pl/info/author/PSLb8d1f042acff4c888f9e473dbc9a2448?ps=20&lang=en&title=&pn=1&cid=1686256
+
+"kimmel":
+  - firstname: ["Marek"]
+    url: https://profiles.rice.edu/faculty/marek-kimmel
+
+"lambert":
+  - firstname: ["Amaury"]
+    url: https://smile.cnrs.fr/people/amaury/
+
+"tavare":
+  - firstname: ["Simon"]
+    url: https://tavarelab.cancerdynamics.columbia.edu
