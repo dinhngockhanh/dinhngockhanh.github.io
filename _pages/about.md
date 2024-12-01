@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Research Scientist in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and <a href='https://stat.columbia.edu'>Department of Statistics</a> at <a href='https://www.columbia.edu'>Columbia University</a>.
+subtitle: Associate Research Scientist in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and the <a href='https://stat.columbia.edu'>Department of Statistics</a> at <a href='https://www.columbia.edu'>Columbia University</a>.
 
 profile:
   align: right
   image: KhanhNDinh.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p style="text-align: right;">Office 601B</p>
     <p style="text-align: right;">Schermerhorn Hall</p>
