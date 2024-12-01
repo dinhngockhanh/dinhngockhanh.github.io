@@ -311,7 +311,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Dinh]
-  first_name: Khanh, N.]
+  first_name: [Khanh, N.]
 
   style: apa
   locale: en
