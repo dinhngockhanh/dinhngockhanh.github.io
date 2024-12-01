@@ -85,6 +85,15 @@
             "studyType": "PhD",
             "startDate": "2013-01-15",
             "endDate": "2018-05-30"
+        },
+        {
+            "institution": "University of Sciences",
+            "location": "Ho Chi Minh City, Vietnam",
+            "url": "https://www.math.hcmus.edu.vn/en/",
+            "area": "Mathematics",
+            "studyType": "BS",
+            "startDate": "2009-09-05",
+            "endDate": "2012-12-30"
         }
     ],
     "awards": [
@@ -99,8 +108,6 @@
             "title": "Outstanding Research Award",
             "date": "2018",
             "awarder": "Department of Mathematics, University of Alabama"
-            // "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-            // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
         }
     ]
     // "volunteer": [
