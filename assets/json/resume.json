@@ -51,7 +51,7 @@
         {
             "name": "Herbert and Florence Irving Institute for Cancer Dynamics",
             "position": "Associate Research Scientist",
-            "url": "https://dinhngockhanh.github.io",
+            "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
             "startDate": "2023-07-01",
             "endDate": "Present"
             // "summary": "I develop novel mathematical models and computational algorithms to analyze cancer evolution from genomic sequencing data. My fields of study include:",
@@ -60,6 +60,20 @@
             //     "Mathematical modeling",
             //     "Analysis of DNA-sequencing data"
             // ]
+        },
+        {
+            "name": "Herbert and Florence Irving Institute for Cancer Dynamics",
+            "position": "Postdoctoral Research Scientist",
+            "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
+            "startDate": "2019-07-01",
+            "endDate": "2023-06-30"
+        },
+        {
+            "name": "Department of Statistics",
+            "position": "Postdoctoral Research Associate",
+            "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
+            "startDate": "2018-07-01",
+            "endDate": "2029-06-30"
         }
     ],
     // "volunteer": [
