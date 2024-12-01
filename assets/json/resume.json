@@ -78,17 +78,16 @@
     ],
     "education": [
         {
-            "institution": "University of Alabama",
-            "location": "Tuscaloosa, AL, USA",
+            "institution": "University of Alabama; Tuscaloosa, AL, USA",
             "url": "https://math.ua.edu",
             "area": "Applied Mathematics",
             "studyType": "PhD",
             "startDate": "2013-01-15",
-            "endDate": "2018-05-30"
+            "endDate": "2018-05-30",
+            "thesisTitle": "Inexact methods for the Chemical Master Equation with constant or time-varying propensities, and application to parameter inference"
         },
         {
-            "institution": "University of Sciences",
-            "location": "Ho Chi Minh City, Vietnam",
+            "institution": "University of Sciences; Ho Chi Minh City, Vietnam",
             "url": "https://www.math.hcmus.edu.vn/en/",
             "area": "Mathematics",
             "studyType": "BS",
