@@ -50,6 +50,7 @@
     "work": [
         {
             "name": "Herbert and Florence Irving Institute for Cancer Dynamics",
+            "institution": "Columbia University",
             "position": "Associate Research Scientist",
             "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
             "startDate": "2023-07-01",
@@ -63,6 +64,7 @@
         },
         {
             "name": "Herbert and Florence Irving Institute for Cancer Dynamics",
+            "institution": "Columbia University",
             "position": "Postdoctoral Research Scientist",
             "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
             "startDate": "2019-07-01",
@@ -70,10 +72,19 @@
         },
         {
             "name": "Department of Statistics",
+            "institution": "Rice University",
             "position": "Postdoctoral Research Associate",
             "url": "https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd",
             "startDate": "2018-07-01",
             "endDate": "2029-06-30"
+        },
+        {
+            "name": "Department of Mathematics",
+            "institution": "University of Alabama",
+            "position": "Research and Teaching Assistant",
+            "url": "https://math.ua.edu",
+            "startDate": "2013-01-15",
+            "endDate": "2018-05-30"
         }
     ],
     "education": [
