@@ -8,14 +8,16 @@ nav: true
 nav_order: 5
 
 profiles:
-  - align: right
-  image: NoID.jpeg
-  content: about_KhanhNDinh.md
-  image_circular: true # crops the image to make it circular
-  more_info: >
-    <div style="text-align: center;">
-        <p>Khanh N. Dinh</p>
-        <p>Principal Investigator</p>
-    </div>
-
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align: left
+    image: NoID.jpeg
+    # content: about_KhanhNDinh.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <div style="text-align: center;">
+          <p>Jiapeng Li</p>
+          <p>Master Student Intern</p>
+          <p>Spring 2023</p>
+      </div>
 ---
