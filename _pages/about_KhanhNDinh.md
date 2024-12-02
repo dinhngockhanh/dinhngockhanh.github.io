@@ -1,4 +1,7 @@
 Khanh N. Dinh is an Associate Research Scientist in the [Irving Institute for Cancer Dynamics](https://cancerdynamics.columbia.edu) and the [Department of Statistics](https://stat.columbia.edu) at [Columbia University](https://www.columbia.edu).
 He earned a Bachelor degree in Mathematics from the [University of Sciences](https://www.math.hcmus.edu.vn/en/) in Ho Chi Minh City, Vietnam. He then obtained a PhD degree in Mathematics at the [University of Alabama](https://math.ua.edu) under the advise of Dr. [Roger Sidje](https://math.ua.edu/people/roger-b-sidje/). Afterward, he was a Postdoctoral Research Scientist under the guidance of Dr. [Marek Kimmel](https://profiles.rice.edu/faculty/marek-kimmel) at [Rice University](https://www.rice.edu) and Dr. [Simon Tavaré](https://tavarelab.cancerdynamics.columbia.edu) at [Columbia University](https://www.columbia.edu).
 
-As a Principal Investigator, he is interested in developing mathematical models and computational software to study tumor evolution from genomic data.
+As a Principal Investigator, his long-term research interests focus on developing mathematical models and bioinformatic algorithms to understand the formation and selection of biological processes during cancer evolution. The methods will be applied to a wide range of cancer DNA-sequencing data, from bulk level down to the resolution of single cells, to extract the evolutionary histories of mutations and distinct copy number aberration (CNA) mechanisms. Two major projects that he is currently working on are:
+
+- Inference of chromosomal instability rates and selection coefficients of genomic regions in ovarian and breast cancers
+- Detection of clonality and estimation of clonal ages and growth rates from bulk DNA-sequencing data
