@@ -9,7 +9,7 @@ profile:
   image: KhanhNDinh.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <div style="text-align: center;">
+    <div style="text-align: right;">
           <p>Office 601B</p>
           <p>Schermerhorn Hall</p>
           <p>Columbia University</p>
