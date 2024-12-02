@@ -6,6 +6,9 @@ inline: false
 related_posts: false
 ---
 
+We published <a href="https://www.nature.com/articles/s41598-024-67842-9">a new paper on Scientific Reports</a>, which dives into the problem of inferring rates of chromosomal instability, such as chromosome missegregation rate, and selection coefficients from single-cell DNA-sequencing data.
+
+
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ---
