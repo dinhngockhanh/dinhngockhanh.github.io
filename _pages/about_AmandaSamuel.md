@@ -1,0 +1,2 @@
+Amanda Samuel was a Master Student Intern in the Dinh Lab in Spring 2023, from the Department of Statistics (Columbia University).
+She is currently an <a href="https://www.linkedin.com/in/amanda-s-6233588b/">Actuarial Analyst at MIB</a>.
