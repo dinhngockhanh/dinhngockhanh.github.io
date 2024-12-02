@@ -52,7 +52,7 @@ profiles:
     content: about_WenheChen.md
     more_info: >
       <div style="text-align: center;">
-          <p>WenheChen</p>
+          <p>Wenhe Chen</p>
       </div>
   - align: left
     content: about_JiapengLi.md
