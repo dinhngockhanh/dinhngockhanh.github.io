@@ -17,5 +17,6 @@ profiles:
     more_info: >
       <div style="text-align: center;">
           <p>Khanh N. Dinh</p>
+          <p>Principal Investigator</p>
       </div>
 ---
