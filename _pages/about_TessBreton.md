@@ -1,0 +1,1 @@
+Tess Breton was a Master Student Intern as part of the <a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> in the Dinh Lab in Summer 2024, from École Polytechnique.

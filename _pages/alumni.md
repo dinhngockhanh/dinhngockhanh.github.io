@@ -19,6 +19,14 @@ profiles:
           <p>Elliott Seo</p>
       </div>
   - align: left
+    content: about_TessBreton.md
+    image: TessBreton.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Elliott Seo</p>
+      </div>
+  - align: left
     content: about_ElliottSeo.md
     image: ElliottSeo.jpeg
     image_circular: true 
