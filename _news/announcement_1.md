@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our new paper dives deep into theoretical inference for chromosomal instability
+title: Our new paper explores the theoretical framework for the inference of chromosomal instability
 date: 2024-07-31 09:00:00-0500
 inline: false
 related_posts: false
