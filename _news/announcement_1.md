@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Our new paper dives deep into theoretical inference for chromosomal instability
+date: 2024-07-31 09:00:00-0500
 inline: false
 related_posts: false
 ---
