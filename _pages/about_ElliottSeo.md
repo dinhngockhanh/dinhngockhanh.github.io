@@ -1,0 +1,1 @@
+Elliott Seo was an Undergraduate Intern in the  <a href="https://cancerdynamics.columbia.edu/summer-research-internship">IICD Summer Research Program (SRP)</a> in the Dinh Lab in Summer 2024, from Stony Brook University.
