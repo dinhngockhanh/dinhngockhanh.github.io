@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inference of chromosomal instability rates and selection coefficients of genomic regions in cancer
+title: Chromosomal instability and selection during cancer development
 description: 
 # with background image
 img: assets/img/12.jpg
