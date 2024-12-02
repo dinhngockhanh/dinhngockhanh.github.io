@@ -11,8 +11,8 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: NoID.jpeg
-    image_circular: true
+    # image: NoID.jpeg
+    # image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Jiapeng Li</p>
