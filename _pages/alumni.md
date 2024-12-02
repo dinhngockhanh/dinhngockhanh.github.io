@@ -16,7 +16,7 @@ profiles:
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
-          <p>Elliott Seo</p>
+          <p>Madeleine Hueber</p>
       </div>
   - align: left
     content: about_TessBreton.md
@@ -24,7 +24,7 @@ profiles:
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
-          <p>Elliott Seo</p>
+          <p>Tess Breton</p>
       </div>
   - align: left
     content: about_ElliottSeo.md
