@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <div style="text-align: right;">
-          <p>Khanh N. Dinh</p>
           <p>Office 601B</p>
           <p>Schermerhorn Hall</p>
           <p>Columbia University</p>
