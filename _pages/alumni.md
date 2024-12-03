@@ -16,8 +16,9 @@ profiles:
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
-          <p>Madeleine Hueber</p>
-      </div>  - align: left
+          <p>Zijin Xiang</p>
+      </div>
+  - align: left
     content: about_MadeleineHueber.md
     image: MadeleineHueber.jpeg
     image_circular: true 
