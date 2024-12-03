@@ -1,0 +1,1 @@
+<a href="https://www.linkedin.com/in/boan-zhu-888819276/">Boan Zhu</a> is a Master Student Intern in the Dinh Lab since Fall 2024, from the Department of Statistics (Columbia University).
