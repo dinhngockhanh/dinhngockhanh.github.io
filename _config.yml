@@ -309,8 +309,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Dinh]
-  first_name: [Khanh, N.]
+  last_name: ["Dinh", "dinh"]
+  first_name: ["Khanh, N.", "Khanh N.", "Khanh", "Khanh N"]
 
   style: apa
   locale: en
