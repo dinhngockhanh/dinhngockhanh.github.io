@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Research Scientist in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and the <a href='https://stat.columbia.edu'>Department of Statistics</a> at <a href='https://www.columbia.edu'>Columbia University</a>.
+subtitle: Associated with the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and the <a href='https://stat.columbia.edu'>Department of Statistics</a> at <a href='https://www.columbia.edu'>Columbia University</a>.
 
 profile:
   align: right
@@ -22,4 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I have a documented track record in developing novel mathematical models and computational methods to infer how tumors evolve from DNA-sequencing data, toward improving patient classification and treatment. Most of my work is in collaboration with mathematicians and statisticians on one side and biologists, geneticists and physicians on the other.
+Our long-term research interests are in developing mathematical models and bioinformatic algorithms to characterize the formation and selection of biological processes during tumorigenesis. The methods are applicable to a wide range of cancer DNA-sequencing data, from bulk level down to the resolution of single cells, and help elucidating the evolutionary histories of mutations and different copy number aberration (CNA) mechanisms. Two major projects that we are working on are:
+
+- Inference of chromosomal instability rates and selection coefficients of genomic regions in ovarian and breast cancers
+- Detection of clonality and estimation of clonal ages and growth rates from bulk DNA-sequencing data
