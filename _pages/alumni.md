@@ -19,6 +19,14 @@ profiles:
           <p>Zijin Xiang</p>
       </div>
   - align: left
+    content: about_ZhihanLiu.md
+    image: ZhihanLiu.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Zhihan Liu</p>
+      </div>
+  - align: left
     content: about_MadeleineHueber.md
     image: MadeleineHueber.jpeg
     image_circular: true 

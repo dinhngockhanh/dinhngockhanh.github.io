@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_YiningMa.md
+    image: YiningMa.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Yining Ma</p>
+      </div>
+  - align: left
     content: about_BoanZhu.md
     image: BoanZhu.jpeg
     image_circular: true 
