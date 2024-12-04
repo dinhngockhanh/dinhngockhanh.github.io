@@ -1,0 +1,1 @@
+<a href="https://www.linkedin.com/in/ynma/">Yining Ma</a> is a Master Student Intern in the Dinh Lab since Spring 2024, from the Department of Statistics (Columbia University).
