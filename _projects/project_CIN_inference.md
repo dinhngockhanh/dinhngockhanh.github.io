@@ -8,6 +8,18 @@ importance: 1
 related_publications: true
 ---
 
+{% cite laks2019clonal %}
+
+{% cite salehi2021clonal %}
+
+{% cite funnell2022single %}
+
+{% cite dinh2024cinner %}
+
+{% cite xiang2024inference %}
+
+{% cite dinh2024approximate %}
+
 
 
 <div class="row">
