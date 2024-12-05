@@ -11,7 +11,7 @@ related_publications: true
 ---
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
-Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing high-throughput and amplification-free genomic information for tens of thousands of cells {% cite laks2019clonal %}.
+Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification {% cite laks2019clonal %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
