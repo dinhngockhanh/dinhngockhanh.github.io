@@ -28,6 +28,14 @@ profiles:
           <p>Yining Ma</p>
       </div>
   - align: left
+    content: about_XuanwenGuo.md
+    image: XuanwenGuo.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Xuanwen Guo</p>
+      </div>
+  - align: left
     content: about_BoanZhu.md
     image: BoanZhu.jpeg
     image_circular: true 
