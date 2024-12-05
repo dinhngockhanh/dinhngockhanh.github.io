@@ -10,8 +10,8 @@ related_publications: true
 
 ---
 
-Recent developments in single-cell DNA-sequencing have provided an unparalleled view into  different levels of clonal diversity within a tumor.
-Direct Library Development+ (DLP+)
+Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
+Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing high-throughput and amplification-free genomic information for tens of thousands of cells {% cite laks2019clonal %}.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -22,14 +22,12 @@ Direct Library Development+ (DLP+)
     </div>
 </div>
 <div class="caption">
-    DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.
+    _DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.
     **Left:** Overview of DLP+ experimental and computational pipeline.
-    **Right:** Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor. 
+    **Right:** Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor._
 </div>
 
 ---
-
-{% cite laks2019clonal %}
 
 {% cite salehi2021clonal %}
 
