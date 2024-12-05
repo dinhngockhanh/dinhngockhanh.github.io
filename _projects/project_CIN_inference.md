@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Chromosomal instability and selection during cancer development
-description: Dinh Lab's works on chromosomal instability and selection during cancer development
+title: Chromosomal instability (CIN) and selection during cancer development
+description: Mathematical and computational methods to extract tissue-specific CIN occurrence rates and selection coefficients from single-cell DNA-sequencing data
 img: assets/img/project_CIN_inference_background.png
 importance: 1
 # category: work
