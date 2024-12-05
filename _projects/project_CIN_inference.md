@@ -20,6 +20,8 @@ related_publications: true
 
 {% cite dinh2024approximate %}
 
+{% cite mcpherson2024ongoing %}
+
 
 
 <div class="row">
