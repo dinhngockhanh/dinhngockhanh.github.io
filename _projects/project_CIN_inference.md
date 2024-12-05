@@ -20,7 +20,9 @@ This heterogeneity often manifests in
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.
+    Left: Overview of DLP+ experimental and computational pipeline.
+    Right: Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor. 
 </div>
 
 ---
