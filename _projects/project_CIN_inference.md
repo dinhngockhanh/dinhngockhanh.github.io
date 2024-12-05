@@ -20,8 +20,8 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
 </div>
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.  
-    **Left:** Overview of DLP+ experimental and computational pipeline.  
-    **Right:** Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor.
+    Left: Overview of DLP+ experimental and computational pipeline.  
+    Right: Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor.
 </div>
 
 ---
