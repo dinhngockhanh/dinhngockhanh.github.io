@@ -8,6 +8,23 @@ importance: 1
 related_publications: true
 ---
 
+Recent developments in single-cell DNA-sequencing, such as Direct Library Development+ (DLP+) {% cite laks2019clonal, salehi2021clonal, funnell2022single %} have uncovered different levels of clonal diversity within a tumor.
+This heterogeneity often manifests in 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_1.jpg" title="DLP+ pipeline" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_2.png" title="Clonal Copy Number from DLP+" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+---
+
 {% cite laks2019clonal %}
 
 {% cite salehi2021clonal %}
