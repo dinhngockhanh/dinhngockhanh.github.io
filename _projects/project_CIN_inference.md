@@ -8,8 +8,10 @@ importance: 1
 related_publications: true
 ---
 
-Recent developments in single-cell DNA-sequencing, such as Direct Library Development+ (DLP+) {% cite laks2019clonal, salehi2021clonal, funnell2022single %} have uncovered different levels of clonal diversity within a tumor.
-This heterogeneity often manifests in 
+---
+
+Recent developments in single-cell DNA-sequencing have provided an unparalleled view into  different levels of clonal diversity within a tumor.
+Direct Library Development+ (DLP+)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -21,8 +23,8 @@ This heterogeneity often manifests in
 </div>
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.
-    Left: Overview of DLP+ experimental and computational pipeline.
-    Right: Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor. 
+    **Left:** Overview of DLP+ experimental and computational pipeline.
+    **Right:** Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor. 
 </div>
 
 ---
