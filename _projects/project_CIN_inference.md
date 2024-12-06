@@ -38,7 +38,7 @@ This implies that selection plays an important role during tumor growth, and cer
     Right: Clonal fractions in the cell population over time.
 </div>
 
-Furthermore, applications of DLP+ have led to the realization that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, are associated with a significant increase in chromosomal instability.
+Furthermore, applications of DLP+ have led to the realization that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, are associated with a significant increase in chromosomal instability {% cite funnell2022single %}.
 This manifests in higher number of polyploid cells (resulting from whole-genome duplications) and more chromosome missegregations.
 These results explain the high copy number aberrations that have been observed in ovarian and breast cancers.
 
