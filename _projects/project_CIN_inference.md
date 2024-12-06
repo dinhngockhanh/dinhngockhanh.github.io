@@ -24,7 +24,9 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
     Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one clone from an ovarian tumor.
 </div>
 
-
+Using the DLP+ technology, the authors have found that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, lead to a significant increase in chromosomal instability.
+This manifests in higher number of polyploid cells (resulting from whole-genome duplications) and more chromosome missegregations.
+These results explain the high copy number aberrations that have been observed in ovarian and breast cancers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,7 +34,7 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
     </div>
 </div>
 <div class="caption">
-    DLP+ {% cite funnell2022single %} provides copy number (CN) information at the cell level.  
+    Copy number changes associated with key genes being turned off in mammary epithelial cell lines {% cite funnell2022single %}.  
     Top: Total and allele-specific copy numbers in cells with TP53 knocked out (left) and both TP53 and BRCA1 knocked out (right).  
     Bottom: Statistics of cell populations, depending on whether TP53, BRCA1 or BRCA2 are knocked out.
 </div>
