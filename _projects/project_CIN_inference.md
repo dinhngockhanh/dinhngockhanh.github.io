@@ -15,13 +15,26 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_1.jpg" title="DLP+ pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_1.png" title="DLP+ pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.  
     Left: Overview of DLP+ experimental and computational pipeline.  
-    Right: Total copy number (top) and minor allele fraction (bottom) across the genome in one clone from an ovarian tumor.
+    Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one clone from an ovarian tumor.
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_2.png" title="DLP+ signatures" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    DLP+ {% cite funnell2022single %} provides copy number (CN) information at the cell level.  
+    Top: Total and allele-specific copy numbers in cells with TP53 knocked out (left) and both TP53 and BRCA1 knocked out (right).  
+    Bottom: Statistics of cell populations, depending on whether TP53, BRCA1 or BRCA2 are knocked out.
 </div>
 
 ---
