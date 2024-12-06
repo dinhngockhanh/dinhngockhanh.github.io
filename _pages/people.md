@@ -60,6 +60,14 @@ profiles:
           <p>Yichi Yang</p>
       </div>
   - align: left
+    content: about_RuilinDai.md
+    image: RuilinDai.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Ruilin Dai</p>
+      </div>
+  - align: left
     content: about_AndrewChan.md
     image: AndrewChan.jpeg
     image_circular: true 
