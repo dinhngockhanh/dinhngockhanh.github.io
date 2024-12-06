@@ -21,16 +21,32 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.  
     Left: Overview of DLP+ experimental and computational pipeline.  
-    Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one clone from an ovarian tumor.
+    Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one cell from an ovarian tumor.
 </div>
 
-Using the DLP+ technology, the authors have found that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, lead to a significant increase in chromosomal instability.
+By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of the rise and fall of different clones.
+This implies that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others.
+
+{% cite salehi2021clonal %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_2.png" title="DLP+ signatures" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Evolution of clones with distinct copy numbers from a triple-negative breast tumor over time {% cite salehi2021clonal %}.  
+    Left: Phylogeny of cells based on their copy number profiles. Cells with similar copy numbers are grouped into a clone.  
+    Right: Clonal fractions in the cell population over time.
+</div>
+
+Furthermore, applications of DLP+ have led to the realization that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, are associated with a significant increase in chromosomal instability.
 This manifests in higher number of polyploid cells (resulting from whole-genome duplications) and more chromosome missegregations.
 These results explain the high copy number aberrations that have been observed in ovarian and breast cancers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_2.png" title="DLP+ signatures" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_CIN_inference_DLP_3.png" title="DLP+ signatures" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,10 +56,6 @@ These results explain the high copy number aberrations that have been observed i
 </div>
 
 ---
-
-{% cite salehi2021clonal %}
-
-{% cite funnell2022single %}
 
 {% cite dinh2024cinner %}
 
