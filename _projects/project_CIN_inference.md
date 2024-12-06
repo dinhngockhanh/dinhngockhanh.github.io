@@ -25,9 +25,7 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
 </div>
 
 By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of the rise and fall of different clones.
-This implies that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others.
-
-{% cite salehi2021clonal %}
+This implies that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others {% cite salehi2021clonal %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
