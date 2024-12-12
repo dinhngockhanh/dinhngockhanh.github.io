@@ -11,7 +11,7 @@ related_publications: true
 ---
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
-Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification {% cite laks2019clonal %}.
+Direct Library Development+ (DLP+), developed by the [Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification or non-uniform coverage {% cite laks2019clonal %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,8 +24,8 @@ Direct Library Development+ (DLP+), developed by [the Sohrab Shah Lab](https://w
     Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one cell from an ovarian tumor.
 </div>
 
-By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of the rise and fall of different clones.
-This implies that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others {% cite salehi2021clonal %}.
+By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of competition between different clones.
+This indicates that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others {% cite salehi2021clonal %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -52,6 +52,10 @@ These results explain the high copy number aberrations that have been observed i
     Top: Total and allele-specific copy numbers in cells with TP53 knocked out (left) and both TP53 and BRCA1 knocked out (right).  
     Bottom: Statistics of cell populations, depending on whether TP53, BRCA1 or BRCA2 are knocked out.
 </div>
+
+---
+
+We seek
 
 ---
 
