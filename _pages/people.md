@@ -36,14 +36,6 @@ profiles:
           <p>Xuanwen Guo</p>
       </div>
   - align: left
-    content: about_BoanZhu.md
-    image: BoanZhu.jpeg
-    image_circular: true 
-    more_info: >
-      <div style="text-align: center;">
-          <p>Boan Zhu</p>
-      </div>
-  - align: left
     content: about_JunzeHuang.md
     image: JunzeHuang.jpeg
     image_circular: true 
