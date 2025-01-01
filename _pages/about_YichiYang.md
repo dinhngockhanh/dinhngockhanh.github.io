@@ -1,1 +1,1 @@
-<a href="https://www.linkedin.com/in/yichi-yang-b1186b200/">Yichi Yang</a> is a Master Student Intern in the Dinh Lab since Fall 2024, from the Department of Statistics (Columbia University).
+<a href="https://www.linkedin.com/in/yichi-yang-b1186b200/">Yichi Yang</a> was a Master Student Intern in the Dinh Lab in Fall 2024, from the Department of Statistics (Columbia University).
