@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_ShuxinTang.md
+    image: ShuxinTang.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Shuxin Tang</p>
+      </div>
+  - align: left
     content: about_AndrewChan.md
     image: AndrewChan.jpeg
     image_circular: true 
