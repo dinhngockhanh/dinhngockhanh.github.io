@@ -1,1 +1,1 @@
-<a href="https://www.linkedin.com/in/elliott-seo/">Elliott Seo</a> was an Undergraduate Student Intern as part of the <a href="https://cancerdynamics.columbia.edu/summer-research-internship">IICD Summer Research Program (SRP)</a> in the Dinh Lab in Summer 2024, from Stony Brook University.
+[Elliott Seo](https://www.linkedin.com/in/elliott-seo/) was an Undergraduate Student Intern as part of the [IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) in the Dinh Lab in Summer 2024, from Stony Brook University.
