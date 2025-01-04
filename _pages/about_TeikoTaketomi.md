@@ -1,0 +1,1 @@
+<a href="https://www.linkedin.com/in/keito-taketomi-614816219/">Teiko Taketomi</a> is a Master Student Intern in the Dinh Lab in Spring 2025, from the Department of Statistics (Columbia University).
