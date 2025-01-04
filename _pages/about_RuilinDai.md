@@ -1,1 +1,1 @@
-<a href="https://www.linkedin.com/in/ruilin-dai-061b3728a/">Ruilin Dai</a> was a Master Student Intern in the Dinh Lab in Fall 2024, from the Department of Statistics (Columbia University).
+Ruilin Dai was a Master Student Intern in the Dinh Lab in Fall 2024, from the Department of Statistics (Columbia University).

@@ -1,1 +1,1 @@
-[Jiapeng Li](https://www.linkedin.com/in/jiapeng-li-35ab16207/) was a Master Student Intern in the Dinh Lab in Spring 2023, from the Department of Statistics (Columbia University).
+Jiapeng Li was a Master Student Intern in the Dinh Lab in Spring 2023, from the Department of Statistics (Columbia University).
