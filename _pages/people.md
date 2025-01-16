@@ -44,6 +44,14 @@ profiles:
           <p>Keito Taketomi</p>
       </div>
   - align: left
+    content: about_TianshuaiGao.md
+    image: TianshuaiGao.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Tianshuai Gao</p>
+      </div>
+  - align: left
     content: about_AndrewChan.md
     image: AndrewChan.jpeg
     image_circular: true 
