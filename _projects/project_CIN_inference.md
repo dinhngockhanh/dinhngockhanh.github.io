@@ -67,7 +67,13 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 
 ---
 
-We seek to develop a mathematical framework to analyze how different copy number aberration (CNA) events arise and affect the selection landscape during cancer growth.
+We developed CINner, a mathematical framework to analyze how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
+CINner models the cell population as a branching process, where each cell is characterized by its copy numbers or point mutations, or both.
+As genomic regions are amplified or deleted as CNAs occur, the mutations located in those regions are correspondingly multiplied or lost.
+Cell lifespan is exponentially distributed with an input turn-over rate, then it either divides or dies.
+The probability for a cell to divide depends on its fitness, determined by its CN and mutation profiles according to a selection model.
+The division probability is also calibrated so that the total cell population follows an established dynamic.
+After a cell division, progeny cells either have the same profiles as the parent cell, or harbor CNA or driver SNVs events resulting in new profiles.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,9 +84,16 @@ We seek to develop a mathematical framework to analyze how different copy number
     </div>
 </div>
 
----
+<div class="row">
+  <div class="col-sm-6 d-flex align-items-stretch">
+    {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 d-flex align-items-stretch">
+    {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
-{% cite dinh2024cinner %}
+---
 
 {% cite xiang2024inference %}
 
