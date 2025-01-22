@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Chromosomal instability (CIN) and selection during cancer development
-description: Mathematical and computational methods to extract tissue-specific CIN occurrence rates and selection coefficients from single-cell DNA-sequencing data
+title: Chromosomal instability and its impact on selection during cancer development
+description: Mathematical and computational methods to extract the occurrence rates and selection coefficients of chromosomal instability from DNA-sequencing data
 img: assets/img/project_CIN_inference_background.png
 importance: 1
 # category: work
@@ -12,6 +12,7 @@ related_publications: true
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
 Direct Library Development+ (DLP+), developed by the [Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification or non-uniform coverage {% cite laks2019clonal %}.
+Using DLP+, researchers have uncovered varying degrees of chromosomal instability (CIN) in different cancers, which manifests as distinct copy numbers between individual cells.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +56,7 @@ These results explain the high copy number aberrations that have been observed i
 
 ---
 
-We seek
+We seek to develop a mathematical framework to analyze how different CNA events 
 
 ---
 
