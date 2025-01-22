@@ -15,6 +15,7 @@ However, some cancers have been known to be driven mostly by copy number aberrat
 A normal cell is expected to have one copy of allele A and another copy of allele B, so we define the copy number of either allele to be 1.
 The total copy number is then their sum, which equals 2.
 The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both A and B.
+Minor/major allele fraction is defined as the minimum and maximum, respectively, of the allele-specific allele frequencies.
 When CNAs occur, entire genomic regions change their total copy number and/or allele-specific frequencies.
 For instance, if the cell gains another copy of allele A, then the total copy number is 3, with frequencies 2/3 for allele A and 1/3 for allele B.
 Chromosomal instability (CIN) is said to occur when a tumor exhibits a high number of CNAs.
@@ -31,7 +32,7 @@ Using DLP+, researchers have uncovered varying degrees of CIN in different cance
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.  
     Left: Overview of DLP+ experimental and computational pipeline.  
-    Right: Total copy numbers (top) and minor allele fractions (bottom; this equals the minimum of A allele and B allele frequencies) across the genome in one cell from an ovarian tumor.
+    Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one cell from an ovarian tumor.
 </div>
 
 By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of competition between different clones.
