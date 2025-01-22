@@ -12,17 +12,17 @@ related_publications: true
 
 It has been accepted that many cancers are driven by point mutations, which affect one or a few nucleotides at specific locations in the genome.
 However, some cancers have been known to be driven mostly by copy number aberrations (CNAs).
-A normal cell is expected to have one copy of allele A and another copy of allele B, so we define the copy number of either allele to be 1.
+A normal cell is expected to have one copy of allele A and another copy of allele B, for which we say the copy number of either allele is 1.
 The total copy number is then their sum, which equals 2.
 The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both A and B.
 Minor/major allele fraction is defined as the minimum and maximum, respectively, of the allele-specific allele frequencies.
 When CNAs occur, entire genomic regions change their total copy number and/or allele-specific frequencies.
-For instance, if the cell gains another copy of allele A, then the total copy number is 3, with frequencies 2/3 for allele A and 1/3 for allele B.
+For instance, if the cell gains another copy of allele A, then the total copy number is 3, with major allele fraction 2/3 (allele A) and minor allele fraction 1/3 (allele B).
 Chromosomal instability (CIN) is said to occur when a tumor exhibits a high number of CNAs.
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
 Direct Library Development+ (DLP+), developed by the [Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification or non-uniform coverage {% cite laks2019clonal %}.
-Using DLP+, researchers have uncovered varying degrees of CIN in different cancers, both between patients with the same tumor characteristic and across different cancer types.
+Using DLP+, researchers have uncovered varying levels of CIN in different cancers, both between patients with the same tumor characteristic and across different cancer types.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,8 +35,9 @@ Using DLP+, researchers have uncovered varying degrees of CIN in different cance
     Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one cell from an ovarian tumor.
 </div>
 
-By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of competition between different clones.
-This indicates that selection plays an important role during tumor growth, and certain genomic profiles are preferred over others {% cite salehi2021clonal %}.
+By grouping cells with similar copy numbers into clones and tracking them over time, DLP+ data provides a picture of competition between different clones.
+In some experiments, some clones were observed expanding through time, while others became extinct.
+This indicates that selection plays an important role during tumor growth, and certain CNAs are preferred over others as cancer progresses {% cite salehi2021clonal %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -46,12 +47,12 @@ This indicates that selection plays an important role during tumor growth, and c
 <div class="caption">
     Evolution of clones with distinct copy numbers from a triple-negative breast tumor over time {% cite salehi2021clonal %}.  
     Left: Phylogeny of cells based on their copy number profiles. Cells with similar copy numbers are grouped into a clone.  
-    Right: Clonal fractions in the cell population over time.
+    Right: Temporal trajectory of clonal fractions in the cell population (= number of cells in the clone, divided by number of cells in total).
 </div>
 
-Furthermore, applications of DLP+ have led to the realization that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, are associated with a significant increase in chromosomal instability {% cite funnell2022single %}.
+Furthermore, applications of DLP+ have led to the realization that knock-outs of certain important genes, such as TP53 and BRCA1/2 in the mammary epithelium, are associated with a significant increase in CIN {% cite funnell2022single %}.
 This manifests in higher number of polyploid cells (resulting from whole-genome duplications) and more chromosome missegregations.
-These results explain the high copy number aberrations that have been observed in ovarian and breast cancers.
+These results explain the high numbers of CNAs that have been observed in ovarian and breast cancers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
