@@ -79,18 +79,24 @@ After a cell division, progeny cells either have the same profiles as the parent
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+CINner is designed to efficiently model distinct CNA mechanisms, each of which may result in different alteration patterns to the CN profiles and varying impacts on cell fitness.
+Whole-genome duplication (WGD) results in one daughter cell with double the genomic material of the mother cell.
+Whole-chromosome missegregation misplaces a chromosome strand among the two daughter cells.
+In contrast, only a strand arm is misplaced in chromosome-arm missegregation.
+Finally, focal amplification and deletion target a random region in a strand arm, and either doubles the genomic material there or deletes it in a daughter cell.
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-<div class="row">
-  <div class="col-sm-6 d-flex align-items-stretch">
-    {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-6 d-flex align-items-stretch">
-    {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="caption">
+    We divide each chromosome into bins with equal numbers of nucleotides (typically 500,000 base pairs per bin).
+    In CINner, each chromosome homolog is represented as one vector in a cell, where each entry is the CN in a bin (vertical solid lines represent centrosomes, separating the two chromosome arms).
+    Different CNAs may change the number of vectors, or the bin CNs within a vector.
+    Mutations do not affect the CN, but one copy of a driver gene is changed from wild-type to mutant.
 </div>
 
 ---
