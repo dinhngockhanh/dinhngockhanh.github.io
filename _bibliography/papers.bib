@@ -17,7 +17,7 @@
   doi={10.1088/1478-3975/13/3/035003},
   html={https://iopscience.iop.org/article/10.1088/1478-3975/13/3/035003},
   pdf={dinh2016understanding.pdf},
-  preview={dinh2016understanding.png},
+  preview={dinh2016understanding.jpg},
   abstract={The finite state projection (FSP) method has enabled us to solve the chemical master equation of some biological models that were considered out of reach not long ago. Since the original FSP method, much effort has gone into transforming it into an adaptive time-stepping algorithm as well as studying its accuracy. Some of the improvements include the multiple time interval FSP, the sliding windows, and most notably the Krylov-FSP approach. Our goal in this tutorial is to give the reader an overview of the current methods that build on the FSP.}
 }
 
@@ -35,7 +35,7 @@
   doi={10.1016/j.matcom.2017.01.002},
   html={https://www.sciencedirect.com/science/article/abs/pii/S0378475417300034?via%3Dihub},
   pdf={dinh2017analysis.pdf},
-  preview={dinh2017analysis.png},
+  preview={dinh2017analysis.jpg},
   abstract={Krylov subspace methods have proved quite effective at approximating the action of a large sparse matrix exponential on a vector. Their numerical robustness and matrix-free nature have enabled them to make inroads into a variety of applications. A case in point is solving the chemical master equation (CME) in the context of modeling biochemical reactions in biological cells. This is a challenging problem that gives rise to an extremely large matrix due to the curse of dimensionality. Inexact Krylov subspace methods that build on truncation techniques have helped solve some CME models that were considered computationally out of reach as recently as a few years ago. However, as models grow, truncating them means using an even smaller fraction of their whole extent, thereby introducing more inexactness. But experimental evidence suggests an apparent success and the aim of this study is to give theoretical insights into the reasons why. Essentially, we show that the truncation can be put in the framework of inexact Krylov methods that relax matrix–vector products and compute them expediently by trading accuracy for speed. This allows us to analyze both the residual (or defect) and the error of the resulting approximations to the matrix exponential from the viewpoint of inexact Krylov methods.}
 }
 
@@ -54,7 +54,7 @@
   doi={10.1088/1478-3975/aa868a},
   html={https://iopscience.iop.org/article/10.1088/1478-3975/aa868a},
   pdf={dinh2017application.pdf},
-  preview={dinh2017application.png},
+  preview={dinh2017application.jpg},
   abstract={Monte Carlo methods such as the stochastic simulation algorithm (SSA) have traditionally been employed in gene regulation problems. However, there has been increasing interest to directly obtain the probability distribution of the molecules involved by solving the chemical master equation (CME). This requires addressing the curse of dimensionality that is inherent in most gene regulation problems. The finite state projection (FSP) seeks to address the challenge and there have been variants that further reduce the size of the projection or that accelerate the resulting matrix exponential. The Krylov-FSP-SSA variant has proved numerically efficient by combining, on one hand, the SSA to adaptively drive the FSP, and on the other hand, adaptive Krylov techniques to evaluate the matrix exponential. Here we apply this Krylov-FSP-SSA to a mutual inhibitory gene network synthetically engineered in Saccharomyces cerevisiae, in which bimodality arises. We show numerically that the approach can efficiently approximate the transient probability distribution, and this has important implications for parameter fitting, where the CME has to be solved for many different parameter sets. The fitting scheme amounts to an optimization problem of finding the parameter set so that the transient probability distributions fit the observations with maximum likelihood. We compare five optimization schemes for this difficult problem, thereby providing further insights into this approach of parameter estimation that is often applied to models in systems biology where there is a need to calibrate free parameters.}
 }
 
@@ -73,7 +73,7 @@
   doi={10.1166/jcsmd.2017.1124},
   html={https://www.researchgate.net/publication/322007589_An_adaptive_Magnus_expansion_method_for_solving_the_chemical_master_equation_with_time-dependent_propensities},
   pdf={dinh2017adaptive.pdf},
-  preview={dinh2017adaptive.png},
+  preview={dinh2017adaptive.jpg},
   abstract={The chemical master equation (CME) is a system of ordinary differential equations (ODEs) to model the chemical interaction of molecular species. The largeness of the state space of the system makes solving the CME difficult, and this has motivated reduction strategies such as the finite state projection (FSP). Moreover, if the reaction rates are functions of the time, the CME becomes an ODE problem with time-dependent coefficients. Solution techniques include Monte Carlo algorithms, such as the stochastic simulation algorithm (SSA) or ODE solvers, such as Adams-PECE, Runge-Kutta and backward-differentiation formula (BDF). There are also Magnus-based solvers that have however not been thoroughly explored in the CME context. Here we introduce an adaptive time-stepping Magnus-SSA algorithm, in which the CME is solved using a Magnus expansion with not only a variable time-step but also with a variable state space that changes at each step via the SSA, and several error approximation approaches are attempted to monitor the adaptivity. We perform comparative tests against the classical Adams-PECE, Runge-Kutta and BDF methods on three biological problems, showing that the proposed adaptive Magnus-based variants can be efficient when the CME with time-dependent rates is stiff.}
 }
 
@@ -90,7 +90,7 @@
   doi={10.1007/978-3-319-99719-3_24},
   html={https://link.springer.com/chapter/10.1007/978-3-319-99719-3_24},
   pdf={dinh2018comparison.pdf},
-  preview={dinh2018comparison.png},
+  preview={dinh2018comparison.jpg},
   abstract={Many traditional approaches for solving the chemical master equation (CME) cannot be used in their basic form when reaction rates change over time, for instance due to cell volume or temperature. One technique is to use the Magnus expansion to represent the solution to the CME as the action of a matrix exponential, for which Krylov-based approximation methods can be applied. In this paper, we compare two variants of the Magnus scheme with some popular ordinary differential equations (ODE) solvers, such as Adams-Bashforth, Runge-Kutta and Backward-differentiation formula (BDF). Our numerical tests show that the Magnus variants are remarkably efficient at computing the transient probability distributions of a transcriptional regulatory system where propensities vary over time due to cell volume increase.}
 }
 
@@ -105,7 +105,7 @@
   annotation={Doctoral thesis},
   html={https://ir.ua.edu/items/1eec31c0-edf6-4e74-8e32-e082329f63c3},
   pdf={dinh2018inexact.pdf},
-  preview={dinh2018inexact.png},
+  preview={dinh2018inexact.jpg},
   abstract={Complex reaction networks arise in molecular biology and many other different ﬁelds of science such as ecology and social study. A familiar approach to modeling such problems is to ﬁnd their master equation. In systems biology, the equation is called the chemical master equation (CME), and solving the CME is a difficult task, because of the curse of dimensionality. The goal of this dissertation is to alleviate this curse via the use of the ﬁnite state projection (FSP), in both cases where the CME matrix is constant (if the reaction rates are time-independent) or time-varying (if the reaction rates change over time). The work includes a theoretical characterization of the FSP truncation technique by showing that it can be put in the framework of inexact Krylov methods that relax matrix-vector products and compute them expediently by trading accuracy for speed. We also examine practical applications of our work in delay CME and parameter inference through local and global optimization schemes.}
 }
 
@@ -125,7 +125,7 @@
   doi={10.1016/j.cell.2019.10.026},
   html={https://www.cell.com/cell/fulltext/S0092-8674(19)31176-6},
   pdf={laks2019clonal.pdf},
-  preview={laks2019clonal.png},
+  preview={laks2019clonal.jpg},
   abstract={Accurate measurement of clonal genotypes, mutational processes, and replication states from individual tumor-cell genomes will facilitate improved understanding of tumor evolution. We have developed DLP+, a scalable single-cell whole-genome sequencing platform implemented using commodity instruments, image-based object recognition, and open source computational methods. Using DLP+, we have generated a resource of 51,926 single-cell genomes and matched cell images from diverse cell types including cell lines, xenografts, and diagnostic samples with limited material. From this resource we have defined variation in mitotic mis-segregation rates across tissue types and genotypes. Analysis of matched genomic and image measurements revealed correlations between cellular morphology and genome ploidy states. Aggregation of cells sharing copy number profiles allowed for calculation of single-nucleotide resolution clonal genotypes and inference of clonal phylogenies and avoided the limitations of bulk deconvolution. Finally, joint analysis over the above features defined clone-specific chromosomal aneuploidy in polyclonal populations.}
 }
 
@@ -143,7 +143,7 @@
   doi={10.3389/fphys.2020.00806},
   html={https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00806/full},
   pdf={dinh2020application.pdf},
-  preview={dinh2020application.png},
+  preview={dinh2020application.jpg},
   abstract={Bone marrow failure (BMF) syndromes, such as severe congenital neutropenia (SCN) are leukemia predisposition syndromes. We focus here on the transition from SCN to pre-leukemic myelodysplastic syndrome (MDS). Stochastic mathematical models have been conceived that attempt to explain the transition of SCN to MDS, in the most parsimonious way, using extensions of standard processes of population genetics and population dynamics, such as the branching and the Moran processes. We previously presented a hypothesis of the SCN to MDS transition, which involves directional selection and recurrent mutation, to explain the distribution of ages at onset of MDS or AML. Based on experimental and clinical data and a model of human hematopoiesis, a range of probable values of the selection coefficient s and mutation rate μ have been determined. These estimates lead to predictions of the age at onset of MDS or AML, which are consistent with the clinical data. In the current paper, based on data extracted from published literature, we seek to provide an independent validation of these estimates. We proceed with two purposes in mind: (i) to determine the ballpark estimates of the selection coefficients and verify their consistency with those previously obtained and (ii) to provide possible insight into the role of recurrent mutations of the G-CSF receptor in the SCN to MDS transition.}
 }
 
@@ -162,7 +162,7 @@
   doi={10.1214/19-sts7561},
   html={https://projecteuclid.org/journals/statistical-science/volume-35/issue-1/Statistical-Inference-for-the-Evolutionary-History-of-Cancer-Genomes/10.1214/19-STS7561.full},
   pdf={dinh2020statistical.pdf},
-  preview={dinh2020statistical.png},
+  preview={dinh2020statistical.jpg},
   abstract={Recent years have seen considerable work on inference about cancer evolution from mutations identified in cancer samples. Much of the modeling work has been based on classical models of population genetics, generalized to accommodate time-varying cell population size. Reverse-time, genealogical views of such models, commonly known as coalescents, have been used to infer aspects of the past of growing populations. Another approach is to use branching processes, the simplest scenario being the classical linear birth-death process. Inference from evolutionary models of DNA often exploits summary statistics of the sequence data, a common one being the so-called Site Frequency Spectrum (SFS). In a bulk tumor sequencing experiment, we can estimate for each site at which a novel somatic point mutation has arisen, the proportion of cells that carry that mutation. These numbers are then grouped into collections of sites which have similar mutant fractions. We examine how the SFS based on birth-death processes differs from those based on the coalescent model. This may stem from the different sampling mechanisms in the two approaches. However, we also show that despite this, they are quantitatively comparable for the range of parameters typical for tumor cell populations. We also present a model of tumor evolution with selective sweeps, and demonstrate how it may help in understanding the history of a tumor as well as the influence of data pre-processing. We illustrate the theory with applications to several examples from The Cancer Genome Atlas tumors.}
 }
 
@@ -181,7 +181,7 @@
   doi={10.1002/cso2.1026},
   html={https://onlinelibrary.wiley.com/doi/full/10.1002/cso2.1026},
   pdf={dinh2021predicting.pdf},
-  preview={dinh2021predicting.png},
+  preview={dinh2021predicting.jpg},
   abstract={Event-free and overall survival remain poor for patients with acute myeloid leukemia. Chemoresistant clones contributing to relapse arise from minimal residual disease (MRD) or newly acquired mutations. However, the dynamics of clones comprising MRD is poorly understood. We developed a predictive stochastic model, based on a multitype age-dependent Markov branching process, to describe how random events in MRD contribute to the heterogeneity in treatment response. We employed training and validation sets of patients who underwent whole-genome sequencing and for whom mutant clone frequencies at diagnosis and relapse were available. The disease evolution and treatment outcome are subject to stochastic fluctuations. Estimates of malignant clone growth rates, obtained by model fitting, are consistent with published data. Using the estimates from the training set, we developed a function linking MRD and time of relapse with MRD inferred from the model fits to clone frequencies and other data. An independent validation set confirmed our model. In a third dataset, we fitted the model to data at diagnosis and remission and predicted the time to relapse. As a conclusion, given bone marrow genome at diagnosis and MRD at or past remission, the model can predict time to relapse and help guide treatment decisions to mitigate relapse.}
 }
 
@@ -201,7 +201,7 @@
   doi={10.1038/s41586-021-03648-3},
   html={https://www.nature.com/articles/s41586-021-03648-3},
   pdf={salehi2021clonal.pdf},
-  preview={salehi2021clonal.png},
+  preview={salehi2021clonal.jpg},
   abstract={Progress in defining genomic fitness landscapes in cancer, especially those defined by copy number alterations (CNAs), has been impeded by lack of time-series single-cell sampling of polyclonal populations and temporal statistical models. Here we generated 42,000 genomes from multi-year time-series single-cell whole-genome sequencing of breast epithelium and primary triple-negative breast cancer (TNBC) patient-derived xenografts (PDXs), revealing the nature of CNA-defined clonal fitness dynamics induced by TP53 mutation and cisplatin chemotherapy. Using a new Wright-Fisher population genetics model to infer clonal fitness, we found that TP53 mutation alters the fitness landscape, reproducibly distributing fitness over a larger number of clones associated with distinct CNAs. Furthermore, in TNBC PDX models with mutated TP53, inferred fitness coefficients from CNA-based genotypes accurately forecast experimentally enforced clonal competition dynamics. Drug treatment in three long-term serially passaged TNBC PDXs resulted in cisplatin-resistant clones emerging from low-fitness phylogenetic lineages in the untreated setting. Conversely, high-fitness clones from treatment-naive controls were eradicated, signalling an inversion of the fitness landscape. Finally, upon release of drug, selection pressure dynamics were reversed, indicating a fitness cost of treatment resistance. Together, our findings define clonal fitness linked to both CNA and therapeutic resistance in polyclonal tumours.}
 }
 
@@ -219,7 +219,7 @@
   doi={10.1016/j.isci.2022.104551},
   html={https://www.sciencedirect.com/science/article/pii/S2589004222008239?via%3Dihub},
   pdf={bondaruk2022origin.pdf},
-  preview={bondaruk2022origin.png},
+  preview={bondaruk2022origin.jpg},
   abstract={Whole-organ mapping was used to study molecular changes in the evolution of bladder cancer from field effects. We identified more than 100 dysregulated pathways, involving immunity, differentiation, and transformation, as initiators of carcinogenesis. Dysregulation of interleukins signified the involvement of inflammation in the incipient phases of the process. An aberrant methylation/expression of multiple HOX genes signified dysregulation of the differentiation program. We identified three types of mutations based on their geographic distribution. The most common were mutations restricted to individual mucosal samples that targeted uroprogenitor cells. Two types of mutations were associated with clonal expansion and involved large areas of mucosa. The $\alpha$ mutations occurred at low frequencies while the $\beta$ mutations increased in frequency with disease progression. Modeling revealed that bladder carcinogenesis spans 10-15 years and can be divided into dormant and progressive phases. The progressive phase lasted 1-2 years and was driven by $\beta$ mutations.}
 }
 
@@ -239,7 +239,7 @@
   doi={10.1038/s41586-022-05249-0},
   html={https://www.nature.com/articles/s41586-022-05249-0},
   pdf={funnell2022single.pdf},
-  preview={funnell2022single.png},
+  preview={funnell2022single.jpg},
   abstract={How cell-to-cell copy number alterations that underpin genomic instability in human cancers drive genomic and phenotypic variation, and consequently the evolution of cancer, remains understudied. Here, by applying scaled single-cell whole-genome sequencing to wild-type, TP53-deficient and TP53-deficient; BRCA1-deficient or TP53-deficient; BRCA2-deficient mammary epithelial cells (13,818 genomes), and to primary triple-negative breast cancer (TNBC) and high-grade serous ovarian cancer (HGSC) cells (22,057 genomes), we identify three distinct 'foreground' mutational patterns that are defined by cell-to-cell structural variation. Cell- and clone-specific high-level amplifications, parallel haplotype-specific copy number alterations and copy number segment length variation (serrate structural variations) had measurable phenotypic and evolutionary consequences. In TNBC and HGSC, clone-specific high-level amplifications in known oncogenes were highly prevalent in tumours bearing fold-back inversions, relative to tumours with homologous recombination deficiency, and were associated with increased clone-to-clone phenotypic variation. Parallel haplotype-specific alterations were also commonly observed, leading to phylogenetic evolutionary diversity and clone-specific mono-allelic expression. Serrate variants were increased in tumours with fold-back inversions and were highly correlated with increased genomic diversity of cellular populations. Together, our findings show that cell-to-cell structural variation contributes to the origins of phenotypic and evolutionary diversity in TNBC and HGSC, and provide insight into the genomic and mutational states of individual cancer cells.}
 }
 
@@ -256,7 +256,7 @@
   doi={10.7554/eLife.94597.1},
   html={https://elifesciences.org/reviewed-preprints/94597},
   pdf={dinh2024comparison.pdf},
-  preview={dinh2024comparison.png},
+  preview={dinh2024comparison.jpg},
   abstract={Mutations arising during cancer evolution are typically categorized as either 'drivers' or 'passengers', depending on whether they increase the cell fitness. Recently, McFarland et al. introduced the Tug-of-War model for the joint effect of rare advantageous drivers and frequent but deleterious passengers. We examine this model under two common but distinct frameworks, the Moran model and the branching process. We show that frequently used statistics are similar between a version of the Moran model and the branching process conditioned on the final cell count, under different selection scenarios. We infer the selection coefficients for three breast cancer samples, resulting in good fits of the shape of their Site Frequency Spectra. All fitted values for the selective disadvantage of passenger mutations are nonzero, supporting the view that they exert deleterious selection during tumorigenesis that driver mutations must compensate.}
 }
 
@@ -275,7 +275,7 @@
   doi={10.3390/ijms25073661},
   html={https://www.mdpi.com/1422-0067/25/7/3661},
   pdf={jaksik2024multiomics.pdf},
-  preview={jaksik2024multiomics.png},
+  preview={jaksik2024multiomics.jpg},
   abstract={Lung cancer is a global health challenge, hindered by delayed diagnosis and the disease’s complex molecular landscape. Accurate patient survival prediction is critical, motivating the exploration of various -omics datasets using machine learning methods. Leveraging multi-omics data, this study seeks to enhance the accuracy of survival prediction by proposing new feature extraction techniques combined with unbiased feature selection. Two lung adenocarcinoma multi-omics datasets, originating from the TCGA and CPTAC-3 projects, were employed for this purpose, emphasizing gene expression, methylation, and mutations as the most relevant data sources that provide features for the survival prediction models. Additionally, gene set aggregation was shown to be the most effective feature extraction method for mutation and copy number variation data. Using the TCGA dataset, we identified 32 molecular features that allowed the construction of a 2-year survival prediction model with an AUC of 0.839. The selected features were additionally tested on an independent CPTAC-3 dataset, achieving an AUC of 0.815 in nested cross-validation, which confirmed the robustness of the identified features.}
 }
 
@@ -294,7 +294,7 @@
   doi={10.1038/s41598},
   html={https://www.nature.com/articles/s41598-024-67842-9},
   pdf={xiang2024inference.pdf},
-  preview={xiang2024inference.png},
+  preview={xiang2024inference.jpg},
   abstract={Aneuploidy is frequently observed in cancers and has been linked to poor patient outcome. Analysis of aneuploidy in DNA-sequencing (DNA-seq) data necessitates untangling the effects of the Copy Number Aberration (CNA) occurrence rates and the selection coefficients that act upon the resulting karyotypes. We introduce a parameter inference algorithm that takes advantage of both bulk and single-cell DNA-seq cohorts. The method is based on Approximate Bayesian Computation (ABC) and utilizes CINner, our recently introduced simulation algorithm of chromosomal instability in cancer. We examine three groups of statistics to summarize the data in the ABC routine: (A) Copy Number-based measures, (B) phylogeny tip statistics, and (C) phylogeny balance indices. Using these statistics, our method can recover both the CNA probabilities and selection parameters from ground truth data, and performs well even for data cohorts of relatively small sizes. We find that only statistics in groups A and C are well-suited for identifying CNA probabilities, and only group A carries the signals for estimating selection parameters. Moreover, the low number of CNA events at large scale compared to cell counts in single-cell samples means that statistics in group B cannot be estimated accurately using phylogeny reconstruction algorithms at the chromosome level. As data from both bulk and single-cell DNA-sequencing techniques becomes increasingly available, our inference framework promises to facilitate the analysis of distinct cancer types, differentiation between selection and neutral drift, and prediction of cancer clonal dynamics.}
 }
 
@@ -310,7 +310,7 @@
   doi={10.21203/rs.3.rs-3994376/v1},
   html={https://www.researchsquare.com/article/rs-3994376/v1},
   pdf={czerniak2024inferring.pdf},
-  preview={czerniak2024inferring.png},
+  preview={czerniak2024inferring.jpg},
   abstract={Multi-platform mutational, proteomic, and metabolomic spatial mapping was used on the whole-organ scale to identify the molecular evolution of bladder cancer from mucosal field effects. We identified complex proteomic and metabolomic dysregulations in microscopically normal areas of bladder mucosa adjacent to dysplasia and carcinoma in situ. The mutational landscape developed in a background of complex defects of protein homeostasis which included dysregulated nucleocytoplasmic transport, splicesome, ribosome biogenesis, and peroxisome. These changes were combined with altered urothelial differentiation which involved lipid metabolism and protein degradations controlled by PPAR. The complex alterations of proteome were accompanied by dysregulation of gluco-lipid energy-related metabolism. The analysis of mutational landscape identified three types of mutations based on their geographic distribution and variant allele frequencies. The most common were low frequency $\alpha$ mutations restricted to individual mucosal samples. The two other groups of mutations were associated with clonal expansion. The first of this group referred to as $\beta$ mutations occurred at low frequencies across the mucosa. The second of this group called $\gamma$ mutations increased in frequency with disease progression. Modeling of the mutations revealed that carcinogenesis may span nearly 30 years and can be divided into dormant and progressive phases. The $\alpha$ mutations developed gradually in the dormant phase. The progressive phase lasted approximately five years and was signified by the advent of $\beta$ mutations, but it was driven by $\gamma$ mutations which developed during the last 2-3 years of disease progression to invasive cancer. Our study indicates that the understanding of complex alterations involving mucosal microenvironment initiating bladder carcinogenesis can be inferred from the multi-platform whole-organ mapping.}
 }
 
@@ -327,7 +327,7 @@
   doi={10.1101/2024.07.11.602772},
   html={https://www.biorxiv.org/content/10.1101/2024.07.11.602772v2},
   pdf={mcpherson2024ongoing.pdf},
-  preview={mcpherson2024ongoing.png},
+  preview={mcpherson2024ongoing.jpg},
   abstract={Whole-genome doubling (WGD) is a critical driver of tumor development and is linked to drug resistance and metastasis in solid malignancies. Here, we demonstrate that WGD is an ongoing mutational process in tumor evolution in cancers with TP53 loss. Using single-cell whole-genome sequencing, we measured and modeled how WGD events are distributed across cellular populations within tumors and associated WGD dynamics with properties of genome diversification and phenotypic consequences of innate immunity. We studied WGD evolution in 65 high-grade serous ovarian cancer (HGSOC) tissue samples from 40 patients, yielding 29,481 tumor cell genomes. We found near-ubiquitous evidence of WGD as an ongoing mutational process promoting cell-cell diversity, high rates of chromosomal missegregation, and consequent micronucleation. Using a novel mutation-based WGD timing method, doubleTime, we delineated specific modes by which WGD can drive tumor evolution: (i) unitary evolutionary origin followed by significant diversification, (ii) independent WGD events on a pre-existing background of copy number diversity, and (iii) evolutionarily late clonal expansions of WGD populations. Additionally, through integrated single-cell RNA sequencing and high-resolution immunofluorescence microscopy, we found that inflammatory signaling and the positive association between chromosomal instability and cGAS-STING pathway activation are restricted to tumors that remain predominantly diploid. This contrasted with predominantly WGD tumors, which exhibited significant quiescent and immunosuppressive phenotypic states. Together, these findings establish WGD as an evolutionarily 'active' mutational process in late stage ovarian cancer and link consequent genomic states with altered innate immune responses and immunosuppressive phenotypes.}
 }
 
@@ -343,7 +343,7 @@
   doi={10.1101/2024.04.03.587939},
   html={https://www.biorxiv.org/content/10.1101/2024.04.03.587939v1},
   pdf={dinh2024cinner.pdf},
-  preview={dinh2024cinner.png},
+  preview={dinh2024cinner.jpg},
   abstract={Cancer development is characterized by chromosomal instability, manifesting in frequent occurrences of different genomic alteration mechanisms ranging in extent and impact. Mathematical modeling can help evaluate the role of each mutational process during tumor progression, however existing frameworks can only capture certain aspects of chromosomal instability (CIN). We present CINner, a mathematical framework for modeling genomic diversity and selection during tumor evolution. The main advantage of CINner is its flexibility to incorporate many genomic events that directly impact cellular fitness, from driver gene mutations to copy number alterations (CNAs), including focal amplifications and deletions, missegregations and whole-genome duplication (WGD). We apply CINner to find chromosome-arm selection parameters that drive tumorigenesis in the absence of WGD in chromosomally stable cancer types. We found that the selection parameters predict WGD prevalence among different chromosomally unstable tumors, hinting that the selective advantage of WGD cells hinges on their tolerance for aneuploidy and escape from nullisomy. Direct application of CINner to model the WGD proportion and fraction of genome altered (FGA) further uncovers the increase in CNA probabilities associated with WGD in each cancer type. CINner can also be utilized to study chromosomally stable cancer types, by applying a selection model based on driver gene mutations and focal amplifications or deletions. Finally, we used CINner to analyze the impact of CNA probabilities, chromosome selection parameters, tumor growth dynamics and population size on cancer fitness and heterogeneity. We expect that CINner will provide a powerful modeling tool for the oncology community to quantify the impact of newly uncovered genomic alteration mechanisms on shaping tumor progression and adaptation.}
 }
 
@@ -358,6 +358,6 @@
   doi={10.48550/arXiv.2406.15865},
   html={https://www.arxiv.org/abs/2406.15865},
   pdf={dinh2024approximate.pdf},
-  preview={dinh2024approximate.png},
+  preview={dinh2024approximate.jpg},
   abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we adapt distributional random forests to the ABC setting, and introduce Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-(D)RF). This updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that ABC-SMC-(D)RF can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
 }
