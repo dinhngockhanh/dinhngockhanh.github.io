@@ -10,9 +10,18 @@ related_publications: true
 
 ---
 
+It has been accepted that many cancers are driven by point mutations, which affect one or a few nucleotides at specific locations in the genome.
+However, some cancers have been known to be driven mostly by copy number aberrations (CNAs).
+A normal cell is expected to have one copy of allele A and another copy of allele B, so we define the copy number of either allele to be 1.
+The total copy number is then their sum, which equals 2.
+The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both A and B.
+When CNAs occur, entire genomic regions change their total copy number and/or allele-specific frequencies.
+For instance, if the cell gains another copy of allele A, then the total copy number is 3, with frequencies 2/3 for allele A and 1/3 for allele B.
+Chromosomal instability (CIN) is said to occur when a tumor exhibits a high number of CNAs.
+
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
 Direct Library Development+ (DLP+), developed by the [Sohrab Shah Lab](https://www.mskcc.org/research-areas/labs/sohrab-shah), is capable of producing genomic information for tens of thousands of cells, without bias due to amplification or non-uniform coverage {% cite laks2019clonal %}.
-Using DLP+, researchers have uncovered varying degrees of chromosomal instability (CIN) in different cancers, which manifests as distinct copy numbers between individual cells.
+Using DLP+, researchers have uncovered varying degrees of CIN in different cancers, both between patients with the same tumor characteristic and across different cancer types.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,7 +31,7 @@ Using DLP+, researchers have uncovered varying degrees of chromosomal instabilit
 <div class="caption">
     DLP+ {% cite laks2019clonal %} provides copy number (CN) information at the cell level.  
     Left: Overview of DLP+ experimental and computational pipeline.  
-    Right: Total copy numbers (top) and minor allele fractions (bottom) across the genome in one cell from an ovarian tumor.
+    Right: Total copy numbers (top) and minor allele fractions (bottom; this equals the minimum of A allele and B allele frequencies) across the genome in one cell from an ovarian tumor.
 </div>
 
 By grouping similar cells into clones and tracking them over time, DLP+ data provides a picture of competition between different clones.
@@ -56,7 +65,7 @@ These results explain the high copy number aberrations that have been observed i
 
 ---
 
-We seek to develop a mathematical framework to analyze how different CNA events 
+We seek to develop a mathematical framework to analyze how different copy number aberration (CNA) events 
 
 ---
 
