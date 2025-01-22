@@ -67,7 +67,16 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 
 ---
 
-We seek to develop a mathematical framework to analyze how different copy number aberration (CNA) events 
+We seek to develop a mathematical framework to analyze how different copy number aberration (CNA) events arise and affect the selection landscape during cancer growth.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ---
 
