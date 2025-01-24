@@ -129,7 +129,8 @@ The same inference routine can be applied for individual cancer types
     </div>
 </div>
 <div class="caption">
-
+    Top: Comparison between gain/loss frequencies from CINner with inferred selection rates (top) for ovary adenocarcinoma.
+    Bottom: Correlation between WGD proportion and count of GAIN arms (left) and mean selection rate of LOSS arms (right).
 </div>
 
 ---
