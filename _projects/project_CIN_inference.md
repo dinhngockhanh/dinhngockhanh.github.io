@@ -100,7 +100,7 @@ We included three different selection models, designed to model the fitness of c
     A third selection model is the combination of these two models.
 </div>
 
-
+We first created a 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
