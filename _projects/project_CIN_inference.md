@@ -10,14 +10,16 @@ related_publications: true
 
 ---
 
-It has been accepted that many cancers are driven by point mutations, which affect one or a few nucleotides at specific locations in the genome.
+It has been acknowledged that many cancers are driven by point mutations, which affect one or a few nucleotides at specific locations in the genome.
 However, some cancers have been known to be driven mostly by copy number aberrations (CNAs).
-A normal cell is expected to have one copy of allele A and another copy of allele B, for which we say the copy number of either allele is 1.
+A normal cell is expected to have two different alleles of each chromosome, for which we say the allele-specific copy number is 1.
 The total copy number is then their sum, which equals 2.
-The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both A and B.
+The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both alleles.
 Minor/major allele fraction is defined as the minimum and maximum, respectively, of the allele-specific allele frequencies.
 When CNAs occur, entire genomic regions change their total copy number and/or allele-specific frequencies.
-For instance, if the cell gains another copy of allele A, then the total copy number is 3, with major allele fraction 2/3 (allele A) and minor allele fraction 1/3 (allele B).
+For instance, if the cell gains another copy of one allele, then the total copy number becomes 3.
+The major allele fraction is then the proportion for the allele that was gained, which is 2/3.
+Similarly, the minor allele fraction becomes 1/3.
 Chromosomal instability (CIN) is said to occur when a tumor exhibits a high number of CNAs.
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
@@ -68,24 +70,20 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 ---
 
 We developed CINner, a mathematical framework to analyze how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
-CINner models the cell population as a branching process, where each cell is characterized by its copy numbers or point mutations, or both.
-As genomic regions are amplified or deleted as CNAs occur, the mutations located in those regions are correspondingly multiplied or lost.
-Cell lifespan is exponentially distributed with an input turn-over rate, then it either divides or dies.
-The probability for a cell to divide depends on its fitness, determined by its CN and mutation profiles according to a selection model.
-The division probability is also calibrated so that the total cell population follows an established dynamic.
-After a cell division, progeny cells either have the same profiles as the parent cell, or harbor CNA or driver SNVs events resulting in new profiles.
+CINner is designed to efficiently model a cell population undergoing different types of CNAs and mutations, which change the cell karyotypes and increases the clonal diversity.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Mathematical model underlying CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner).
+    Read {% cite dinh2024cinner %} for more details.
+</div>
 
-CINner is designed to efficiently model distinct CNA mechanisms, each of which may result in different alteration patterns to the CN profiles and varying impacts on cell fitness.
-Whole-genome duplication (WGD) results in one daughter cell with double the genomic material of the mother cell.
-Whole-chromosome missegregation misplaces a chromosome strand among the two daughter cells.
-In contrast, only a strand arm is misplaced in chromosome-arm missegregation.
-Finally, focal amplification and deletion target a random region in a strand arm, and either doubles the genomic material there or deletes it in a daughter cell.
+CINner currently supports different CNA mechanisms, including whole-genome duplications, whole-chromosome and chromosome-arm missegregations, focal amplifications and deletions.
+We included three different selection models, designed to model the fitness of chromosome-arm level CNAs or driver mutations, or both.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -93,10 +91,13 @@ Finally, focal amplification and deletion target a random region in a strand arm
     </div>
 </div>
 <div class="caption">
-    We divide each chromosome into bins with equal numbers of nucleotides (typically 500,000 base pairs per bin).
-    In CINner, each chromosome homolog is represented as one vector in a cell, where each entry is the CN in a bin (vertical solid lines represent centrosomes, separating the two chromosome arms).
-    Different CNAs may change the number of vectors, or the bin CNs within a vector.
-    Mutations do not affect the CN, but one copy of a driver gene is changed from wild-type to mutant.
+    Three selection models are included.
+    Left: selection model for chromosome arms.
+    Gains (or losses) of arms with selection rate > 1 are selective (or deleterious).
+    The effects are reversed for arms with selection rate < 1.
+    Right: selection model for driver mutations.
+    Beneficial events for the cells include losses or mutations of tumor suppressor genes, and gains or mutations of oncogenes.
+    A third selection model is the combination of these two models.
 </div>
 
 
