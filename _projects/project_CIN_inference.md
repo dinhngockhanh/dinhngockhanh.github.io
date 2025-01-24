@@ -92,26 +92,26 @@ We included three different selection models, designed to model the fitness of c
 </div>
 <div class="caption">
     Three selection models are included.
-    Left: selection model for chromosome arms.
+    Left: Selection model for chromosome arms.
     Gains (or losses) of arms with selection rate > 1 are selective (or deleterious).
     The effects are reversed for arms with selection rate < 1.
-    Right: selection model for driver mutations.
+    Right: Selection model for driver mutations.
     Beneficial events for the cells include losses or mutations of tumor suppressor genes, and gains or mutations of oncogenes.
     A third selection model is the combination of these two models.
 </div>
 
-We first created a 
+When applied to whole genome sequencing data across all cancers in The Cancer Genome Atlas (TCGA), CINner can infer selection parameters for individual chromosome arms.
+These selection parameters strongly correlate with the gene imbalance on each arm, indicating that selection rates inferred from CINner are estimates of the combined effects of genes located on different genomic regions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+</div>
+<div class="caption">
+    Top: Schematic for the inference and analysis of cancer type-specific chromosome-arm selection parameters.
+    Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance score (y axis) from [Davoli et al.](https://www.cell.com/fulltext/S0092-8674(13)01287-7)
+    The gene balance scores reflect the imbalance between tumor suppressor genes and oncogenes within each arm, in addition to essential genes (right) or without (left).
 </div>
 
  
