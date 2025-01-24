@@ -28,6 +28,14 @@ profiles:
           <p>Shuxin Tang</p>
       </div>
   - align: left
+    content: about_YanjieChen.md
+    image: YanjieChen.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Yanjie Chen</p>
+      </div>
+  - align: left
     content: about_ZihanZhang.md
     image: ZihanZhang.jpeg
     image_circular: true 
@@ -36,20 +44,20 @@ profiles:
           <p>Zihan Zhang</p>
       </div>
   - align: left
-    content: about_KeitoTaketomi.md
-    image: KeitoTaketomi.jpeg
-    image_circular: true 
-    more_info: >
-      <div style="text-align: center;">
-          <p>Keito Taketomi</p>
-      </div>
-  - align: left
     content: about_TianshuaiGao.md
     image: TianshuaiGao.jpeg
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
           <p>Tianshuai Gao</p>
+      </div>
+  - align: left
+    content: about_KeitoTaketomi.md
+    image: KeitoTaketomi.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Keito Taketomi</p>
       </div>
   - align: left
     content: about_AndrewChan.md
