@@ -69,8 +69,11 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 
 ---
 
-We developed CINner, a mathematical framework to analyze how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
-CINner is designed to efficiently model a cell population undergoing different types of CNAs and mutations, which change the cell karyotypes and increases the clonal diversity.
+We developed CINner, a mathematical framework to analyze
+how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
+CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner),
+is designed to efficiently model a cell population undergoing different types of CNAs and mutations,
+which change the cell karyotypes and increases the clonal diversity.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,12 +81,14 @@ CINner is designed to efficiently model a cell population undergoing different t
     </div>
 </div>
 <div class="caption">
-    Mathematical model underlying CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner).
+    Mathematical model underlying CINner.
     Read {% cite dinh2024cinner %} for more details.
 </div>
 
-CINner currently supports different CNA mechanisms, including whole-genome duplications, whole-chromosome and chromosome-arm missegregations, focal amplifications and deletions.
-We included three different selection models, designed to model the fitness of chromosome-arm level CNAs or driver mutations, or both.
+CINner currently supports different CNA mechanisms, including whole-genome duplications,
+whole-chromosome and chromosome-arm missegregations, focal amplifications and deletions.
+We included three different selection models, 
+designed to model the fitness of chromosome-arm level CNAs or driver mutations, or both.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -100,8 +105,10 @@ We included three different selection models, designed to model the fitness of c
     A third selection model is the combination of these two models.
 </div>
 
-When applied to whole genome sequencing data across all cancers in The Cancer Genome Atlas (TCGA), CINner can infer selection parameters for individual chromosome arms.
-These selection parameters strongly correlate with the gene imbalance on each arm, indicating that selection rates inferred from CINner are estimates of the combined effects of genes located on different genomic regions.
+When applied to whole genome sequencing data across all cancers in The Cancer Genome Atlas (TCGA),
+CINner can infer selection parameters for individual chromosome arms.
+These selection parameters strongly correlate with the gene imbalance on each arm from [Davoli et al.](https://www.cell.com/fulltext/S0092-8674(13)01287-7),
+indicating that selection rates inferred from CINner are estimates of the combined effects of genes located on different genomic regions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -110,11 +117,21 @@ These selection parameters strongly correlate with the gene imbalance on each ar
 </div>
 <div class="caption">
     Top: Schematic for the inference and analysis of cancer type-specific chromosome-arm selection parameters.
-    Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance score (y axis) from [Davoli et al.](https://www.cell.com/fulltext/S0092-8674(13)01287-7)
+    Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance score (y axis).
     The gene balance scores reflect the imbalance between tumor suppressor genes and oncogenes within each arm, in addition to essential genes (right) or without (left).
 </div>
 
- 
+The same inference routine can be applied for individual cancer types
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_CINner_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+
+</div>
+
 ---
 
 {% cite xiang2024inference %}
@@ -125,46 +142,8 @@ These selection parameters strongly correlate with the gene imbalance on each ar
 
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
+<!-- The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
@@ -180,6 +159,6 @@ Here's the code for the last row of images above:
     {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+``` -->
 
 {% endraw %}
