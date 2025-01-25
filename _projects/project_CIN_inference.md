@@ -64,7 +64,7 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 
 We seek to systematically study how CIN arises and affects the selection landscape during tumor growth.
 This requires a mathematical framework that incorporates different CNA mechanisms that occur during CIN.
-We developed CINner, a simulation method to analyze
+We developed CINner, an algorithm to simulate
 how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
 CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner),
 is designed to efficiently model a cell population undergoing different types of CNAs and mutations,
@@ -82,7 +82,7 @@ which change the cell karyotypes and increase the clonal diversity.
 CINner currently supports different CNA mechanisms, including whole-genome duplications,
 whole-chromosome and chromosome-arm missegregations, focal amplifications and deletions.
 We included three different selection models, 
-designed to model the fitness of chromosome-arm level CNAs or driver mutations, or both.
+designed to quantify the fitness of chromosome-arm level CNAs or driver mutations, or both.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -105,7 +105,7 @@ indicating that selection rates inferred from CINner are estimates for the combi
 </div>
 <div class="caption">
     Top: Schematic for the inference and analysis of cancer type-specific chromosome-arm selection parameters.
-    Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance score (y axis).
+    Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance scores (y axis).
 </div>
 
 The same inference routine can be applied for individual cancer types, for which CINner finds selection parameters that faithfully recreate the copy number landscapes observed in data.
@@ -126,9 +126,17 @@ On the other hand, this reconfirms CINner's ability to uncover biologically rele
 
 ---
 
----
+With CINner, we now have a framework to uncover selection parameters for individual genomic regions.
+However, we are also interested in finding the rates at which CNA mechanisms occur, such as chromosome missegregations.
+This requires more information than what bulk genomic data can offer.
+This is because if a particular CNA is frequently observed in data, it can be explained by a spectrum of parameters in CINner.
+On one extreme, it could be because the CNA occurrence is high, therefore the event takes place often across different patients even if it does not significantly impact cancer fitness.
+On the other extreme, it could be because the selection rate associated with the CNA event is high, in which case it takes a long time to emerge but always expands across the entire tumor when it does.
+The parameters therefore are confounded in bulk data alone.
 
-{% cite xiang2024inference %}
+In {% cite xiang2024inference %}, we developed a parameter inference routine that employs both bulk data and information from single-cell sequencing, such as DLP+.
+
+---
 
 {% cite dinh2024approximate %}
 
