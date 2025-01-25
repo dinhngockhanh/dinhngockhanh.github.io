@@ -148,6 +148,20 @@ The ABC framework summarizes both data and model simulations with statistics, fo
     Bottom: Overview of some statistics based on single-cell phylogeny (left) and distance between observed and simulated CN profiles (right).
 </div>
 
+Using this framework, we are able to uncover the true values of both the missegregation probability and the selection parameters for individual chromosomes.
+This comparison was performed with synthetic tests, where we know the true values against which the parameter posterior distributions can be compared.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_theory_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Inference of missegregation probability (top left) and selection parameters for individual chromosomes in synthetic testing.
+    For each parameter, the posterior distribution (dark blue; broken lines indicate mean, median and mode) is inferred from a uniform prior distribution (light blue), compared to the ground truth value (black line).
+    The inference is accurate if the posterior distribution centers around ground truth value.
+</div>
+
 ---
 
 {% cite dinh2024approximate %}
