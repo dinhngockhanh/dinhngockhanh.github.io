@@ -211,6 +211,7 @@ Moreover, ABC-SMC-RF tends to perfom better than previous random forest methods,
 This is because in those algorithms, most simulations with parameters sampled directly from the prior distribution are significantly different from the data.
 They therefore require a large training set to select the most relevant parameter regions.
 By comparison, ABC-SMC-RF iteratively updates the parameter distributions, therefore more of the simulations are relevant to the data.
+Another practical advantage is that the random forest in each iteration can be trained on smaller training sets, therefore reducing computational runtime and storage requirement.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
