@@ -179,7 +179,8 @@ We expect that as DNA sequencing becomes an essential part of cancer diagnosis, 
 
 ---
 
-ABC-rf has been implemented with great success in our analysis framework and its insensitivity to noise is essential for incorporating a large number of statistics in our inference method.
+ABC-rf's insensitivity to noise is essential for incorporating a large number of statistics in our inference method.
+It therefore offers an incredible advantage over traditional ABC methods, which require selecting substantially important hyperparameters and therefore are not flexible for such expansive problems and models such as ours.
 However, ABC-rf often requires a large training set and therefore long running time.
 To improve its performance, we developed Approximate Bayesian Computation sequential Monte Carlo with (distributional) random forests (ABC-SMC-DRF) {% cite dinh2024approximate %}.
 
