@@ -150,6 +150,7 @@ The ABC framework summarizes both data and model simulations with statistics, fo
 
 Using this framework, we are able to uncover the true values of both the missegregation probability and the selection parameters for individual chromosomes.
 This comparison was performed with synthetic tests, where we know the true values against which the parameter posterior distributions can be compared.
+The posterior distributions are unimodal, which indicates identifiability, and center around the ground truth values.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -165,6 +166,7 @@ This comparison was performed with synthetic tests, where we know the true value
 Importantly, the accuracy and uncertainty of the results (quantified as Root mean square error (RMSE) and standard deviation of the posteriors, respectively) do not increase significantly for small sample sizes of either single-cell or bulk cohorts.
 Minimum error can be achieved with as few as 40 sc and 50 bulk samples, while minimum uncertainty is reached with 20 and 30 bulk samples.
 These requirements are already satisfied with currently available data for some cancer types.
+We expect that as DNA sequencing becomes an essential part of cancer diagnosis, our simulation and inference framework will become a pivotal tool to analyze the data toward better understanding of cancer evolution and adaptation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
