@@ -205,6 +205,22 @@ Each iteration in ABC-SMC-RF samples the parameters from the previous iteration'
     Right: Schematic for inferring a parameter estimate from the tree.
 </div>
 
+In test studies, ABC-SMC-RF performs well across a wide range of mathematical models, including both deterministic and stochastic models with varying complexity levels and parameter counts.
+Its results are on par with traditional ABC methods with carefully calibrated hyperparameters.
+Moreover, ABC-SMC-RF tends to perfom better than previous random forest methods, which are also calibration-free.
+This is because in those algorithms, most simulations with parameters sampled directly from the prior distribution are significantly different from the data.
+They therefore require a large training set to select the most relevant parameter regions.
+By comparison, ABC-SMC-RF iteratively updates the parameter distributions, therefore more of the simulations are relevant to the data.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_abcsmcdrf_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Comparison of posterior distributions from ABC-SMC-RF (red) with a previous ABC-RF method (blue) and ABC-SMC with calibrated hyperparameters (yellow) for the Lotka-Volterra model.
+</div>
+
 ---
 
 <!-- The code is simple.
