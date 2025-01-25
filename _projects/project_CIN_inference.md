@@ -10,16 +10,9 @@ related_publications: true
 
 ---
 
-It has been acknowledged that many cancers are driven by point mutations, which affect one or a few nucleotides at specific locations in the genome.
+Cancer evolution has been studied extensively as a process of accumulating point mutations, which affect one or a few nucleotides at specific locations in the genome.
 However, some cancers have been known to be driven mostly by copy number aberrations (CNAs).
-A normal cell is expected to have two different alleles of each chromosome, for which we say the allele-specific copy number is 1.
-The total copy number is then their sum, which equals 2.
-The frequency of each allele is its copy number divided by the total copy number, which is 0.5 for both alleles.
-Minor/major allele fraction is defined as the minimum and maximum, respectively, of the allele-specific allele frequencies.
-When CNAs occur, entire genomic regions change their total copy number and/or allele-specific frequencies.
-For instance, if the cell gains another copy of one allele, then the total copy number becomes 3.
-The major allele fraction is then the proportion for the allele that was gained, which is 2/3.
-Similarly, the minor allele fraction becomes 1/3.
+These events can be inferred by examining the total and allele-specific copy numbers across the cancer genome.
 Chromosomal instability (CIN) is said to occur when a tumor exhibits a high number of CNAs.
 
 Recent developments in single-cell DNA-sequencing have provided an unparalleled view into the diversity and ongoing evolution within a tumor.
@@ -69,11 +62,13 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 
 ---
 
-We developed CINner, a mathematical framework to analyze
+We seek to systematically study how CIN arises and affects the selection landscape during tumor growth.
+This requires a mathematical framework that incorporates different CNA mechanisms that occur during CIN.
+We developed CINner, a simulation method to analyze
 how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
 CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner),
 is designed to efficiently model a cell population undergoing different types of CNAs and mutations,
-which change the cell karyotypes and increases the clonal diversity.
+which change the cell karyotypes and increase the clonal diversity.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -82,7 +77,6 @@ which change the cell karyotypes and increases the clonal diversity.
 </div>
 <div class="caption">
     Mathematical model underlying CINner.
-    Read {% cite dinh2024cinner %} for more details.
 </div>
 
 CINner currently supports different CNA mechanisms, including whole-genome duplications,
@@ -96,19 +90,13 @@ designed to model the fitness of chromosome-arm level CNAs or driver mutations, 
     </div>
 </div>
 <div class="caption">
-    Three selection models are included.
-    Left: Selection model for chromosome arms.
-    Gains (or losses) of arms with selection rate > 1 are selective (or deleterious).
-    The effects are reversed for arms with selection rate < 1.
-    Right: Selection model for driver mutations.
-    Beneficial events for the cells include losses or mutations of tumor suppressor genes, and gains or mutations of oncogenes.
-    A third selection model is the combination of these two models.
+    Schematics for the selection model of chromosome arms (left) and driver mutations (right).
 </div>
 
 When applied to whole genome sequencing data across all cancers in The Cancer Genome Atlas (TCGA),
-CINner can infer selection parameters for individual chromosome arms.
+CINner inferred selection parameters for individual chromosome arms.
 These selection parameters strongly correlate with the gene imbalance on each arm from [Davoli et al.](https://www.cell.com/fulltext/S0092-8674(13)01287-7),
-indicating that selection rates inferred from CINner are estimates of the combined effects of genes located on different genomic regions.
+indicating that selection rates inferred from CINner are estimates for the combined effects of genes located on different genomic regions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -118,10 +106,13 @@ indicating that selection rates inferred from CINner are estimates of the combin
 <div class="caption">
     Top: Schematic for the inference and analysis of cancer type-specific chromosome-arm selection parameters.
     Bottom: Comparison of selection rates inferred by CINner (x axis) from pan-cancer TCGA data, against gene balance score (y axis).
-    The gene balance scores reflect the imbalance between tumor suppressor genes and oncogenes within each arm, in addition to essential genes (right) or without (left).
 </div>
 
-The same inference routine can be applied for individual cancer types
+The same inference routine can be applied for individual cancer types, for which CINner finds selection parameters that faithfully recreate the copy number landscapes observed in data.
+These parameters are inferred using samples without whole-genome duplication (WGD), from which chromosome arms can be classified as GAIN (if the selection rate > 1, hence gains of these arms are advantageous) or LOSS (if the selection rate < 1, in which case losses increase cell fitness).
+The count and mean selection rate across these inferred GAIN and LOSS arms predict cancer-specific WGD prevalence well.
+On the one hand, this confirms that WGD is an important event that remolds the selection landscape during cancer development, as has been observed experimentally.
+On the other hand, this reconfirms CINner's ability to uncover biologically relevant parameters from sample cohorts of relatively small sizes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -129,9 +120,11 @@ The same inference routine can be applied for individual cancer types
     </div>
 </div>
 <div class="caption">
-    Top: Comparison between gain/loss frequencies from CINner with inferred selection rates (top) for ovary adenocarcinoma.
-    Bottom: Correlation between WGD proportion and count of GAIN arms (left) and mean selection rate of LOSS arms (right).
+    Top: Comparison between gain/loss frequencies from data and CINner with inferred selection rates, for ovary adenocarcinoma.
+    Bottom: Correlation between cancer-specific WGD proportion and count of GAIN arms (left) and mean selection rate of LOSS arms (right).
 </div>
+
+---
 
 ---
 
