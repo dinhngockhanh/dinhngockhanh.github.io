@@ -182,7 +182,24 @@ We expect that as DNA sequencing becomes an essential part of cancer diagnosis, 
 ABC-rf's insensitivity to noise is essential for incorporating a large number of statistics in our inference method.
 It therefore offers an incredible advantage over traditional ABC methods, which require selecting substantially important hyperparameters and therefore are not flexible for such expansive problems and models such as ours.
 However, ABC-rf often requires a large training set and therefore long running time.
-To improve its performance, we developed Approximate Bayesian Computation sequential Monte Carlo with (distributional) random forests (ABC-SMC-DRF) {% cite dinh2024approximate %}.
+To improve its performance, we developed Approximate Bayesian Computation sequential Monte Carlo with (distributional) random forests (ABC-SMC-RF) {% cite dinh2024approximate %}.
+
+A tree in the random forest grows from a root node, composed of a subsample or bootstrap sample of the training set.
+The algorithm then repeatedly divides each node, each time by choosing a particular statistic and segregating the node's simulations into those whose values are lower or higher than a threshold.
+The choice of statistic and threshold at each node is made such that the simulations in each child node are most "similar" to each other, with respect to the given statistic.
+Finally, the algorithm traverses each tree with the statistics measured from the data.
+Simulations in the same leaf that the data ends up in are deemed closer to the data, hence the parameters of those simulations form an approximation for the posterior distribution.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_abcsmcdrf_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Schematic for the combination of ABC-SMC-RF and CINner toward inferring parameter posterior distributions.
+    Middle: Schematic for constructing a tree in the random forest.
+    Right: Schematic for inferring a parameter estimate from the tree.
+</div>
 
 ---
 
