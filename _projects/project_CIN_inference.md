@@ -134,7 +134,7 @@ On one extreme, it could be because the CNA occurrence is high, therefore the ev
 On the other extreme, it could be because the selection rate associated with the CNA event is high, in which case it takes a long time to emerge but always expands across the entire tumor when it does.
 The parameters therefore are confounded in bulk data alone.
 
-In {% cite xiang2024inference %}, we developed a parameter inference routine that employs both bulk data and information from single-cell sequencing, such as DLP+.
+In {% cite xiang2024inference %}, we developed a parameter inference routine that employs both bulk data and information from single-cell (sc) sequencing, such as DLP+.
 The algorithm uses [ABC-rf](https://academic.oup.com/bioinformatics/article/35/10/1720/5132692), an Approximate Bayesian Computation (ABC) method with random forests that produces reliable posterior distributions with high tolerance for noise.
 The ABC framework summarizes both data and model simulations with statistics, for which we considered a wide range of measurements based on bulk CN, single-cell CN profiles, and the phylogeny for cells in the single-cell samples.
 
@@ -160,6 +160,19 @@ This comparison was performed with synthetic tests, where we know the true value
     Inference of missegregation probability (top left) and selection parameters for individual chromosomes in synthetic testing.
     For each parameter, the posterior distribution (dark blue; broken lines indicate mean, median and mode) is inferred from a uniform prior distribution (light blue), compared to the ground truth value (black line).
     The inference is accurate if the posterior distribution centers around ground truth value.
+</div>
+
+Importantly, the accuracy and uncertainty of the results (quantified as Root mean square error (RMSE) and standard deviation of the posteriors, respectively) do not increase significantly for small sample sizes of either single-cell or bulk cohorts.
+Minimum error can be achieved with as few as 40 sc and 50 bulk samples, while minimum uncertainty is reached with 20 and 30 bulk samples.
+These requirements are already satisfied with currently available data for some cancer types.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_theory_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Root mean square error (RMSE) and standard deviation of the posterior distributions, as a function of sample size of the single-cell cohort (left) and the bulk data (right)
 </div>
 
 ---
