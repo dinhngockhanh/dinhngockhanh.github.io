@@ -174,12 +174,14 @@ We expect that as DNA sequencing becomes an essential part of cancer diagnosis, 
     </div>
 </div>
 <div class="caption">
-    Root mean square error (RMSE) and standard deviation of the posterior distributions, as a function of sample size of the single-cell cohort (left) and the bulk data (right)
+    RMSE and standard deviation of the posterior distributions, as a function of sample size of the single-cell cohort (left) and the bulk data (right)
 </div>
 
 ---
 
-{% cite dinh2024approximate %}
+ABC-rf has been implemented with great success in our analysis framework and its insensitivity to noise is essential for incorporating a large number of statistics in our inference method.
+However, ABC-rf often requires a large training set and therefore long running time.
+To improve its performance, we developed Approximate Bayesian Computation sequential Monte Carlo with (distributional) random forests (ABC-SMC-DRF) {% cite dinh2024approximate %}.
 
 ---
 
