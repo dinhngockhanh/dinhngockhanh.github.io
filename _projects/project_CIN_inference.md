@@ -135,15 +135,24 @@ On the other extreme, it could be because the selection rate associated with the
 The parameters therefore are confounded in bulk data alone.
 
 In {% cite xiang2024inference %}, we developed a parameter inference routine that employs both bulk data and information from single-cell sequencing, such as DLP+.
+The algorithm uses [ABC-rf](https://academic.oup.com/bioinformatics/article/35/10/1720/5132692), an Approximate Bayesian Computation (ABC) method with random forests that produces reliable posterior distributions with high tolerance for noise.
+The ABC framework summarizes both data and model simulations with statistics, for which we considered a wide range of measurements based on bulk CN, single-cell CN profiles, and the phylogeny for cells in the single-cell samples.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_theory_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Top: The inference method relies on ABC-rf to find parameter posterior distributions.
+    Bottom: Overview of some statistics based on single-cell phylogeny (left) and distance between observed and simulated CN profiles (right).
+</div>
 
 ---
 
 {% cite dinh2024approximate %}
 
-{% cite mcpherson2024ongoing %}
-
-
-
+---
 
 <!-- The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
