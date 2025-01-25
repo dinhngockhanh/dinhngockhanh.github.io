@@ -190,6 +190,10 @@ The choice of statistic and threshold at each node is made such that the simulat
 Finally, the algorithm traverses each tree with the statistics measured from the data.
 Simulations in the same leaf that the data ends up in are deemed closer to the data, hence the parameters of those simulations form an approximation for the posterior distribution.
 
+ABC-SMC-RF incorporates the random forest within the framework of sequential Monte Carlo (SMC).
+In SMC, the posterior distribution is improved through successive iterations from the prior distribution.
+Each iteration in ABC-SMC-RF samples the parameters from the previous iteration's posterior, perturbs the parameters to maintain parameter diversity, then infers the next posterior distribution with random forest.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_CIN_inference_abcsmcdrf_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
