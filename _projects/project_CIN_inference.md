@@ -187,7 +187,7 @@ To improve its performance, we developed Approximate Bayesian Computation sequen
 A tree in the random forest grows from a root node, composed of a subsample or bootstrap sample of the training set.
 The algorithm then repeatedly divides each node, each time by choosing a particular statistic and segregating the node's simulations into those whose values are lower or higher than a threshold.
 The choice of statistic and threshold at each node is made such that the simulations in each child node are most "similar" to each other, with respect to the given statistic.
-Finally, the algorithm traverses each tree with the statistics measured from the data. 
+Finally, the algorithm traverses each tree with the statistics measured from the data.
 Simulations in the same leaf that the data ends up in are deemed closer to the data, hence the parameters of those simulations form an approximation for the posterior distribution.
 
 ABC-SMC-RF incorporates the random forest within the framework of sequential Monte Carlo (SMC), and it is available as an [R package on Github](https://github.com/dinhngockhanh/abcsmcrf).
