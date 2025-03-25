@@ -1,1 +1,2 @@
 Yining Ma was a Master Student Intern in the Dinh Lab from Spring 2024 to Fall 2024, from the Department of Statistics (Columbia University).
+She is currently a Business Analyst at [Meituan](https://www.meituan.com/en-US/about-us).
