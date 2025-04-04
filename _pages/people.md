@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_EthanCohen.md
+    image: EthanCohen.jpg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Ethan Cohen</p>
+      </div>
+  - align: left
     content: about_ShuxinTang.md
     image: ShuxinTang.jpeg
     image_circular: true 
