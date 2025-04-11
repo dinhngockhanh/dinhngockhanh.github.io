@@ -21,7 +21,7 @@ profiles:
       </div>
   - align: left
     content: about_SaraElBaghdadi.md
-    image: SaraElBaghdadi.jpg
+    image: SaraElBaghdadi.jpeg
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
