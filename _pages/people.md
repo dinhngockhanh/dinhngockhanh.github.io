@@ -84,11 +84,11 @@ profiles:
           <p>Keito Taketomi</p>
       </div>
   - align: left
-    content: about_AndrewChan.md
-    image: AndrewChan.jpeg
+    content: about_XuanwenGuo.md
+    image: XuanwenGuo.jpeg
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
-          <p>Andrew Chan</p>
+          <p>Xuanwen Guo</p>
       </div>
 ---

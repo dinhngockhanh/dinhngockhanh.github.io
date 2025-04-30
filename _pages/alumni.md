@@ -11,20 +11,20 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
+    content: about_AndrewChan.md
+    image: AndrewChan.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Andrew Chan</p>
+      </div>
+  - align: left
     content: about_YiningMa.md
     image: YiningMa.jpeg
     image_circular: true 
     more_info: >
       <div style="text-align: center;">
           <p>Yining Ma</p>
-      </div>
-  - align: left
-    content: about_XuanwenGuo.md
-    image: XuanwenGuo.jpeg
-    image_circular: true 
-    more_info: >
-      <div style="text-align: center;">
-          <p>Xuanwen Guo</p>
       </div>
   - align: left
     content: about_JunzeHuang.md
