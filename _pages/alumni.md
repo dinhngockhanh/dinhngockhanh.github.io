@@ -109,6 +109,7 @@ profiles:
   - align: left
     content: about_RanjingZhang.md
     image: RanjingZhang.jpeg
+    image_circular: true 
     more_info: >
       <div style="text-align: center;">
           <p>Ranjing Zhang</p>
