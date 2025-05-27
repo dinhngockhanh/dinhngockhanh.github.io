@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_PeterTerranova.md
+    image: PeterTerranova.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Peter Terranova</p>
+      </div>
+  - align: left
     content: about_SaraElBaghdadi.md
     image: SaraElBaghdadi.jpeg
     image_circular: true 
