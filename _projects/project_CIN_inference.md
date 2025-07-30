@@ -124,6 +124,9 @@ On the other hand, this reconfirms CINner's ability to uncover biologically rele
     Bottom: Correlation between cancer-specific WGD proportion and count of GAIN arms (left) and mean selection rate of LOSS arms (right).
 </div>
 
+CINner was utilized in {% cite mcpherson2025ongoing %} to assess the accuracy of inferred chromosomal instability 
+and whole-genome duplication from DLP data.
+
 ---
 
 With CINner, we now have a framework to uncover selection parameters for individual genomic regions.
