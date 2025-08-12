@@ -27,4 +27,4 @@ Our long-term research interests are in developing mathematical models and bioin
 - Inference of chromosomal instability rates and selection coefficients of genomic regions in ovarian and breast cancers
 - Detection of clonality and estimation of clonal ages and growth rates from bulk DNA-sequencing data
 
-{% include video.liquid path="https://www.youtube.com/watch?v=qprt3b3T64I" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid path="assets/video/IICD_JSM.mp4" class="img-fluid rounded z-depth-1" controls=true %}
