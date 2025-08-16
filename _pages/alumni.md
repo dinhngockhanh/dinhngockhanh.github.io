@@ -27,7 +27,6 @@ profiles:
           <p>Sara El Baghdadi</p>
       </div>
   - align: left
-  - align: left
     content: about_EthanCohen.md
     image: EthanCohen.jpg
     image_circular: true

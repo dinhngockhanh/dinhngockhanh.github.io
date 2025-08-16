@@ -19,6 +19,7 @@ profiles:
           <p>Khanh N. Dinh</p>
           <p>Principal Investigator</p>
       </div>
+  - align: left
     content: about_ShuxinTang.md
     image: ShuxinTang.jpeg
     image_circular: true 
