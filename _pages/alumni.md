@@ -11,6 +11,55 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
+    content: about_PeterTerranova.md
+    image: PeterTerranova.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Peter Terranova</p>
+      </div>
+  - align: left
+    content: about_SaraElBaghdadi.md
+    image: SaraElBaghdadi.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Sara El Baghdadi</p>
+      </div>
+  - align: left
+  - align: left
+    content: about_EthanCohen.md
+    image: EthanCohen.jpg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Ethan Cohen</p>
+      </div>
+  - align: left
+    content: about_TianshuaiGao.md
+    image: TianshuaiGao.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Tianshuai Gao</p>
+      </div>
+  - align: left
+    content: about_ZhuoxuanLi.md
+    image: ZhuoxuanLi.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Zhuoxuan Li</p>
+      </div>
+  - align: left
+    content: about_KeitoTaketomi.md
+    image: KeitoTaketomi.jpeg
+    image_circular: true 
+    more_info: >
+      <div style="text-align: center;">
+          <p>Keito Taketomi</p>
+      </div>
+  - align: left
     content: about_AndrewChan.md
     image: AndrewChan.jpeg
     image_circular: true 
