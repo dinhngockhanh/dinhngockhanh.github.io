@@ -1,1 +1,1 @@
-Sara El Baghdadi is a Master Student Intern as part of the <a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> in the Dinh Lab in Summer 2025, from École Polytechnique.
+Sara El Baghdadi was a Master Student Intern as part of the <a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> in the Dinh Lab in Summer 2025, from École Polytechnique.
