@@ -1,7 +1,32 @@
 {
-    "devDependencies": {
-        "@shopify/prettier-plugin-liquid": "1.4.0",
-        "prettier": "3.1.1",
-        "mkdirp": "^1.0.0"
-    }
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "1.4.0",
+    "mkdirp": "^1.0.0",
+    "prettier": "^3.1.1"
+  },
+  "name": "dinhngockhanh.github.io",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "purgecss.config.js",
+  "dependencies": {
+    "html-styles": "^1.0.0",
+    "isarray": "^1.0.0",
+    "isobject": "^2.1.0",
+    "line-column": "^1.0.2",
+    "ohm-js": "^16.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhngockhanh/dinhngockhanh.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhngockhanh/dinhngockhanh.github.io/issues"
+  },
+  "homepage": "https://github.com/dinhngockhanh/dinhngockhanh.github.io#readme"
 }

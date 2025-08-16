@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /alumni/
 title: alumni
-description: 
+description:
 # members of the lab or group
 nav: true
 nav_order: 5
@@ -13,7 +13,7 @@ profiles:
   - align: left
     content: about_PeterTerranova.md
     image: PeterTerranova.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Peter Terranova</p>
@@ -21,7 +21,7 @@ profiles:
   - align: left
     content: about_SaraElBaghdadi.md
     image: SaraElBaghdadi.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Sara El Baghdadi</p>
@@ -30,7 +30,7 @@ profiles:
   - align: left
     content: about_EthanCohen.md
     image: EthanCohen.jpg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Ethan Cohen</p>
@@ -38,7 +38,7 @@ profiles:
   - align: left
     content: about_TianshuaiGao.md
     image: TianshuaiGao.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Tianshuai Gao</p>
@@ -46,7 +46,7 @@ profiles:
   - align: left
     content: about_ZhuoxuanLi.md
     image: ZhuoxuanLi.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Zhuoxuan Li</p>
@@ -54,7 +54,7 @@ profiles:
   - align: left
     content: about_KeitoTaketomi.md
     image: KeitoTaketomi.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Keito Taketomi</p>
@@ -62,7 +62,7 @@ profiles:
   - align: left
     content: about_AndrewChan.md
     image: AndrewChan.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Andrew Chan</p>
@@ -70,7 +70,7 @@ profiles:
   - align: left
     content: about_YiningMa.md
     image: YiningMa.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Yining Ma</p>
@@ -78,7 +78,7 @@ profiles:
   - align: left
     content: about_JunzeHuang.md
     image: JunzeHuang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Junze Huang</p>
@@ -86,7 +86,7 @@ profiles:
   - align: left
     content: about_YichiYang.md
     image: YichiYang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Yichi Yang</p>
@@ -94,7 +94,7 @@ profiles:
   - align: left
     content: about_RuilinDai.md
     image: RuilinDai.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Ruilin Dai</p>
@@ -102,7 +102,7 @@ profiles:
   - align: left
     content: about_BoanZhu.md
     image: BoanZhu.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Boan Zhu</p>
@@ -110,7 +110,7 @@ profiles:
   - align: left
     content: about_ZijinXiang.md
     image: ZijinXiang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Zijin Xiang</p>
@@ -118,7 +118,7 @@ profiles:
   - align: left
     content: about_ZhihanLiu.md
     image: ZhihanLiu.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Zhihan Liu</p>
@@ -126,7 +126,7 @@ profiles:
   - align: left
     content: about_MadeleineHueber.md
     image: MadeleineHueber.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Madeleine Hueber</p>
@@ -134,7 +134,7 @@ profiles:
   - align: left
     content: about_TessBreton.md
     image: TessBreton.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Tess Breton</p>
@@ -142,7 +142,7 @@ profiles:
   - align: left
     content: about_ElliottSeo.md
     image: ElliottSeo.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Elliott Seo</p>
@@ -150,7 +150,7 @@ profiles:
   - align: left
     content: about_AmandaSamuel.md
     image: AmandaSamuel.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Amanda Samuel</p>
@@ -158,7 +158,7 @@ profiles:
   - align: left
     content: about_RanjingZhang.md
     image: RanjingZhang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Ranjing Zhang</p>

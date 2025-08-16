@@ -81,7 +81,7 @@ which change the cell karyotypes and increase the clonal diversity.
 
 CINner currently supports different CNA mechanisms, including whole-genome duplications,
 whole-chromosome and chromosome-arm missegregations, focal amplifications and deletions.
-We included three different selection models, 
+We included three different selection models,
 designed to quantify the fitness of chromosome-arm level CNAs or driver mutations, or both.
 
 <div class="row">
@@ -95,7 +95,7 @@ designed to quantify the fitness of chromosome-arm level CNAs or driver mutation
 
 When applied to whole genome sequencing data across all cancers in The Cancer Genome Atlas (TCGA),
 CINner inferred selection parameters for individual chromosome arms.
-These selection parameters strongly correlate with the gene imbalance on each arm from [Davoli et al.](https://www.cell.com/fulltext/S0092-8674(13)01287-7),
+These selection parameters strongly correlate with the gene imbalance on each arm from [Davoli et al.](<https://www.cell.com/fulltext/S0092-8674(13)01287-7>),
 indicating that selection rates inferred from CINner are estimates for the combined effects of genes located on different genomic regions.
 
 <div class="row">
