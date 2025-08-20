@@ -2,14 +2,14 @@
 layout: profiles
 permalink: /people/
 title: people
-description: 
+description:
 # members of the lab or group
 nav: true
 nav_order: 6
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/ 
+  # and create one content file for each profile inside _pages/
   - align: right
     image: KhanhNDinh.jpeg
     content: about_KhanhNDinh.md
@@ -22,7 +22,7 @@ profiles:
   - align: left
     content: about_ShuxinTang.md
     image: ShuxinTang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Shuxin Tang</p>
@@ -30,7 +30,7 @@ profiles:
   - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Yanjie Chen</p>
@@ -38,7 +38,7 @@ profiles:
   - align: left
     content: about_ZihanZhang.md
     image: ZihanZhang.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Zihan Zhang</p>
@@ -46,7 +46,7 @@ profiles:
   - align: left
     content: about_XuanwenGuo.md
     image: XuanwenGuo.jpeg
-    image_circular: true 
+    image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Xuanwen Guo</p>
