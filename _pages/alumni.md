@@ -35,6 +35,14 @@ profiles:
           <p>Ethan Cohen</p>
       </div>
   - align: left
+    content: about_ShuxinTang.md
+    image: ShuxinTang.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Shuxin Tang</p>
+      </div>
+  - align: left
     content: about_TianshuaiGao.md
     image: TianshuaiGao.jpeg
     image_circular: true
