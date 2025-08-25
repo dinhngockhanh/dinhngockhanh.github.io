@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_YixuanChen.md
+    image: YixuanChen.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Yixuan Chen</p>
+      </div>
+  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
