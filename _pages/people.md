@@ -28,6 +28,14 @@ profiles:
           <p>Yixuan Chen</p>
       </div>
   - align: left
+    content: about_XiaoXiao.md
+    image: XiaoXiao.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Xiao Xiao</p>
+      </div>
+  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
