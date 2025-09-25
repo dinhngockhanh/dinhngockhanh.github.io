@@ -298,20 +298,34 @@
   abstract={Aneuploidy is frequently observed in cancers and has been linked to poor patient outcome. Analysis of aneuploidy in DNA-sequencing (DNA-seq) data necessitates untangling the effects of the Copy Number Aberration (CNA) occurrence rates and the selection coefficients that act upon the resulting karyotypes. We introduce a parameter inference algorithm that takes advantage of both bulk and single-cell DNA-seq cohorts. The method is based on Approximate Bayesian Computation (ABC) and utilizes CINner, our recently introduced simulation algorithm of chromosomal instability in cancer. We examine three groups of statistics to summarize the data in the ABC routine: (A) Copy Number-based measures, (B) phylogeny tip statistics, and (C) phylogeny balance indices. Using these statistics, our method can recover both the CNA probabilities and selection parameters from ground truth data, and performs well even for data cohorts of relatively small sizes. We find that only statistics in groups A and C are well-suited for identifying CNA probabilities, and only group A carries the signals for estimating selection parameters. Moreover, the low number of CNA events at large scale compared to cell counts in single-cell samples means that statistics in group B cannot be estimated accurately using phylogeny reconstruction algorithms at the chromosome level. As data from both bulk and single-cell DNA-sequencing techniques becomes increasingly available, our inference framework promises to facilitate the analysis of distinct cancer types, differentiation between selection and neutral drift, and prediction of cancer clonal dynamics.}
 }
 
-@article{czerniak2024inferring,
-  selected={false},
+@article{dinh2024approximate,
+  selected={true},
   bibtex_show={true},
   dimensions={true},
-  title={Inferring bladder cancer evolution from mucosal field effects by whole-organ spatial mutational, proteomic, and metabolomic mapping},
-  author={Czerniak, Bogdan and Lee, Sangkyou and Jung, Sung Y. and Kus, Pawel and Bondaruk, Jolanta and Lee, June and Jaksik, Roman and Putluri, Nagireddy and Dinh, Khanh N. and Cogdell, David and Chen, Huiqin and Wang, Yishan and Chen, Jiansong and Nevai, Neema and Dinney, Colin and Mendelsohn, Cathy and McConkey, David and Behringer, Richard and Guo, Charles and Wei, Peng and Kimmel, Marek},
-  journal={Research Square},
+  title={Approximate Bayesian Computation sequential Monte Carlo via random forests},
+  author={Dinh, Khanh N. and Xiang, Zijin and Liu, Zhihan and Tavar{\'e}, Simon},
+  journal={arXiv},
   year={2024},
-  publisher={American Journal Experts},
-  doi={10.21203/rs.3.rs-3994376/v1},
-  html={https://www.researchsquare.com/article/rs-3994376/v1},
-  pdf={czerniak2024inferring.pdf},
-  preview={czerniak2024inferring.jpg},
-  abstract={Multi-platform mutational, proteomic, and metabolomic spatial mapping was used on the whole-organ scale to identify the molecular evolution of bladder cancer from mucosal field effects. We identified complex proteomic and metabolomic dysregulations in microscopically normal areas of bladder mucosa adjacent to dysplasia and carcinoma in situ. The mutational landscape developed in a background of complex defects of protein homeostasis which included dysregulated nucleocytoplasmic transport, splicesome, ribosome biogenesis, and peroxisome. These changes were combined with altered urothelial differentiation which involved lipid metabolism and protein degradations controlled by PPAR. The complex alterations of proteome were accompanied by dysregulation of gluco-lipid energy-related metabolism. The analysis of mutational landscape identified three types of mutations based on their geographic distribution and variant allele frequencies. The most common were low frequency $\alpha$ mutations restricted to individual mucosal samples. The two other groups of mutations were associated with clonal expansion. The first of this group referred to as $\beta$ mutations occurred at low frequencies across the mucosa. The second of this group called $\gamma$ mutations increased in frequency with disease progression. Modeling of the mutations revealed that carcinogenesis may span nearly 30 years and can be divided into dormant and progressive phases. The $\alpha$ mutations developed gradually in the dormant phase. The progressive phase lasted approximately five years and was signified by the advent of $\beta$ mutations, but it was driven by $\gamma$ mutations which developed during the last 2-3 years of disease progression to invasive cancer. Our study indicates that the understanding of complex alterations involving mucosal microenvironment initiating bladder carcinogenesis can be inferred from the multi-platform whole-organ mapping.}
+  doi={10.48550/arXiv.2406.15865},
+  html={https://www.arxiv.org/abs/2406.15865},
+  pdf={dinh2024approximate.pdf},
+  preview={dinh2024approximate.jpg},
+  abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we adapt distributional random forests to the ABC setting, and introduce Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-(D)RF). This updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that ABC-SMC-(D)RF can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
+}
+
+@article{dinh2025cinner,
+  selected={true},
+  bibtex_show={true},
+  dimensions={true},
+  title={CINner: modeling and simulation of chromosomal instability in cancer at single-cell resolution},
+  author={Dinh, Khanh N. and V{\'a}zquez-Garc{\'\i}a, Ignacio and Chan, Andrew and Malhotra, Rhea and Weiner, Adam and McPherson, Andrew W. and Tavar{\'e}, Simon},
+  journal={PLoS Computational Biology},
+  year={2025},
+  doi={10.1371/journal.pcbi.1012902},
+  html={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012902},
+  pdf={dinh2025cinner.pdf},
+  preview={dinh2025cinner.jpg},
+  abstract={Cancer development is characterized by chromosomal instability, manifesting in frequent occurrences of different genomic alteration mechanisms ranging in extent and impact. Mathematical modeling can help evaluate the role of each mutational process during tumor progression, however existing frameworks can only capture certain aspects of chromosomal instability (CIN). We present CINner, a mathematical framework for modeling genomic diversity and selection during tumor evolution. The main advantage of CINner is its flexibility to incorporate many genomic events that directly impact cellular fitness, from driver gene mutations to copy number alterations (CNAs), including focal amplifications and deletions, missegregations and whole-genome duplication (WGD). We apply CINner to find chromosome-arm selection parameters that drive tumorigenesis in the absence of WGD in chromosomally unstable cancer types from the Pan-Cancer Analysis of Whole Genomes (PCAWG, n=718). We found that the selection parameters predict WGD prevalence among different chromosomally unstable tumors, hinting that the selective advantage of WGD cells hinges on their tolerance for aneuploidy and escape from nullisomy. Analysis of inference results using CINner across cancer types in The Cancer Genome Atlas (n=8207) further reveals that the inferred selection parameters reflect the bias between tumor suppressor genes and oncogenes on specific genomic regions. Direct application of CINner to model the WGD proportion and fraction of genome altered (FGA) in PCAWG uncovers the increase in CNA probabilities associated with WGD in each cancer type. CINner can also be utilized to study chromosomally stable cancer types, by applying a selection model based on driver gene mutations and focal amplifications or deletions (chronic lymphocytic leukemia in PCAWG, n=95). Finally, we used CINner to analyze the impact of CNA probabilities, chromosome selection parameters, tumor growth dynamics and population size on cancer fitness and heterogeneity. We expect that CINner will provide a powerful modeling tool for the oncology community to quantify the impact of newly uncovered genomic alteration mechanisms on shaping tumor progression and adaptation.}
 }
 
 @article{mcpherson2025ongoing,
@@ -329,32 +343,18 @@
   abstract={Whole-genome doubling (WGD) is a common feature of human cancers and is linked to tumour progression, drug resistance, and metastasis. Here we examine the impact of WGD on somatic evolution and immune evasion at single-cell resolution in patient tumours. Using single-cell whole-genome sequencing, we analysed 70 high-grade serous ovarian cancer samples from 41 patients (30,260 tumour genomes) and observed near-ubiquitous evidence that WGD is an ongoing mutational process. WGD was associated with increased cell-cell diversity and higher rates of chromosomal missegregation and consequent micronucleation. We developed a mutation-based WGD timing method called doubleTime to delineate specific modes by which WGD can drive tumour evolution, including early fixation followed by considerable diversification, multiple parallel WGD events on a pre-existing background of copy-number diversity, and evolutionarily late WGD in small clones and individual cells. Furthermore, using matched single-cell RNA sequencing and high-resolution immunofluorescence microscopy, we found that inflammatory signalling and cGAS-STING pathway activation result from ongoing chromosomal instability, but this is restricted to predominantly diploid tumours (WGD-low). By contrast, predominantly WGD tumours (WGD-high), despite increased missegregation, exhibited cell-cycle dysregulation, STING1 repression, and immunosuppressive phenotypic states. Together, these findings establish WGD as an ongoing mutational process that promotes evolvability and dysregulated immunity in high-grade serous ovarian cancer.}
 }
 
-@article{dinh2024cinner,
-  selected={true},
+@article{lee2025dysregulated,
+  selected={false},
   bibtex_show={true},
   dimensions={true},
-  title={CINner: modeling and simulation of chromosomal instability in cancer at single-cell resolution},
-  author={Dinh, Khanh N. and V{\'a}zquez-Garc{\'\i}a, Ignacio and Chan, Andrew and Malhotra, Rhea and Weiner, Adam and McPherson, Andrew W. and Tavar{\'e}, Simon},
-  journal={PLoS Computational Biology},
+  title={Dysregulated mitochondrial energy metabolism drives the progression of mucosal field effects to invasive bladder cancer},
+  author={Lee, Sangkyou and Jung, Sung Yun and Ku{\'s}, Pawel and Bondaruk, Jolanta and Lee, June Goo and Jaksik, Roman and Putluri, Nagireddy and Dinh, Khanh N. and Cogdell, David and Chen, Huiqin and Wang, Yishan and Chen, Jiansong and Navai, Neema and Dinney, Colin and Mendelsohn, Cathy and McConkey, David and Behringer, Richard R. and Guo, Charles C. and Wei, Peng and Kimmel, Marek and Czerniak, Bogdan},
+  journal={The Journal of Pathology},
   year={2025},
-  doi={10.1371/journal.pcbi.1012902},
-  html={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012902},
-  pdf={dinh2024cinner.pdf},
-  preview={dinh2024cinner.jpg},
-  abstract={Cancer development is characterized by chromosomal instability, manifesting in frequent occurrences of different genomic alteration mechanisms ranging in extent and impact. Mathematical modeling can help evaluate the role of each mutational process during tumor progression, however existing frameworks can only capture certain aspects of chromosomal instability (CIN). We present CINner, a mathematical framework for modeling genomic diversity and selection during tumor evolution. The main advantage of CINner is its flexibility to incorporate many genomic events that directly impact cellular fitness, from driver gene mutations to copy number alterations (CNAs), including focal amplifications and deletions, missegregations and whole-genome duplication (WGD). We apply CINner to find chromosome-arm selection parameters that drive tumorigenesis in the absence of WGD in chromosomally unstable cancer types from the Pan-Cancer Analysis of Whole Genomes (PCAWG, n=718). We found that the selection parameters predict WGD prevalence among different chromosomally unstable tumors, hinting that the selective advantage of WGD cells hinges on their tolerance for aneuploidy and escape from nullisomy. Analysis of inference results using CINner across cancer types in The Cancer Genome Atlas (n=8207) further reveals that the inferred selection parameters reflect the bias between tumor suppressor genes and oncogenes on specific genomic regions. Direct application of CINner to model the WGD proportion and fraction of genome altered (FGA) in PCAWG uncovers the increase in CNA probabilities associated with WGD in each cancer type. CINner can also be utilized to study chromosomally stable cancer types, by applying a selection model based on driver gene mutations and focal amplifications or deletions (chronic lymphocytic leukemia in PCAWG, n=95). Finally, we used CINner to analyze the impact of CNA probabilities, chromosome selection parameters, tumor growth dynamics and population size on cancer fitness and heterogeneity. We expect that CINner will provide a powerful modeling tool for the oncology community to quantify the impact of newly uncovered genomic alteration mechanisms on shaping tumor progression and adaptation.}
-}
-
-@article{dinh2024approximate,
-  selected={true},
-  bibtex_show={true},
-  dimensions={true},
-  title={Approximate Bayesian Computation sequential Monte Carlo via random forests},
-  author={Dinh, Khanh N. and Xiang, Zijin and Liu, Zhihan and Tavar{\'e}, Simon},
-  journal={arXiv},
-  year={2024},
-  doi={10.48550/arXiv.2406.15865},
-  html={https://www.arxiv.org/abs/2406.15865},
-  pdf={dinh2024approximate.pdf},
-  preview={dinh2024approximate.jpg},
-  abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we adapt distributional random forests to the ABC setting, and introduce Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-(D)RF). This updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that ABC-SMC-(D)RF can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
+  publisher={Pathological Society},
+  doi={10.1002/path.6474},
+  html={https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.6474},
+  pdf={lee2025dysregulated.pdf},
+  preview={lee2025dysregulated.jpg},
+  abstract={Multiplatform mutational and gene expression profiling complemented with proteomic and metabolomic spatial mapping were used on the whole-organ scale to identify the molecular profile of bladder cancer evolution from field effects. Analysis of the mutational landscape identified three types of mutations, referred to as alpha, beta, and gamma. Time modeling of the mutations revealed that carcinogenesis may span 30 years and can be divided into dormant and progressive phases. The alpha mutations developed in the dormant phase. The progressive phase lasted 5 years and was signified by expanding beta mutations, but it was driven to invasive cancer by gamma mutations. The mutational landscape emerged on a background of disorganized urothelial differentiation, activated epithelial-mesenchymal transition, and enhanced immune infiltration with T-cell exhaustion. Complex dysregulation of mitochondrial energy metabolism with downregulation of oxidative phosphorylation emerged as the leading mechanism driving the progression of mucosal field effects to invasive cancer.}
 }

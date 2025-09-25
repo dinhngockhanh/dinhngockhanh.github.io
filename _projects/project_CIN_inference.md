@@ -65,7 +65,7 @@ These results explain the high numbers of CNAs that have been observed in ovaria
 We seek to systematically study how CIN arises and affects the selection landscape during tumor growth.
 This requires a mathematical framework that incorporates different CNA mechanisms that occur during CIN.
 We developed CINner, an algorithm to simulate
-how CIN arises and affects the selection landscape during cancer growth {% cite dinh2024cinner %}.
+how CIN arises and affects the selection landscape during cancer growth {% cite dinh2025cinner %}.
 CINner, available as an [R package on Github](https://github.com/dinhngockhanh/CINner),
 is designed to efficiently model a cell population undergoing different types of CNAs and mutations,
 which change the cell karyotypes and increase the clonal diversity.
