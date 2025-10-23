@@ -298,19 +298,19 @@
   abstract={Aneuploidy is frequently observed in cancers and has been linked to poor patient outcome. Analysis of aneuploidy in DNA-sequencing (DNA-seq) data necessitates untangling the effects of the Copy Number Aberration (CNA) occurrence rates and the selection coefficients that act upon the resulting karyotypes. We introduce a parameter inference algorithm that takes advantage of both bulk and single-cell DNA-seq cohorts. The method is based on Approximate Bayesian Computation (ABC) and utilizes CINner, our recently introduced simulation algorithm of chromosomal instability in cancer. We examine three groups of statistics to summarize the data in the ABC routine: (A) Copy Number-based measures, (B) phylogeny tip statistics, and (C) phylogeny balance indices. Using these statistics, our method can recover both the CNA probabilities and selection parameters from ground truth data, and performs well even for data cohorts of relatively small sizes. We find that only statistics in groups A and C are well-suited for identifying CNA probabilities, and only group A carries the signals for estimating selection parameters. Moreover, the low number of CNA events at large scale compared to cell counts in single-cell samples means that statistics in group B cannot be estimated accurately using phylogeny reconstruction algorithms at the chromosome level. As data from both bulk and single-cell DNA-sequencing techniques becomes increasingly available, our inference framework promises to facilitate the analysis of distinct cancer types, differentiation between selection and neutral drift, and prediction of cancer clonal dynamics.}
 }
 
-@article{dinh2024approximate,
+@article{dinh2025approximate,
   selected={true},
   bibtex_show={true},
   dimensions={true},
-  title={Approximate Bayesian Computation sequential Monte Carlo via random forests},
-  author={Dinh, Khanh N. and Xiang, Zijin and Liu, Zhihan and Tavar{\'e}, Simon},
-  journal={arXiv},
-  year={2024},
-  doi={10.48550/arXiv.2406.15865},
-  html={https://www.arxiv.org/abs/2406.15865},
-  pdf={dinh2024approximate.pdf},
-  preview={dinh2024approximate.jpg},
-  abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we adapt distributional random forests to the ABC setting, and introduce Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-(D)RF). This updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that ABC-SMC-(D)RF can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
+  title={Approximate Bayesian computation sequential Monte Carlo via random forests},
+  author={Dinh, Khanh N. and Liu, C{\'e}cile and Xiang, Zijin and Liu, Zhihan and Tavar{\'e}, Simon},
+  journal={Statistics and Computing},
+  year={2025},
+  doi={10.1007/s11222-025-10748-x},
+  html={https://link.springer.com/article/10.1007/s11222-025-10748-x},
+  pdf={dinh2025approximate.pdf},
+  preview={dinh2025approximate.jpg},
+  abstract={Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we further adapt random forests to the ABC setting in two ways. The first exploits distributional random forests to provide a direct method for inferring the joint posterior distribution of parameters of interest, while the second describes a sequential Monte Carlo approach which updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that the new methods can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.}
 }
 
 @article{dinh2025cinner,
