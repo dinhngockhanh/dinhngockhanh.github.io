@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are showcased in <a href="https://www.youtube.com/watch?v=qprt3b3T64I">a video</a> featuring IICD at the Joint Statistical Meetings 2025
+We are showcased in <a href="https://www.youtube.com/watch?v=qprt3b3T64I">a video</a> featuring IICD at the Joint Statistical Meetings 2025.

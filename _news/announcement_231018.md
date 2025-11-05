@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://cancerdynamics.columbia.edu/news/faces-iicd-khanh-dinh-associate-research-scientist">Find out more</a> about Khanh's career path and why he transitioned from mathematics to computational oncology
+<a href="https://cancerdynamics.columbia.edu/news/faces-iicd-khanh-dinh-associate-research-scientist">Find out more</a> about Khanh's career path and why he transitioned from mathematics to computational oncology.

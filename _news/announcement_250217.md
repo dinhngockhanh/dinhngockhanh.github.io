@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Read the <a href="https://cancerdynamics.columbia.edu/news/iicd-usc-zijin-xiangs-next-chapter-computational-biology">profile</a> of Zijin Xiang, a former intern in our lab
+Read the <a href="https://cancerdynamics.columbia.edu/news/iicd-usc-zijin-xiangs-next-chapter-computational-biology">profile</a> of Zijin Xiang, a former intern in our lab.
