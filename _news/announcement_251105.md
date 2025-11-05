@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our new paper introduces a novel noise-insensitive and efficient parameter inference algorithm.
+title: Our new paper introduces a novel noise-insensitive and efficient parameter inference algorithm
 date: 2025-11-05 09:00:00-0500
 inline: false
 related_posts: false

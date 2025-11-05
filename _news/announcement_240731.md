@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our new paper explores the theoretical framework for inferring chromosomal instability from single-cell DNA data.
+title: Our new paper explores the theoretical framework for inferring chromosomal instability from single-cell DNA data
 date: 2024-07-31 09:00:00-0500
 inline: false
 related_posts: false
