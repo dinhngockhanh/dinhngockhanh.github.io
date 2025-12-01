@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CINner, our computational framework for chromosomal instability, is published
+title: CINner, our computational framework for chromosomal instability, is published.
 date: 2025-04-04 09:00:00-0500
 inline: false
 related_posts: false
