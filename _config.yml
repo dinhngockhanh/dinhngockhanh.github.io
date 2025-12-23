@@ -266,7 +266,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-github-metadata
+  # - jekyll-github-metadata
 
 github:
   owner: dinhngockhanh
