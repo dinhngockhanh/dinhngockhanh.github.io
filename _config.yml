@@ -266,6 +266,11 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-github-metadata
+
+github:
+  owner: dinhngockhanh
+  repository: dinhngockhanh.github.io
 
 # Sitemap settings
 defaults:
