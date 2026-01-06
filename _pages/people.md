@@ -20,20 +20,12 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
-    content: about_YixuanChen.md
-    image: YixuanChen.jpeg
+    content: about_PeterTerranova.md
+    image: PeterTerranova.jpeg
     image_circular: true
     more_info: >
       <div style="text-align: center;">
-          <p>Yixuan Chen</p>
-      </div>
-  - align: left
-    content: about_XiaoXiao.md
-    image: XiaoXiao.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Xiao Xiao</p>
+          <p>Peter Terranova</p>
       </div>
   - align: left
     content: about_YanjieChen.md
@@ -42,14 +34,6 @@ profiles:
     more_info: >
       <div style="text-align: center;">
           <p>Yanjie Chen</p>
-      </div>
-  - align: left
-    content: about_ZihanZhang.md
-    image: ZihanZhang.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Zihan Zhang</p>
       </div>
   - align: left
     content: about_XuanwenGuo.md
