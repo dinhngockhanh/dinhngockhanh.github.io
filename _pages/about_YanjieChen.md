@@ -1,1 +1,2 @@
-Yanjie Chen is a Master Student Intern in the Dinh Lab from Spring 2025, from the Department of Statistics (Columbia University).
+Yanjie Chen was a Master Student Intern in the Dinh Lab from Spring 2025 to Fall 2025, from the Department of Statistics (Columbia University).
+He has continued to work in the Lab as a Research Staff Associate in Spring 2026.
