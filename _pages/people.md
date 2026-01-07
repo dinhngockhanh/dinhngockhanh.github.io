@@ -20,14 +20,6 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
-    content: about_XuanwenGuo.md
-    image: XuanwenGuo.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Xuanwen Guo</p>
-      </div>
-  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
@@ -42,6 +34,22 @@ profiles:
     more_info: >
       <div style="text-align: center;">
           <p>Yanxiang Liu</p>
+      </div>
+  - align: left
+    content: about_IanWang.md
+    image: IanWang.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Ian Wang</p>
+      </div>
+  - align: left
+    content: about_XuanwenGuo.md
+    image: XuanwenGuo.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Xuanwen Guo</p>
       </div>
   - align: left
     content: about_PeterTerranova.md
