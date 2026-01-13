@@ -52,6 +52,14 @@ profiles:
           <p>Ian Wang</p>
       </div>
   - align: left
+    content: about_AndrewHuang.md
+    image: AndrewHuang.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Andrew Huang</p>
+      </div>
+  - align: left
     content: about_XuanwenGuo.md
     image: XuanwenGuo.jpeg
     image_circular: true
