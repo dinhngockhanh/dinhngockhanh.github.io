@@ -125,7 +125,7 @@ On the other hand, this reconfirms CINner's ability to uncover biologically rele
 </div>
 
 In addition to its applications in assessing chromosomal instability in DNA-sequencing data, CINner can also be used to benchmark analysis pipelines.
-It has been utilized in {% cite mcpherson2025ongoing %} to assess the accuracy of inferred CIN and WGD from DLP data, and in {% cite wesley2025wavelet %} as ground truth for CN calling algorithms.
+It has been utilized in {% cite mcpherson2025ongoing %} to assess the accuracy of inferred CIN and WGD from DLP data, and in {% cite wesley2025wavelet %} as ground truth for CN calling algorithms. 
 
 ---
 
