@@ -1,7 +1,8 @@
 ---
 layout: post
+title: We introduce BESTish, an exact Bayesian method to infer mutation rates and selection coefficients from variant allele frequencies.
 date: 2026-01-15 09:00:00-0500
-inline: true
+inline: false
 related_posts: false
 ---
 
