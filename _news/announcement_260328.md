@@ -1,14 +1,14 @@
 ---
 layout: post
-title: We participated in BioBus Saturday Science event to teach underpriviledged children about genomic sciences.
+title: We participated in BioBus Saturday Science event to teach children in Harlem about genomic sciences.
 date: 2026-03-28 09:00:00-0500
 inline: false
 related_posts: false
 ---
 
 We participated in the event <a href="https://www.eventbrite.com/e/saturday-science-the-human-machine-tickets-1982657357528?aff=erelexpmlt">Saturday Science: The Human Machine</a>, organized by BioBus.
-Khanh and other scientists at IICD prepared three games to teach underpriviledged children about how nucleotides form the DNA double helix, fragment mapping in DNA-sequencing and the Mendelian syndromes.
-See you at the next event!
+Khanh and other scientists at IICD prepared three games to teach children in the Harlem neighborhood about how nucleotides form the DNA double helix, fragment mapping in DNA-sequencing and the Mendelian syndromes.
+We will participate again at the next BioBus Saturday Science event!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
