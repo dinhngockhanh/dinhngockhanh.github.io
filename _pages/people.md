@@ -20,6 +20,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_NessTchenio.md
+    image: NessTchenio.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Ness Tchenio</p>
+      </div>
+  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
