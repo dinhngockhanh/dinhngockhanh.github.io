@@ -12,16 +12,16 @@ We will participate again at the next BioBus Saturday Science event!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/260130_BioBus_1.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/260328_BioBus_1.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/260130_BioBus_2.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/260328_BioBus_2.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/260130_BioBus_3.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/260328_BioBus_3.jpeg" title="BioBus Saturday Science" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
