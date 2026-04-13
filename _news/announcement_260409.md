@@ -8,7 +8,7 @@ related_posts: false
 
 Khanh and Yanjie led the <a href="https://cancerdynamics.columbia.edu/events/iicd-workshop-series-parameter-estimation-workshop">IICD Parameter Estimation Workshop</a>, where we discussed in detail the different approaches to perform parameter inference for data-driven mathematical modeling.
 The topics included least-square inference for deterministic models, likelihood-based Markov chain Monte Carlo for stochastic frameworks, and Approximate Bayesian Computation (ABC) for likelihood-free parameter estimation.
-For ABC, we analyzed and compared the rejection method, sequential Monte Carlo (SMC), and finally <a href="https://doi.org/10.1007/s11222-025-10748-x">ABC-SMC via random forest (ABC-SMC-(D)RF)</a>, a new algorithm that we developed recently and is <a href="https://github.com/dinhngockhanh/abcsmcrf">available on Github</a>.
+For ABC, we analyzed and compared the rejection method, sequential Monte Carlo (SMC), and finally <a href="https://doi.org/10.1007/s11222-025-10748-x">ABC-SMC via random forest (ABC-SMC-(D)RF)</a>, a new algorithm that we <a href="https://doi.org/10.1007/s11222-025-10748-x">published recently</a> and is <a href="https://github.com/dinhngockhanh/abcsmcrf">available on Github</a>.
 
 The coding materials for interactive sessions and presentation slides are freely available on our <a href="https://github.com/dinhngockhanh/IICDWorkshopParameterInference">Github repository</a>. Feel free to contact us for more information!
 
