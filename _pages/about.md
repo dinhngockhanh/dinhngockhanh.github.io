@@ -22,10 +22,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Our long-term research interests are in developing mathematical models and bioinformatic algorithms to characterize the formation and selection of biological processes during tumorigenesis. The methods are applicable to a wide range of cancer DNA-sequencing data, from bulk level down to the resolution of single cells, and help elucidating the evolutionary histories of mutations and different copy number aberration (CNA) mechanisms. Two major projects that we are working on are:
+Our long-term research interests are in developing mathematical models and bioinformatic software to study the formation and selection of genomic changes during cancer development. The methods developed in our Lab are applicable for a wide range of tumor DNA-sequencing data, from bulk level down to the resolution of single cells, and help elucidate the evolutionary histories of mutations and different copy number aberration (CNA) mechanisms. Two major projects that we are working on are:
 
-- Inference of chromosomal instability rates and selection coefficients of genomic regions in ovarian and breast cancers
-- Detection of clonality and estimation of clonal ages and growth rates from bulk DNA-sequencing data
+- Characterization of the origin and selection of chromosomal instability from single-cell DNA-sequencing data
+- Detection of intra-tumor heterogeneity and inference of subclonal expansions from bulk DNA-sequencing data
 
 <div style="max-width: 560px; margin-bottom: 1rem;"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/kWbFOMhNC5I?si=VCnXIds5eMw1rq8O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
