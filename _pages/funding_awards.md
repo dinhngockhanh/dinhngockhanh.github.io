@@ -23,7 +23,7 @@ nav_order: 4
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; width: 100px;">2024-2027</td>
   <td class="col-desc">
-    <strong>Open Fund - Young Individual Research Grant (OF-YIRG)</strong>; National Medical Research Council (NMRC), Singapore<br/>
+    <strong>Open Fund - Young Individual Research Grant</strong>; National Medical Research Council (NMRC), Singapore<br/>
     <em>Unveiling risk factors of early-onset colorectal cancers through computational approaches leveraging on long read sequencing</em><br/>
     <u>Lead PI</u>: Alvin Ng; <u>Mentor</u>: Joanne Ngeow; <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
   </td>
