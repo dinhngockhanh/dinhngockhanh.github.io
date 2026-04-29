@@ -21,4 +21,4 @@ We will participate again at the next BioBus Saturday Science event!
     </div>
 </div>
 
-Photo copyright: Sirin Samman
+Photo credit: Sirin Samman
