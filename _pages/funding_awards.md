@@ -16,7 +16,7 @@ nav_order: 4
   <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 100px;">2026-2031</td>
   <td class="col-desc" style="padding-bottom: 1rem;">
     <strong>R01 CA310281</strong>; National Cancer Institute (NCI), National Institutes of Health (NIH), USA<br/>
-    <em>Deciphering Cancer Origin from DNA Evolution</em><br/>
+    <em>Deciphering cancer origin from DNA evolution</em><br/>
     <u>Lead PI</u>: Khanh N. Dinh; <u>MPI</u>: Marek Kimmel; <u>Co-I</u>: Benjamin Izar
   </td>
 </tr>
@@ -24,7 +24,7 @@ nav_order: 4
   <td class="col-year" style="vertical-align: top; width: 100px;">2024-2027</td>
   <td class="col-desc">
     <strong>Open Fund - Young Individual Research Grant (OF-YIRG)</strong>; National Medical Research Council (NMRC), Singapore<br/>
-    <em>Unveiling Risk Factors of Early-Onset Colorectal Cancers through Computational Approaches Leveraging on Long Read Sequencing</em><br/>
+    <em>Unveiling risk factors of early-onset colorectal cancers through computational approaches leveraging on long read sequencing</em><br/>
     <u>Lead PI</u>: Alvin Ng; <u>Mentor</u>: Joanne Ngeow; <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
   </td>
 </tr>
@@ -52,7 +52,7 @@ nav_order: 4
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; width: 100px;">2018</td>
   <td class="col-desc">
-    <strong>Outstanding Research Award</strong><br/>; Department of Mathematics, University of Alabama<br/>
+    <strong>Outstanding Research Award</strong>; Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
   </td>
 </tr>
