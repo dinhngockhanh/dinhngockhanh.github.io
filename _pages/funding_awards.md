@@ -9,20 +9,20 @@ nav_order: 4
 
 <div class="cv">
 
-## Funding
+<h2>Funding</h2>
 
 <table>
-<tr>
-  <td class="col-year">2018</td>
-  <td class="col-desc">
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem;">2018</td>
+  <td class="col-desc" style="padding-bottom: 1.5rem;">
     <strong>Emerging Leader in Computational Oncology</strong><br/>
     Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
   </td>
 </tr>
-<tr>
-  <td class="col-year">2018</td>
-  <td class="col-desc">
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem;">2018</td>
+  <td class="col-desc" style="padding-bottom: 1.5rem;">
     <strong>Outstanding Research Award</strong><br/>
     Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
@@ -30,22 +30,22 @@ nav_order: 4
 </tr>
 </table>
 
----
+<hr style="margin: 2rem 0;">
 
-## Awards & Honors
+<h2>Awards & Honors</h2>
 
 <table>
-<tr>
-  <td class="col-year">2021</td>
-  <td class="col-desc">
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem;">2021</td>
+  <td class="col-desc" style="padding-bottom: 1.5rem;">
     <strong>Emerging Leaders in Computational Oncology</strong><br/>
     Memorial Sloan Kettering Cancer Center<br/>
     Khanh N. Dinh
   </td>
 </tr>
-<tr>
-  <td class="col-year">2018</td>
-  <td class="col-desc">
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem;">2018</td>
+  <td class="col-desc" style="padding-bottom: 1.5rem;">
     <strong>Outstanding Research Award</strong><br/>
     Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
