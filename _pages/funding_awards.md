@@ -25,7 +25,7 @@ nav_order: 4
   <td class="col-desc">
     <strong>Open Fund - Young Individual Research Grant (OF-YIRG)</strong>; National Medical Research Council (NMRC), Singapore<br/>
     <em>Unveiling Risk Factors of Early-Onset Colorectal Cancers through Computational Approaches Leveraging on Long Read Sequencing</em><br/>
-    Lead PI: Alvin Ng; Mentor: Joanne Ngeow; Co-Is: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
+    <u>Lead PI</u>: Alvin Ng; <u>Mentor</u>: Joanne Ngeow; <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
   </td>
 </tr>
 </table>
@@ -38,24 +38,21 @@ nav_order: 4
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem; width: 100px;">2025</td>
   <td class="col-desc" style="padding-bottom: 1.5rem;">
-    <strong>Mathematical Modeling and Biodiversity Chair Award</strong><br/>
-    École Polytechnique<br/>
+    <strong>Mathematical Modeling and Biodiversity Chair Award</strong>; École Polytechnique<br/>
     Ethan Cohen
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; padding-bottom: 1.5rem; width: 100px;">2021</td>
   <td class="col-desc" style="padding-bottom: 1.5rem;">
-    <strong>Emerging Leaders in Computational Oncology</strong><br/>
-    Memorial Sloan Kettering Cancer Center<br/>
+    <strong>Emerging Leaders in Computational Oncology</strong>; Memorial Sloan Kettering Cancer Center<br/>
     Khanh N. Dinh
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; width: 100px;">2018</td>
   <td class="col-desc">
-    <strong>Outstanding Research Award</strong><br/>
-    Department of Mathematics, University of Alabama<br/>
+    <strong>Outstanding Research Award</strong><br/>; Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
   </td>
 </tr>
