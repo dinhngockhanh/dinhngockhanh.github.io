@@ -15,7 +15,7 @@ nav_order: 4
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top;">2026-2031</td>
   <td class="col-desc">
-    <strong>R01 CA310281</strong>;National Cancer Institute (NCI), National Institutes of Health (NIH), USA<br/>
+    <strong>R01 CA310281</strong>; National Cancer Institute (NCI), National Institutes of Health (NIH), USA<br/>
     Deciphering Cancer Origin from DNA Evolution<br/>
     Lead PI: Khanh N. Dinh; MPI: Marek Kimmel; Co-I: Benjamin Izar
   </td>
