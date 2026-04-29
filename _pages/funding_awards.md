@@ -7,36 +7,50 @@ nav: true
 nav_order: 4
 ---
 
+<div class="cv">
+
 ## Funding
 
-### Current Grants
-
-- **Grant Title**  
-  Funding Agency, Year  
-  Amount: $XXX,XXX  
-  Role: Principal Investigator
-
-### Past Grants
-
-- **Grant Title**  
-  Funding Agency, Year  
-  Amount: $XXX,XXX  
-  Role: Principal Investigator
+<table>
+<tr>
+  <td class="col-year">2018</td>
+  <td class="col-desc">
+    <strong>Emerging Leader in Computational Oncology</strong><br/>
+    Department of Mathematics, University of Alabama<br/>
+    Khanh N. Dinh
+  </td>
+</tr>
+<tr>
+  <td class="col-year">2018</td>
+  <td class="col-desc">
+    <strong>Outstanding Research Award</strong><br/>
+    Department of Mathematics, University of Alabama<br/>
+    Khanh N. Dinh
+  </td>
+</tr>
+</table>
 
 ---
 
 ## Awards & Honors
 
-### Year 2026
+<table>
+<tr>
+  <td class="col-year">2021</td>
+  <td class="col-desc">
+    <strong>Emerging Leaders in Computational Oncology</strong><br/>
+    Memorial Sloan Kettering Cancer Center<br/>
+    Khanh N. Dinh
+  </td>
+</tr>
+<tr>
+  <td class="col-year">2018</td>
+  <td class="col-desc">
+    <strong>Outstanding Research Award</strong><br/>
+    Department of Mathematics, University of Alabama<br/>
+    Khanh N. Dinh
+  </td>
+</tr>
+</table>
 
-- **Award Name**  
-  Awarding Organization  
-  Description of the award
-
-### Year 2025
-
-- **Award Name**  
-  Awarding Organization  
-  Description of the award
-
----
+</div>
