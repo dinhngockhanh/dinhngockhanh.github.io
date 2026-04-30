@@ -9,7 +9,7 @@ nav_order: 4
 
 <div class="cv">
 
-<h2>Funding</h2>
+<h2>funding</h2>
 
 <table>
 <tr style="border-bottom: 1px solid transparent;">
@@ -32,7 +32,7 @@ nav_order: 4
 
 <hr style="margin: 2rem 0;">
 
-<h2>Awards & Honors</h2>
+<h2>awards & honors</h2>
 
 <table>
 <tr style="border-bottom: 1px solid transparent;">
