@@ -17,7 +17,9 @@ nav_order: 4
   <td class="col-desc" style="padding-bottom: 1rem;">
     <strong>R01CA310281</strong>; National Cancer Institute (NCI), National Institutes of Health (NIH), USA<br/>
     <em>Deciphering cancer origin from DNA evolution</em><br/>
-    <u>Lead PI</u>: Khanh N. Dinh; <u>MPI</u>: Marek Kimmel; <u>Co-I</u>: Benjamin Izar
+    <u>Lead PI</u>: Khanh N. Dinh<br/>
+    <u>MPI</u>: Marek Kimmel<br/>
+    <u>Co-I</u>: Benjamin Izar
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
@@ -25,7 +27,9 @@ nav_order: 4
   <td class="col-desc">
     <strong>Open Fund - Young Individual Research Grant</strong>; National Medical Research Council (NMRC), Singapore<br/>
     <em>Unveiling risk factors of early-onset colorectal cancers through computational approaches leveraging on long read sequencing</em><br/>
-    <u>Lead PI</u>: Alvin Ng; <u>Mentor</u>: Joanne Ngeow; <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
+    <u>Lead PI</u>: Alvin Ng<br/>
+    <u>Mentor</u>: Joanne Ngeow<br/>
+    <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
   </td>
 </tr>
 </table>
