@@ -1,59 +1,59 @@
 "sidje":
-  - firstname: [ "Roger B.", "Roger", "Roger B" ]
+  - firstname: ["Roger B.", "Roger", "Roger B"]
     url: https://math.ua.edu/people/roger-b-sidje/
 
 "jaksik":
-  - firstname: [ "Roman" ]
+  - firstname: ["Roman"]
     url: https://omega.polsl.pl/info/author/PSLb8d1f042acff4c888f9e473dbc9a2448?ps=20&lang=en&title=&pn=1&cid=1686256
 
 "kimmel":
-  - firstname: [ "Marek" ]
+  - firstname: ["Marek"]
     url: https://profiles.rice.edu/faculty/marek-kimmel
 
 "lambert":
-  - firstname: [ "Amaury" ]
+  - firstname: ["Amaury"]
     url: https://smile.cnrs.fr/people/amaury/
 
 "tavare":
-  - firstname: [ "Simon" ]
+  - firstname: ["Simon"]
     url: https://tavarelab.cancerdynamics.columbia.edu
 
 "corey":
-  - firstname: [ "Seth J.", "Seth", "Seth J" ]
+  - firstname: ["Seth J.", "Seth", "Seth J"]
     url: https://www.lerner.ccf.org/cancer-biology/corey/
 
 "vazquez-garcia":
-  - firstname: [ "Ignacio" ]
+  - firstname: ["Ignacio"]
     url: https://researchers.mgh.harvard.edu/profile/39994917/Ignacio-Vazquez-Garcia
 
 "mcpherson":
-  - firstname: [ "Andrew W.", "Andrew", "Andrew W" ]
+  - firstname: ["Andrew W.", "Andrew", "Andrew W"]
     url: https://www.mskcc.org/profile/andrew-mcpherson
 
 "kurpas":
-  - firstname: [ "Monika K.", "Monika", "Monika K" ]
+  - firstname: ["Monika K.", "Monika", "Monika K"]
     url: https://omega.polsl.pl/info/author/PSLcd398552d9ca46288a013d77ff4976bc?r=publication&ps=20&tab=publications&lang=en&title=Person%2Bprofile%2B%25E2%2580%2593%2BMonika%2BKurpas%2B%25E2%2580%2593%2BSilesian%2BUniversity%2Bof%2BTechnology&pn=1&cid=611238
 
 "Consortium":
-  - firstname: [ "IMAXT" ]
+  - firstname: ["IMAXT"]
     url: https://www.cancergrandchallenges.org/imaxt
 
 "Taketomi":
-  - firstname: [ "Keito" ]
+  - firstname: ["Keito"]
     url: https://dinhngockhanh.github.io/alumni/
 
 "Liu_Cecile":
-  - firstname: [ "Cécile" ]
+  - firstname: ["Cécile"]
     url: https://dinhngockhanh.github.io/alumni/
 
 "Xiang":
-  - firstname: [ "Zijin" ]
+  - firstname: ["Zijin"]
     url: https://dinhngockhanh.github.io/alumni/
 
 "Liu_Zhihan":
-  - firstname: [ "Zhihan" ]
+  - firstname: ["Zhihan"]
     url: https://dinhngockhanh.github.io/alumni/
 
 "Chan":
-  - firstname: [ "Andrew" ]
+  - firstname: ["Andrew"]
     url: https://dinhngockhanh.github.io/alumni/
