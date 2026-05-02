@@ -19,7 +19,8 @@ nav_order: 4
     <em>Deciphering cancer origin from DNA evolution</em><br/>
     <u>Lead PI</u>: Khanh N. Dinh<br/>
     <u>MPI</u>: Marek Kimmel<br/>
-    <u>Co-I</u>: Benjamin Izar
+    <u>Co-I</u>: Benjamin Izar<br/>
+    <u>Total amount</u>: $2,059,793
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
