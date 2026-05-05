@@ -62,9 +62,16 @@ nav_order: 4
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
-  <td class="col-year" style="vertical-align: top; width: 100px;">2018</td>
-  <td class="col-desc">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 100px;">2018</td>
+  <td class="col-desc" style="padding-bottom: 1rem;">
     <strong>Outstanding Research Award</strong>; Department of Mathematics, University of Alabama<br/>
+    Khanh N. Dinh
+  </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; width: 100px;">2015-2018</td>
+  <td class="col-desc">
+    <strong><a href="https://math.ua.edu/graduate-program/assistantships/">Edith & Richard Ainsworth Endowed Scholarship in Applied Mathematics</a></strong>; Department of Mathematics, University of Alabama<br/>
     Khanh N. Dinh
   </td>
 </tr>
