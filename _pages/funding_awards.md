@@ -17,10 +17,10 @@ nav_order: 4
   <td class="col-desc" style="padding-bottom: 1rem;">
     <strong><a href="https://reporter.nih.gov/search/RCne4JJl5E2D3NAY3h6Ymg/project-details/11320338">R01CA310281</a></strong>; National Cancer Institute (NCI), National Institutes of Health (NIH), USA<br/>
     <em>Deciphering cancer origin from DNA evolution</em><br/>
-    <u>Lead PI</u>: Khanh N. Dinh<br/>
-    <u>MPI</u>: Marek Kimmel<br/>
-    <u>Co-I</u>: Benjamin Izar<br/>
-    <u>Total amount</u>: $2,059,793
+    Lead PI: Khanh N. Dinh<br/>
+    MPI: Marek Kimmel<br/>
+    Co-I: Benjamin Izar<br/>
+    Total amount: $2,059,793
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
@@ -28,9 +28,9 @@ nav_order: 4
   <td class="col-desc">
     <strong><a href="https://www.linkedin.com/posts/alvin-wt-ng_lkcmedicine-lkcmedicine-acsi-ugcPost-7299970977143169024-V93Z/">Open Fund - Young Individual Research Grant</a></strong>; National Medical Research Council (NMRC), Singapore<br/>
     <em>Unveiling risk factors of early-onset colorectal cancers through computational approaches leveraging on long read sequencing</em><br/>
-    <u>Lead PI</u>: Alvin Ng<br/>
-    <u>Mentor</u>: Joanne Ngeow<br/>
-    <u>Co-Is</u>: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
+    Lead PI: Alvin Ng<br/>
+    Mentor: Joanne Ngeow<br/>
+    Co-Is: John Ouyang, Jared Simpson, Khanh N. Dinh, Iain Tan, Kristijan Ramadan
   </td>
 </tr>
 </table>
