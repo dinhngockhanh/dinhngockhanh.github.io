@@ -8,7 +8,7 @@ related_posts: false
 
 Researchers at IICD hosted middle school students from Q StudioLab for a visit to our Institute.
 <a href="https://www.tavarelab.org/team">Ren-Yi Wang from Simon Tavaré's Lab</a> and Khanh gave an overview on the research directions being undertaken at IICD.
-Afterward, Ness, Yanjie and other scientists at IICD joined the students for conversations during lunch.
+Afterward, Ness, Yanjie and other scientists at IICD joined the students for a stimulating conversation during lunch.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
