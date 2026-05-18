@@ -66,15 +66,31 @@ layout: default
 
     <!-- Contact -->
     <h2>contact</h2>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     {% for loc in site.data.locations %}
       {% assign lat = loc.location.latitude %}
       {% assign lng = loc.location.longitude %}
-      <iframe
-        src="https://maps.google.com/maps?q={{ lat }},{{ lng }}&z=17&output=embed"
-        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        title="{{ loc.title }}">
-      </iframe>
+      {% assign icon = loc.location.marker_icon %}
+      <div id="map-{{ forloop.index }}" style="width:100%; height:400px; margin-bottom:1rem;"></div>
+      <script>
+        (function() {
+          var map = L.map('map-{{ forloop.index }}').setView([{{ lat }}, {{ lng }}], 17);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+          var customIcon = L.icon({
+            iconUrl: '{{ icon | relative_url }}',
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -34]
+          });
+          L.marker([{{ lat }}, {{ lng }}], { icon: customIcon })
+            .addTo(map)
+            .bindPopup('<a href="{{ loc.url }}" target="_blank">{{ loc.title }}</a>')
+            .openPopup();
+        })();
+      </script>
     {% endfor %}
 
     <!-- Social -->
