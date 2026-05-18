@@ -1,0 +1,6 @@
+- title: "Irving Institute for Cancer Dynamics, Columbia University"
+  url: "https://cancerdynamics.columbia.edu"
+  location:
+    latitude: 40.80885983065996
+    longitude: -73.96054571940337
+    marker_icon: "/assets/img/Columbia_favicon.png"

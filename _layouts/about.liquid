@@ -64,6 +64,10 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Contact -->
+    <h2>contact</h2>
+    {% google_map src="_data/locations.yml" width="100%" height="400" no_cluster %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
