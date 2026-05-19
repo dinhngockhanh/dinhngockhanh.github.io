@@ -57,7 +57,7 @@ nav_order: 4
 <tr style="border-bottom: 1px solid transparent;">
   <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 100px;">2021</td>
   <td class="col-desc" style="padding-bottom: 1rem;">
-    <strong>Emerging Leaders in Computational Oncology Award</strong>; Memorial Sloan Kettering Cancer Center<br/>
+    <strong><a href="https://cancerdynamics.columbia.edu/news/iicd-newsletter-november-2021">Emerging Leaders in Computational Oncology Award</a></strong>; Memorial Sloan Kettering Cancer Center<br/>
     Khanh N. Dinh
   </td>
 </tr>
