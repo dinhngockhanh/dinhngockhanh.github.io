@@ -84,11 +84,11 @@ profiles:
           <p>Xuanwen Guo</p>
       </div>
   - align: left
-    content: about_PeterTerranova.md
-    image: PeterTerranova.jpeg
+    content: about_StephenDeBenedittis.md
+    image: StephenDeBenedittis.jpeg
     image_circular: true
     more_info: >
       <div style="text-align: center;">
-          <p>Peter Terranova</p>
+          <p>Stephen DeBenedittis</p>
       </div>
 ---
