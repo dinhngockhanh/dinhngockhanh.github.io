@@ -5,7 +5,7 @@ title: funding & awards
 hide_title: true
 description:
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <div class="cv">
