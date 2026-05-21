@@ -16,7 +16,7 @@
 
 "tavare":
   - firstname: ["Simon"]
-    url: https://tavarelab.cancerdynamics.columbia.edu
+    url: https://www.tavarelab.org/
 
 "corey":
   - firstname: ["Seth J.", "Seth", "Seth J"]
@@ -34,26 +34,44 @@
   - firstname: ["Monika K.", "Monika", "Monika K"]
     url: https://omega.polsl.pl/info/author/PSLcd398552d9ca46288a013d77ff4976bc?r=publication&ps=20&tab=publications&lang=en&title=Person%2Bprofile%2B%25E2%2580%2593%2BMonika%2BKurpas%2B%25E2%2580%2593%2BSilesian%2BUniversity%2Bof%2BTechnology&pn=1&cid=611238
 
-"Consortium":
+"consortium":
   - firstname: ["IMAXT"]
     url: https://www.cancergrandchallenges.org/imaxt
 
-"Taketomi":
+"taketomi":
   - firstname: ["Keito"]
     url: https://dinhngockhanh.github.io/alumni/
 
-"Liu_Cecile":
-  - firstname: ["Cécile"]
-    url: https://dinhngockhanh.github.io/alumni/
-
-"Xiang":
+"xiang":
   - firstname: ["Zijin"]
     url: https://dinhngockhanh.github.io/alumni/
 
-"Liu_Zhihan":
+"liu":
+  - firstname: ["Cécile"]
+    url: https://dinhngockhanh.github.io/alumni/
   - firstname: ["Zhihan"]
     url: https://dinhngockhanh.github.io/alumni/
 
-"Chan":
+"chan":
   - firstname: ["Andrew"]
     url: https://dinhngockhanh.github.io/alumni/
+
+"king":
+  - firstname: ["Katherine", "Katherine Y."]
+    url: https://www.bcm.edu/people-search/katherine-king-24650
+
+"czerniak":
+  - firstname: ["Bogdan"]
+    url: https://faculty.mdanderson.org/profiles/bogdan_czerniak.html
+
+"nowicki-osuch":
+  - firstname: ["Karol"]
+    url: https://www.dkfz.de/en/tumorigenesis-and-molecular-cancer-prevention
+
+"shah":
+  - firstname: ["Sohrab", "Sohrab P."]
+    url: https://www.mskcc.org/research-areas/labs/sohrab-shah
+
+"aparicio":
+  - firstname: ["Samuel"]
+    url: https://www.bccrc.ca/dept/mo/people/samuel-aparicio

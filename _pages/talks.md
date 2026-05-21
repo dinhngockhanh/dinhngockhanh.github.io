@@ -15,7 +15,7 @@ nav_order: 4
         Kennesaw, GA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>American Mathematical Society (AMS) fall southeasten sectional meeting</em><br/>
+        <em><a href="https://www.ams.org/meetings/sectional/2339_program.html">American Mathematical Society (AMS) fall southeasten sectional meeting</a></em><br/>
         <strong>Accurate inference of tumor expansion rate and clonality from genomic data based on population genetics</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -25,7 +25,7 @@ nav_order: 4
         Boston, MA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Joint statistical meetings (JSM)</em><br/>
+        <em><a href="https://ww2.amstat.org/meetings/jsm/2026/">Joint statistical meetings (JSM)</a></em><br/>
         <strong>Extracting chromosomal selection parameters and predicting clonal dynamics from single-cell DNA data</strong>; Khanh N. Dinh<br/>
         <strong>Reliable inference of tumor expansion rate and clonality from DNA-sequencing data</strong>; Yanjie Chen
     </td>
@@ -36,7 +36,7 @@ nav_order: 4
         Riga, Latvia
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 21st conference on computer science and intelligence systems (FedCSIS)</em><br/>
+        <em><a href="https://2026.fedcsis.org">The 21st conference on computer science and intelligence systems (FedCSIS)</a></em><br/>
         <strong>Automatic perturbation kernels for biological applications of Approximate Bayesian Computation sequential Monte Carlo with random forests</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -66,7 +66,7 @@ nav_order: 4
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>IICD workshop series: from theory to practice</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/events/iicd-workshop-series-parameter-estimation-workshop">IICD workshop series: from theory to practice</a></em><br/>
         <strong>Parameter inference approaches for data-driven mathematical modeling</strong>; Yanjie Chen & Khanh N. Dinh
     </td>
 </tr>
@@ -76,7 +76,7 @@ nav_order: 4
         Ventura, CA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Gordon Research Conference: Single-cell cancer biology</em><br/>
+        <em><a href="https://www.grc.org/single-cell-cancer-biology-conference/2026/">Gordon Research Conference (GRC): Single-cell cancer biology</a></em><br/>
         <strong>Inference of clonality and tumor expansion rate from single-sample DNA-sequencing data</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -86,7 +86,7 @@ nav_order: 4
         San Antonio, TX
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>American Mathematical Society (AMS) fall central sectional meeting</em><br/>
+        <em><a href="https://www.ams.org/meetings/sectional/2319_program.html">American Mathematical Society (AMS) fall central sectional meeting</a></em><br/>
         <strong>Inference for parameters of selection and copy number aberrations from DNA-sequencing data</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -96,7 +96,7 @@ nav_order: 4
         Montreal, Canada
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 25th international symposium on mathematical programming</em><br/>
+        <em><a href="https://ismp2024.gerad.ca">The 25th international symposium on mathematical programming (ISMP)</a></em><br/>
         <strong>Inference for parameters of selection and copy number aberrations from DNA-sequencing data</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -106,7 +106,7 @@ nav_order: 4
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>IICD intensive workshop: methods in single-cell data integration and optimal transport</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/iicd-intensive-workshop-methods-single-cell-data-integration-and-optimal-transport_2024">IICD intensive workshop: methods in single-cell data integration and optimal transport</a></em><br/>
         <strong>Modeling, simulation and inference for chromosomal instability in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -116,7 +116,7 @@ nav_order: 4
         Manchester, NH
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Gordon Research Conference: Single-cell cancer biology</em><br/>
+        <em><a href="https://www.grc.org/single-cell-cancer-biology-conference/2024/">Gordon Research Conference (GRC): Single-cell cancer biology</a></em><br/>
         <strong>Modeling, simulation and inference for chromosomal instability in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -126,7 +126,7 @@ nav_order: 4
         San Francisco, CA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Joint mathematics meetings (JMM)</em><br/>
+        <em><a href="https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_program.html">Joint mathematics meetings (JMM)</a></em><br/>
         <strong>Modeling cancer evolution as driven by chromosomal instability</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -136,17 +136,17 @@ nav_order: 4
         Columbus, OH
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Society for Mathematical Biology (SMB) annual meeting</em><br/>
+        <em><a href="https://2023.smb.org">Society for Mathematical Biology (SMB) annual meeting</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in bulk and single-cell DNA-sequencing data</strong>; Khanh N. Dinh
     </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
-        Mar 15, 2023<br/>
+        Mar 16, 2023<br/>
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>IICD mathematical and computational methods in cancer and biology symposium</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/mathematical-and-computational-methods-cancer-and-biology-symposium_2023">IICD mathematical and computational methods in cancer and biology symposium</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -156,7 +156,7 @@ nav_order: 4
         Gliwice, Poland
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Gliwice scientific meetings</em><br/>
+        <em><a href="https://gsn.io.gliwice.pl/index.php/history">Gliwice scientific meetings</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -166,7 +166,7 @@ nav_order: 4
         Barcelona, Spain
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Cancer Grand Challenges (CGC) future leaders</em><br/>
+        <em><a href="https://www.cancergrandchallenges.org/conferences">Cancer Grand Challenges (CGC) future leaders</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -176,7 +176,7 @@ nav_order: 4
         Heidelberg, Germany
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The European conference on mathematical and theoretical biology (ECMTB)</em><br/>
+        <em><a href="https://morpheus.gitlab.io/event/2022/09/19/ecmtb-2022/">The European conference on mathematical and theoretical biology (ECMTB)</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -186,7 +186,7 @@ nav_order: 4
         Easton, MA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Gordon Research Conference: Dissecting evolution and heterogeneity of single cancer cells</em><br/>
+        <em><a href="https://www.grc.org/single-cell-cancer-biology-conference/2022/">Gordon Research Conference (GRC): Dissecting evolution and heterogeneity of single cancer cells</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -196,7 +196,7 @@ nav_order: 4
         Perugia, Italy
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 9th international conference on risk analysis (ICRA9)</em><br/>
+        <em><a href="https://icra9.unipg.it">The 9th international conference on risk analysis (ICRA9)</a></em><br/>
         <strong>Modeling and simulation of cancer evolution in single cells</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -206,7 +206,7 @@ nav_order: 4
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Memorial Sloan Kettering Cancer Center emerging leaders in computational oncology</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/news/iicd-newsletter-november-2021">Memorial Sloan Kettering Cancer Center emerging leaders in computational oncology</a></em><br/>
         <strong>Computational models for cancer evolution using DLP data</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -216,7 +216,7 @@ nav_order: 4
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Probability and society symposium</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/news/probability-and-society-symposium-unite-scientists-across-columbia-campuses">Probability and society symposium</a></em><br/>
         <strong>Statistical inference for the evolutionary history of cancer genomes</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -226,7 +226,7 @@ nav_order: 4
         Orlando, FL
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>ASH annual meeting & exposition</em><br/>
+        <em><a href="https://www.hematology.org/meetings/annual-meeting/past-meetings">ASH annual meeting & exposition</a></em><br/>
         <strong>Predicting Minimal Residual Disease in Acute Myeloid Leukemia through stochastic modeling of clonality</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -236,7 +236,7 @@ nav_order: 4
         Houston, TX
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 13th q-bio summer school</em><br/>
+        <em><a href="https://q-bio.org/wp/">The 13th q-bio summer school</a></em><br/>
         <strong>Defining Minimal Residual Disease in Acute Myeloid Leukemia through stochastic modeling of clonality</strong>; Khanh N. Dinh<br/>
         <strong>Numerical computation of the Site Frequency Spectra</strong>; Khanh N. Dinh
     </td>
@@ -247,7 +247,7 @@ nav_order: 4
         Irvine, CA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Multiscale cell fate symposium</em><br/>
+        <em><a href="https://cellfate.uci.edu/news-events/events/symposium-2018/">Multiscale cell fate symposium</a></em><br/>
         <strong>Extracting tumor growth and mutation histories from sequencing data</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -257,7 +257,7 @@ nav_order: 4
         Loughborough, Britain
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Dynamics days Europe</em><br/>
+        <em><a href="https://dynamicsday2018.lboro.ac.uk">Dynamics days Europe</a></em><br/>
         <strong>Defining Minimal Residual Disease in Acute Myeloid Leukemia through stochastic modeling of clonality</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -267,7 +267,7 @@ nav_order: 4
         Houston, TX
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 12th q-bio summer school</em><br/>
+        <em><a href="https://q-bio.org/wp/">The 12th q-bio summer school</a></em><br/>
         <strong>An adaptive Magnus expansion method for solving the Chemical Master Equation with time-dependent propensities</strong>; Khanh N. Dinh<br/>
         <strong>Defining Minimal Residual Disease in Acute Myeloid Leukemia through stochastic modeling of clonality</strong>; Khanh N. Dinh
     </td>
@@ -278,7 +278,7 @@ nav_order: 4
         San Diego, CA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Joint mathematics meetings (JMM)</em><br/>
+        <em><a href="https://jointmathematicsmeetings.org/meetings/national/jmm2018/2197_program_ss85.html">Joint mathematics meetings (JMM)</a></em><br/>
         <strong>A comparison of the adaptive Magnus expansion method and other ODE solvers for the Chemical Master Equation</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -288,7 +288,7 @@ nav_order: 4
         Kruger, South Africa
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>BIOMATH conference on mathematical methods and models in biosciences</em><br/>
+        <em><a href="https://www.biomath.bg/2017/">BIOMATH conference on mathematical methods and models in biosciences</a></em><br/>
         <strong>Case studies of solving the Chemical Master Equation with time-varying parameters using Magnus expansion</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -298,7 +298,7 @@ nav_order: 4
         Boston, MA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>SIAM conference on the life sciences (SIAM-LS)</em><br/>
+        <em><a href="https://www.pathlms.com/siam/courses/3025">Society for Industrial and Applied Mathematics (SIAM) conference on the life sciences (SIAM-LS)</a></em><br/>
         <strong>The Finite State Projection and related methods for solving the Chemical Master Equation</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -308,7 +308,7 @@ nav_order: 4
         Athens, GA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>SIAM southeastern Atlantic section conference (SIAM-SEAS)</em><br/>
+        <em><a href="https://www.siam.org/get-involved/connect-with-a-community/sections/southeastern-atlantic-section-of-siam/">Society for Industrial and Applied Mathematics (SIAM) southeastern Atlantic section conference (SIAM-SEAS)</a></em><br/>
         <strong>Solving the Chemical Master Equation with time-varying parameters</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -328,7 +328,7 @@ nav_order: 4
         Blacksburg, VA
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>The 9th q-bio conference</em><br/>
+        <em><a href="https://q-bio.org/wiki/The_Ninth_q-bio_Conference">The 9th q-bio conference</a></em><br/>
         <strong>Inexact and improved variants of the finite state projection method</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -338,7 +338,7 @@ nav_order: 4
         Claremont, CA
     </td>
     <td class="col-desc">
-        <em>International symposium on biomathematics and ecology: education and research (BEER)</em><br/>
+        <em><a href="https://www.hmc.edu/mathematics/activities/conferences/">International symposium on biomathematics and ecology: education and research (BEER)</a></em><br/>
         <strong>Inexact and improved variants of the finite state projection method</strong>; Khanh N. Dinh
     </td>
 </tr>
