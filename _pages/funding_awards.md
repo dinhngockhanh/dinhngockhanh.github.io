@@ -2,6 +2,7 @@
 layout: page
 permalink: /funding-awards/
 title: funding & awards
+hide_title: true
 description:
 nav: true
 nav_order: 4

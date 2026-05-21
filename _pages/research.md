@@ -1,6 +1,7 @@
 ---
 layout: page
 title: research
+hide_title: true
 permalink: /research/
 description:
 # A growing collection of your cool projects.
