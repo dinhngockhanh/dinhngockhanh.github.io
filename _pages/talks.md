@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: talks
+title: presentations
 hide_title: true
 description:
 nav: true
