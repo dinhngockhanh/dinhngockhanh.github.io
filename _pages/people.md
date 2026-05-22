@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: members
 hide_title: true
 description:
 # members of the lab or group
@@ -92,4 +92,56 @@ profiles:
       <div style="text-align: center;">
           <p>Stephen DeBenedittis</p>
       </div>
+  - section_header: alumni
+  - align: left
+    content: about_PeterTerranova.md
+  - align: left
+    content: about_YixuanChen.md
+  - align: left
+    content: about_XiaoXiao.md
+  - align: left
+    content: about_ZihanZhang.md
+  - align: left
+    content: about_SaraElBaghdadi.md
+  - align: left
+    content: about_EthanCohen.md
+  - align: left
+    content: about_ShuxinTang.md
+  - align: left
+    content: about_TianshuaiGao.md
+  - align: left
+    content: about_ZhuoxuanLi.md
+  - align: left
+    content: about_KeitoTaketomi.md
+  - align: left
+    content: about_AndrewChan.md
+  - align: left
+    content: about_YiningMa.md
+  - align: left
+    content: about_JunzeHuang.md
+  - align: left
+    content: about_YichiYang.md
+  - align: left
+    content: about_RuilinDai.md
+  - align: left
+    content: about_BoanZhu.md
+  - align: left
+    content: about_ZijinXiang.md
+  - align: left
+    content: about_ZhihanLiu.md
+  - align: left
+    content: about_MadeleineHueber.md
+  - align: left
+    content: about_TessBreton.md
+  - align: left
+    content: about_ElliottSeo.md
+  - align: left
+    content: about_AmandaSamuel.md
+  - align: left
+    content: about_RanjingZhang.md
+  - align: left
+    content: about_WenheChen.md
+  - align: left
+    content: about_JiapengLi.md
 ---
+

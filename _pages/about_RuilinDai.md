@@ -1,1 +1,1 @@
-Ruilin Dai was a Master Student Intern in the Dinh Lab in Fall 2024, from the Department of Statistics (Columbia University).
+Ruilin Dai (Master Student Intern, Fall 2024).

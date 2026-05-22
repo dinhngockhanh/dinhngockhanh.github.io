@@ -1,1 +1,1 @@
-Shuxin Tang was a Master Student Intern in the Dinh Lab in Spring 2025, from the Department of Statistics (Columbia University).
+Shuxin Tang (Master Student Intern, Spring 2025).

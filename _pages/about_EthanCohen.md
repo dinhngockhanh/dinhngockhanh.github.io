@@ -1,2 +1,2 @@
-Ethan Cohen was a Master Student Intern as part of the <a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> in the Dinh Lab in Summer 2025, from École Polytechnique.
+Ethan Cohen (<a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> Master Student Intern from École Polytechnique, Summer 2025).
 As a result of the internship, he received the <a href="https://www.polytechnique.edu/en/news/2025-research-internship-awards-ceremony">Mathematical Modeling and Biodiversity Chair Award</a> from École Polytechnique.
