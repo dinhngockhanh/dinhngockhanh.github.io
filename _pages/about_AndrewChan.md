@@ -1,2 +1,1 @@
-Andrew Chan was an Undergraduate Student Intern as part of the [IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) in the Dinh Lab in Summer 2023, from Case Western Reserve University.
-He worked in the Lab as a Postbaccalaureate Researcher from Fall 2024 to Spring 2025.
+Andrew Chan ([IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) Undergraduate Student Intern from Case Western Reserve University, Summer 2023; Postbaccalaureate Researcher, Fall 2024--Spring 2025).

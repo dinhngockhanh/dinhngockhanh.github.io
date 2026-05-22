@@ -1,2 +1,2 @@
-Keito Taketomi was a Master Student Intern in the Dinh Lab in Spring 2025, from the Department of Statistics (Columbia University).
+Keito Taketomi (Master Student Intern, Spring 2025).
 Next position: Research Assistant at Early Cancer Institute, Cambridge University.

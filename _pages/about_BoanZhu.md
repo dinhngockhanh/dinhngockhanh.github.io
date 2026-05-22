@@ -1,2 +1,2 @@
-Boan Zhu was a Master Student Intern in the Dinh Lab in Fall 2024, from the Department of Statistics (Columbia University).
+Boan Zhu (Master Student Intern, Fall 2024).
 Next position: Algorithm Engineer at [Qifu Technology, Inc](https://ir.qifu.tech/).
