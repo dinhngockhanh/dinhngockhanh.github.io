@@ -21,6 +21,16 @@ nav_order: 4
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
+        Aug 23, 2026<br/>
+        Riga, Latvia
+    </td>
+    <td class="col-desc" style="padding-bottom: 1rem;">
+        <em><a href="https://2026.fedcsis.org">The 21st conference on computer science and intelligence systems (FedCSIS)</a></em><br/>
+        <strong>Automatic perturbation kernels for biological applications of Approximate Bayesian Computation sequential Monte Carlo with random forests</strong>; Khanh N. Dinh
+    </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+    <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Aug 05, 2026<br/>
         Boston, MA
     </td>
@@ -28,16 +38,6 @@ nav_order: 4
         <em><a href="https://ww2.amstat.org/meetings/jsm/2026/">Joint statistical meetings (JSM)</a></em><br/>
         <strong>Extracting chromosomal selection parameters and predicting clonal dynamics from single-cell DNA data</strong>; Khanh N. Dinh<br/>
         <strong>Reliable inference of tumor expansion rate and clonality from DNA-sequencing data</strong>; Yanjie Chen
-    </td>
-</tr>
-<tr style="border-bottom: 1px solid transparent;">
-    <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
-        Aug 23, 2026<br/>
-        Riga, Latvia
-    </td>
-    <td class="col-desc" style="padding-bottom: 1rem;">
-        <em><a href="https://2026.fedcsis.org">The 21st conference on computer science and intelligence systems (FedCSIS)</a></em><br/>
-        <strong>Automatic perturbation kernels for biological applications of Approximate Bayesian Computation sequential Monte Carlo with random forests</strong>; Khanh N. Dinh
     </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
