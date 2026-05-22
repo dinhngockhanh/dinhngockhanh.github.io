@@ -21,7 +21,7 @@ nav_order: 5
     Lead PI: Khanh N. Dinh<br/>
     MPI: Marek Kimmel<br/>
     Co-I: Benjamin Izar<br/>
-    Total amount: $2,059,793
+    Total amount: $2,059,793 
   </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
