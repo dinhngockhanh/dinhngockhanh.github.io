@@ -1,2 +1,2 @@
 Ethan Cohen (<a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> Master Student Intern from École Polytechnique, Summer 2025).
-As a result of the internship, he received the <a href="https://www.polytechnique.edu/en/news/2025-research-internship-awards-ceremony">Mathematical Modeling and Biodiversity Chair Award</a> from École Polytechnique.
+He received the <a href="https://www.polytechnique.edu/en/news/2025-research-internship-awards-ceremony">Mathematical modeling and biodiversity chair award</a> from École Polytechnique, in recognition of his work during the internship.
