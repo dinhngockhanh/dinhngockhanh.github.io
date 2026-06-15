@@ -46,7 +46,7 @@ nav_order: 4
         Ho Chi Minh City, Vietnam
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>University of Science seminar</em><br/>
+        <em><a href="https://www.facebook.com/story.php?story_fbid=1500405708550507&id=100057432759873&mibextid=wwXIfr&rdid=DhuCzwsho5R6sjpC">University of Science seminar</a></em><br/>
         <strong>Accurate inference of tumor expansion rate and clonality from genomic data based on population genetics</strong>; Khanh N. Dinh
     </td>
 </tr>
@@ -56,7 +56,7 @@ nav_order: 4
         Ho Chi Minh City, Vietnam
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>University of Science mini-course</em><br/>
+        <em><a href="https://www.facebook.com/story.php?story_fbid=1500405708550507&id=100057432759873&mibextid=wwXIfr&rdid=DhuCzwsho5R6sjpC">University of Science mini-course</a></em><br/>
         <strong>Parameter inference approaches for data-driven mathematical modeling</strong>; Khanh N. Dinh
     </td>
 </tr>
