@@ -48,9 +48,9 @@
 
 "liu":
   - firstname: ["Cécile"]
-    url: https://dinhngockhanh.github.io/alumni/
+    url: https://dinhngockhanh.github.io/people/
   - firstname: ["Zhihan"]
-    url: https://dinhngockhanh.github.io/alumni/
+    url: https://dinhngockhanh.github.io/people/
 
 "chan":
   - firstname: ["Andrew"]
@@ -75,3 +75,15 @@
 "aparicio":
   - firstname: ["Samuel"]
     url: https://www.bccrc.ca/dept/mo/people/samuel-aparicio
+
+"chen":
+  - firstname: ["Yanjie"]
+    url: https://dinhngockhanh.github.io/people/
+
+"terranova":
+  - firstname: ["Peter"]
+    url: https://dinhngockhanh.github.io/people/
+
+"el baghdadi":
+  - firstname: ["Sara"]
+    url: https://dinhngockhanh.github.io/people/

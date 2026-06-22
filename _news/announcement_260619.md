@@ -9,8 +9,8 @@ related_posts: false
 We introduced <a href="https://doi.org/10.64898/2026.06.15.732415">DECODE</a> (**De**ciphering **C**ancer **O**rigin from **D**NA **E**volution), a novel tumor deconvolution method that can detect and characterize the neutral tail and mutation clusters in the site frequency spectrum (SFS) from a DNA-sequencing sample.
 DECODE can be installed from <a href="https://github.com/dinhngockhanh/DECODE">GitHub</a>.
 
-DECODE applies <a href="https://projecteuclid.org/journals/statistical-science/volume-35/issue-1/Statistical-Inference-for-the-Evolutionary-History-of-Cancer-Genomes/10.1214/19-STS7561.full">our mathematical framework for the SFS</a>, which incorporates corrections for sample-specific sequencing coverage and mutation calling biases to enhance the accuracy of detecting and characterizing the SFS tail and clusters.
-To improve the reliability and efficiency, DECODE implements <a href="https://github.com/dinhngockhanh/abcsmcrf">ABC-SMC-DRF</a> to infer the tail and cluster parameters.
+DECODE is based on [our mathematical framework for the SFS](https://doi.org/10.1214/19-STS7561), which corrects for sample-specific sequencing coverage and mutation calling biases.
+It implements [ABC-SMC-DRF](https://doi.org/10.1007/s11222-025-10748-x), our general likelihood-free inference method available as a stand-alone [R package](https://github.com/dinhngockhanh/abcsmcrf), which incorporates random forests into the framework of sequential Monte Carlo to accurately and efficiently infer the tail and cluster parameters.
 
 On synthetic data, DECODE outperformed existing methods across multiple metrics for intra-tumor heterogeneity (ITH) and accurately detected and characterized the SFS neutral tail, the shape of which reflects the tumor's expansion mode. 
 In acute myeloid leukemia, accounting for the tail yielded more parsimonious clonal decompositions that are better aligned with the subclonal dynamics that drive relapse. 
