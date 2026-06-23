@@ -21,6 +21,14 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
+    content: about_KamilaSzumala.md
+    image: KamilaSzumala.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Kamila Szumała</p>
+      </div>
+  - align: left
     content: about_NessTchenio.md
     image: NessTchenio.jpeg
     image_circular: true

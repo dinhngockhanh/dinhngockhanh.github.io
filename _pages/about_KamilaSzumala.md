@@ -1,0 +1,1 @@
+Kamila Szumała is a PhD Student Intern in the Dinh Lab in Summer 2026, from <a href="https://omega.polsl.pl/info/author/PSLb8d1f042acff4c888f9e473dbc9a2448?ps=20&lang=en&title=&pn=1&cid=1686256">Dr. Roman Jaksik</a>'s Lab at the Silesian University of Technology.
