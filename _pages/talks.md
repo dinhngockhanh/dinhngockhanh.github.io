@@ -68,7 +68,7 @@ nav_order: 4
         Ho Chi Minh City, Vietnam
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em><a href="https://ueh.edu.vn/school-landing-page/am/en">Seminar at the Institute of Applied Mathematics (IAM), University of Economics Ho Chi Minh City (UEH)</a></em><br/>
+        <em><a href="https://www.facebook.com/share/p/1CjgjbGZUh/">Seminar at the Institute of Applied Mathematics (IAM), University of Economics Ho Chi Minh City (UEH)</a></em><br/>
         <strong>Parameter inference approaches for data-driven mathematical modeling</strong>; Khanh N. Dinh
     </td>
 </tr>
