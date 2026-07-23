@@ -42,6 +42,13 @@ nav_order: 4
         <strong>Reliable inference of tumor expansion rate and clonality from DNA-sequencing data</strong>; Yanjie Chen
     </td>
 </tr>
+<table>
+
+<hr style="margin: 2rem 0;">
+
+<h2>previous talks</h2>
+
+<table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         July 03, 2026<br/>
@@ -62,13 +69,6 @@ nav_order: 4
         <strong>Parameter inference approaches for data-driven mathematical modeling</strong>; Khanh N. Dinh
     </td>
 </tr>
-<table>
-
-<hr style="margin: 2rem 0;">
-
-<h2>previous talks</h2>
-
-<table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         June 29, 2026<br/>
