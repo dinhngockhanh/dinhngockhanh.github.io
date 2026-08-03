@@ -29,22 +29,6 @@ profiles:
           <p>Kamila Szumała</p>
       </div>
   - align: left
-    content: about_NessTchenio.md
-    image: NessTchenio.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Ness Tchenio</p>
-      </div>
-  - align: left
-    content: about_LouisDarrigol.md
-    image: LouisDarrigol.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Louis Darrigol</p>
-      </div>
-  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
@@ -85,6 +69,14 @@ profiles:
           <p>Andrew Huang</p>
       </div>
   - align: left
+    content: about_MingyangXu.md
+    image: MingyangXu.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Mingyang Xu</p>
+      </div>
+  - align: left
     content: about_XuanwenGuo.md
     image: XuanwenGuo.jpeg
     image_circular: true
@@ -101,6 +93,10 @@ profiles:
           <p>Stephen DeBenedittis</p>
       </div>
   - section_header: alumni
+  - align: left
+    content: about_NessTchenio.md
+  - align: left
+    content: about_LouisDarrigol.md
   - align: left
     content: about_PeterTerranova.md
   - align: left

@@ -1,1 +1,2 @@
-Stephen DeBenedittis is an Undergraduate Student Intern as part of the [IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) in the Dinh Lab in Summer 2026, from the University of Rochester.
+Stephen DeBenedittis was an Undergraduate Student Intern as part of the [IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) in the Dinh Lab in Summer 2026, from the University of Rochester.
+He received the [SRP emerging scholars award](https://cancerdynamics.columbia.edu/SRP-Emerging-Scholars-Award) toward continuing his internship in the Lab in Fall 2026.
