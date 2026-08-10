@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd'>Associate Research Scientist</a> in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and the <a href='https://stat.columbia.edu'>Department of Statistics</a> at Columbia University.
+subtitle: <a href='https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd'>Research Scientist</a> in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> and the <a href='https://stat.columbia.edu'>Department of Statistics</a> at Columbia University.
 
 profile:
   align: right
