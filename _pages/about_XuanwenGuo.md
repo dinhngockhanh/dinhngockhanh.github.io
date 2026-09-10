@@ -1,2 +1,1 @@
-Xuanwen Guo was a Master Student Intern in the Dinh Lab from Spring 2024 to Fall 2024, from the Department of Statistics (Columbia University).
-He has continued to work in the Lab as a Research Assistant from Spring 2025.
+Xuanwen Guo (Master Student Intern, Spring-Fall 2024; Research Assistant, Spring 2025-Spring 2026).

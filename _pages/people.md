@@ -77,14 +77,6 @@ profiles:
           <p>Mingyang Xu</p>
       </div>
   - align: left
-    content: about_XuanwenGuo.md
-    image: XuanwenGuo.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Xuanwen Guo</p>
-      </div>
-  - align: left
     content: about_StephenDeBenedittis.md
     image: StephenDeBenedittis.jpeg
     image_circular: true
@@ -93,6 +85,8 @@ profiles:
           <p>Stephen DeBenedittis</p>
       </div>
   - section_header: alumni
+  - align: left
+    content: about_XuanwenGuo.md
   - align: left
     content: about_NessTchenio.md
   - align: left

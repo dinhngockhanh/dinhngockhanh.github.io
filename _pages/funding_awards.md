@@ -45,6 +45,13 @@ nav_order: 5
   <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">2026</td>
   <td class="col-desc" style="padding-bottom: 1rem;">
     <strong><a href="https://cancerdynamics.columbia.edu/SRP-Emerging-Scholars-Award">Summer Research Program emerging scholars award</a></strong>; Irving Institute for Cancer Dynamics, Columbia University<br/>
+    Stephen DeBenedittis
+  </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+  <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">2025</td>
+  <td class="col-desc" style="padding-bottom: 1rem;">
+    <strong><a href="https://cancerdynamics.columbia.edu/SRP-Emerging-Scholars-Award">Summer Research Program emerging scholars award</a></strong>; Irving Institute for Cancer Dynamics, Columbia University<br/>
     Peter Terranova
   </td>
 </tr>
