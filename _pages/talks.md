@@ -13,12 +13,22 @@ nav_order: 4
 <table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
+        Mar 15, 2027<br/>
+        New York, NY
+    </td>
+    <td class="col-desc" style="padding-bottom: 1rem;">
+        <em>Irving Institute for Cancer Dynamics (IICD) symposium</em><br/>
+        <strong>Program committee co-chair</strong>; Khanh N. Dinh
+    </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+    <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Nov 16, 2026<br/>
         Chicago, IL
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
         <em><a href="https://www.cafcw.org/about/">Computational approaches for cancer workshop (CAFCW)</a></em><br/>
-        <strong>Program committee</strong>; Khanh N. Dinh
+        <strong>Program committee member</strong>; Khanh N. Dinh
     </td>
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
