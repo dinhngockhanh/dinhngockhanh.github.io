@@ -13,6 +13,16 @@ nav_order: 4
 <table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
+        Nov 16, 2026<br/>
+        Chicago, IL
+    </td>
+    <td class="col-desc" style="padding-bottom: 1rem;">
+        <em><a href="https://www.cafcw.org/about/">Computational approaches for cancer workshop (CAFCW)</a></em><br/>
+        <strong>Program committee</strong>; Khanh N. Dinh
+    </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+    <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Oct 10, 2026<br/>
         Kennesaw, GA
     </td>

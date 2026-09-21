@@ -1,1 +1,1 @@
-Xuanwen Guo (Master Student Intern, Spring-Fall 2024; Research Assistant, Spring 2025-Spring 2026).
+Xuanwen Guo (Master Student Intern, Spring--Fall 2024; Research Assistant, Spring 2025--Spring 2026).
