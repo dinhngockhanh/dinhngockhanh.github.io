@@ -33,6 +33,16 @@ nav_order: 4
 </tr>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
+        Oct 28, 2026<br/>
+        New York, NY
+    </td>
+    <td class="col-desc" style="padding-bottom: 1rem;">
+        <em><a href="https://cancerdynamics.columbia.edu/events/iicd-workshop-series-inferring-cancer-clonality-dna">IICD workshop series: from theory to practice</a></em><br/>
+        <strong>Inferring cancer clonality from DNA</strong>; Yanjie Chen & Khanh N. Dinh
+    </td>
+</tr>
+<tr style="border-bottom: 1px solid transparent;">
+    <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Oct 10, 2026<br/>
         Kennesaw, GA
     </td>
