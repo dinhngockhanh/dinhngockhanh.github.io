@@ -1,1 +1,1 @@
-Yixuan Chen (Master Student Intern, Fall 2025).
+Yixuan Chen: Master Student Intern, Fall 2025.

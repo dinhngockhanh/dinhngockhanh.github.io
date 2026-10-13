@@ -1,1 +1,1 @@
-Zihan Zhang (Master Student Intern, Spring--Fall 2025).
+Zihan Zhang: Master Student Intern, Spring--Fall 2025.

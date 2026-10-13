@@ -1,1 +1,1 @@
-Shuxin Tang (Master Student Intern, Spring 2025).
+Shuxin Tang: Master Student Intern, Spring 2025.

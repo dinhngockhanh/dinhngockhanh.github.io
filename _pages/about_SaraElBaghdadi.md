@@ -1,1 +1,1 @@
-Sara El Baghdadi (<a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> Master Student Intern from École Polytechnique, Summer 2025).
+Sara El Baghdadi: <a href="https://cancerdynamics.columbia.edu/partnership-columbia-alliance-research-internship-program">Alliance Program</a> Master Student Intern from École Polytechnique, Summer 2025.

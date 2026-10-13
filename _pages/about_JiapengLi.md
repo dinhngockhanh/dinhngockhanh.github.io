@@ -1,1 +1,1 @@
-Jiapeng Li (Master Student Intern, Spring 2023).
+Jiapeng Li: Master Student Intern, Spring 2023.

@@ -1,1 +1,1 @@
-Yichi Yang (Master Student Intern, Fall 2024).
+Yichi Yang: Master Student Intern, Fall 2024.

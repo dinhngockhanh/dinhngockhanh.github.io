@@ -1,1 +1,1 @@
-Ranjing Zhang (Master Student Intern, Spring 2024).
+Ranjing Zhang: Master Student Intern, Spring 2024.
