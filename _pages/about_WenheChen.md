@@ -1,1 +1,1 @@
-Wenhe Chen (Master Student Intern, Spring 2024).
+Wenhe Chen: Master Student Intern, Spring 2024.

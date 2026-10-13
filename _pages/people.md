@@ -37,14 +37,6 @@ profiles:
           <p>Yanjie Chen</p>
       </div>
   - align: left
-    content: about_JessicaLin.md
-    image: JessicaLin.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Jessica Lin</p>
-      </div>
-  - align: left
     content: about_YanxiangLiu.md
     image: YanxiangLiu.jpeg
     image_circular: true
@@ -85,6 +77,8 @@ profiles:
           <p>Stephen DeBenedittis</p>
       </div>
   - section_header: alumni
+  - align: left
+    content: about_JessicaLin.md
   - align: left
     content: about_XuanwenGuo.md
   - align: left
