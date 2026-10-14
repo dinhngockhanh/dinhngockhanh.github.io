@@ -565,3 +565,19 @@
   preview={chen2026automatic.jpg},
   abstract={We recently introduced Approximate Bayesian Computation sequential Monte Carlo with random forests (ABC-SMC-RF), a novel likelihood-free inference method that combines the robustness of random forests and the efficiency of the Approximate Bayesian Computation sequential Monte Carlo (ABC-SMC) framework. In this work, we examine the selection of parameter perturbation kernels and their impact on ABC-SMC-RF's results. We evaluate the performance of an automatic and adaptive perturbation scheme, previously developed for ABC-SMC. Across examples drawn from different realistic biological contexts, we show that (i) ABC-SMC-RF produces precise and accurate parameter inferences, without requiring extensive hyper-parameter tuning, and (ii) the adaptive perturbations yield optimal performance in ABC-SMC-RF, further reducing practical barriers to its adoption in many settings. We expect ABC-SMC-RF, armed with the automatic perturbation scheme, to be well positioned for supporting different scientific problems that require robust, efficient and convenient parameter estimation.}
 }
+
+@article{tsui2026serval,
+  selected={false},
+  bibtex_show={true},
+  dimensions={true},
+  title={Serval: a modular framework for decoding imaging based spatial transcriptomics data},
+  author = {Tsui, Jenkin and Adam, Naila and Choi, Woongcheol and Liu, Luna Y. and Flores, Cristina and Ansari, Shadi and Kong, Esther and Thapliyal, Yukta and Lee, Hakwoo and Haider, Shahid and Von Riedemann, Isaac and O'Flanagan, Ciara and Consortium, IMAXT and Aparicio, Samuel and Roth, Andrew},
+  journal={Bioinformatics},
+  year={2026},
+  annotation={As part of the IMAXT Consortium},
+  doi={10.1093/bioinformatics/btag707},
+  html={https://doi.org/10.1093/bioinformatics/btag707},
+  pdf={tsui2026serval.pdf},
+  preview={tsui2026serval.jpg},
+  abstract={Motivation: Imaging-based spatial transcriptomics technologies have opened new avenues for studying cellular organization and gene expression within intact tissues. However, the accuracy of downstream analyses depends critically on the decoding step that reconstructs barcodes from fluorescence patterns and maps them to gene identities. Despite a growing number of decoding methods, systematic benchmarking has been limited. Results: Here, we introduce Serval, a modular framework for developing and benchmarking decoding methods across diverse spatial transcriptomics platforms. Serval separates key decoding stages into independently configurable modules, enabling flexible integration of alternative algorithms. Using this framework, we develop CoSiD (Cosine Similarity Decoder), a novel method that improves transcript recovery by optimizing cosine similarity to known barcodes. We evaluate CoSiD and baseline methods on synthetic and real MERFISH datasets, showing that CoSiD achieves higher transcript recovery and superior correlation with expression references compared to existing methods. Furthermore, we demonstrate that the Serval framework generalizes beyond MERFISH. By extending to the DART-FISH platform, we show that CoSiD improves transcript recovery, clustering stability and supports more direct annotation of complex biological structures such as the human primary motor cortex. These results establish that modular decoding frameworks facilitate robust, platform-agnostic benchmarking, ultimately supporting more accurate spatial transcriptomics analysis across diverse biological samples. Availability: Serval and CoSiD are open source and publicly available at https://github.com/Roth-Lab/serval. Code for the simulation and analysis pipelines is available from the repositories described in the Data Availability section.}
+}
