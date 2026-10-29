@@ -1,0 +1,8 @@
+github_users:
+  - dinhngockhanh
+
+repo_description_lines_max: 2
+
+github_repos:
+  - dinhngockhanh/IICDWorkshopParameterInference
+  - dinhngockhanh/IICDWorkshopInferringClonality

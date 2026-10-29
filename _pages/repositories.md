@@ -17,3 +17,16 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+
+{% if site.data.resources.github_repos %}
+
+<hr style="margin: 2rem 0;">
+
+<h2>resources</h2>
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.resources.github_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
