@@ -31,6 +31,13 @@ nav_order: 4
         <strong>Program committee member</strong>; Khanh N. Dinh
     </td>
 </tr>
+<table>
+
+<hr style="margin: 2rem 0;">
+
+<h2>previous talks</h2>
+
+<table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Oct 28, 2026<br/>
@@ -41,13 +48,6 @@ nav_order: 4
         <strong>Inferring cancer clonality from DNA</strong>; Yanjie Chen & Khanh N. Dinh
     </td>
 </tr>
-<table>
-
-<hr style="margin: 2rem 0;">
-
-<h2>previous talks</h2>
-
-<table>
 <tr style="border-bottom: 1px solid transparent;">
     <td class="col-year" style="vertical-align: top; padding-bottom: 1rem; width: 130px;">
         Oct 10, 2026<br/>

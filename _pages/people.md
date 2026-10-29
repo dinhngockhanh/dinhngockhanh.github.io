@@ -21,28 +21,12 @@ profiles:
           <p>Principal Investigator</p>
       </div>
   - align: left
-    content: about_KamilaSzumala.md
-    image: KamilaSzumala.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Kamila Szumała</p>
-      </div>
-  - align: left
     content: about_YanjieChen.md
     image: YanjieChen.jpeg
     image_circular: true
     more_info: >
       <div style="text-align: center;">
           <p>Yanjie Chen</p>
-      </div>
-  - align: left
-    content: about_YanxiangLiu.md
-    image: YanxiangLiu.jpeg
-    image_circular: true
-    more_info: >
-      <div style="text-align: center;">
-          <p>Yanxiang Liu</p>
       </div>
   - align: left
     content: about_IanWang.md
@@ -69,6 +53,14 @@ profiles:
           <p>Mingyang Xu</p>
       </div>
   - align: left
+    content: about_JunzeCao.md
+    image: JunzeCao.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Junze Cao</p>
+      </div>
+  - align: left
     content: about_StephenDeBenedittis.md
     image: StephenDeBenedittis.jpeg
     image_circular: true
@@ -77,6 +69,10 @@ profiles:
           <p>Stephen DeBenedittis</p>
       </div>
   - section_header: alumni
+  - align: left
+    content: about_KamilaSzumala.md
+  - align: left
+    content: about_YanxiangLiu.md
   - align: left
     content: about_JessicaLin.md
   - align: left
