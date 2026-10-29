@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Materials from our IICD workshop on parameter inference are freely available!
+title: Yanjie and Khanh led an IICD workshop on parameter inference. The materials are freely available!
 date: 2026-04-09 09:00:00-0500
 inline: false
 related_posts: false
