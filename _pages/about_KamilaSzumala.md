@@ -1,1 +1,1 @@
-Kamila Szumała: PhD Student Intern from <a href="https://omega.polsl.pl/info/author/PSLb8d1f042acff4c888f9e473dbc9a2448?ps=20&lang=en&title=&pn=1&cid=1686256">Dr. Roman Jaksik</a>'s Lab at the Silesian University of Technology, Summer 2026.
+Kamila Szumała: PhD Student Intern ([Dr. Roman Jaksik](https://omega.polsl.pl/info/author/PSLb8d1f042acff4c888f9e473dbc9a2448?ps=20&lang=en&title=&pn=1&cid=1686256)'s Lab, Silesian University of Technology), Summer 2026.

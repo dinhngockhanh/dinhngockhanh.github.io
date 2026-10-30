@@ -1,1 +1,1 @@
-Yichi Yang: Master Student Intern, Fall 2024.
+Yichi Yang: Master Student Intern ([Department of Statistics](https://stat.columbia.edu), Columbia University), Fall 2024.

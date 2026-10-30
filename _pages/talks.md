@@ -17,7 +17,7 @@ nav_order: 4
         New York, NY
     </td>
     <td class="col-desc" style="padding-bottom: 1rem;">
-        <em>Irving Institute for Cancer Dynamics (IICD) symposium</em><br/>
+        <em><a href="https://cancerdynamics.columbia.edu/iicd-symposium-beyond-correlation-perturbations-and-causal-discovery-cancer-biology">Beyond correlation: Perturbations and causal discovery in cancer biology (Irving Institute for Cancer Dynamics (IICD) symposium)</a></em><br/>
         <strong>Program committee co-chair</strong>; Khanh N. Dinh
     </td>
 </tr>

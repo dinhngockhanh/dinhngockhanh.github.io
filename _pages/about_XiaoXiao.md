@@ -1,1 +1,1 @@
-Xiao Xiao: Master Student Intern, Fall 2025.
+Xiao Xiao: Master Student Intern ([Department of Statistics](https://stat.columbia.edu), Columbia University), Fall 2025.

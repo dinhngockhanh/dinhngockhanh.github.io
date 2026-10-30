@@ -1,1 +1,1 @@
-Andrew Chan: [IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship) Undergraduate Student Intern from Case Western Reserve University, Summer 2023; Postbaccalaureate Researcher, Fall 2024--Spring 2025.
+Andrew Chan: Undergraduate Student Intern ([IICD Summer Research Program (SRP)](https://cancerdynamics.columbia.edu/summer-research-internship), Case Western Reserve University), Summer 2023; Postbaccalaureate Researcher, Fall 2024--Spring 2025.
