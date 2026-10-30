@@ -1,1 +1,1 @@
-Zhuoxuan Li: Master Student Intern, Spring 2025.
+Zhuoxuan Li: Master Student Intern ([Department of Statistics](https://stat.columbia.edu), Columbia University), Spring 2025.

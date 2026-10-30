@@ -1,1 +1,1 @@
-Jiapeng Li: Master Student Intern, Spring 2023.
+Jiapeng Li: Master Student Intern ([Department of Statistics](https://stat.columbia.edu), Columbia University), Spring 2023.

@@ -1,1 +1,1 @@
-Yanxiang Liu: Master Student Intern, Spring 2026.
+Yanxiang Liu: Master Student Intern ([Department of Statistics](https://stat.columbia.edu), Columbia University), Spring 2026.
