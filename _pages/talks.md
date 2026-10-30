@@ -35,7 +35,7 @@ nav_order: 4
 
 <hr style="margin: 2rem 0;">
 
-<h2>previous talks</h2>
+<h2>previous</h2>
 
 <table>
 <tr style="border-bottom: 1px solid transparent;">
