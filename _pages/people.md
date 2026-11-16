@@ -61,6 +61,14 @@ profiles:
           <p>Junze Cao</p>
       </div>
   - align: left
+    content: about_JoshuaRaj.md
+    image: JoshuaRaj.jpeg
+    image_circular: true
+    more_info: >
+      <div style="text-align: center;">
+          <p>Joshua Raj</p>
+      </div>
+  - align: left
     content: about_StephenDeBenedittis.md
     image: StephenDeBenedittis.jpeg
     image_circular: true
