@@ -10,6 +10,10 @@ related_publications: true
 
 ---
 
+The work described here is supported by <a href="https://reporter.nih.gov/search/RCne4JJl5E2D3NAY3h6Ymg/project-details/11320338">R01CA310281</a>.
+
+---
+
 Despite considerable efforts, recent evidence shows that currently available algorithms for estimating intratumor heterogeneity (ITH) [remain](https://doi.org/10.1038/s41587-019-0364-z) [limited](https://doi.org/10.1038/s41587-024-02250-y).
 Detection of ITH and subclonal structure often exploits summary statistics of the DNA-sequencing data.
 Among the most common statistics is the Site Frequency Spectrum (SFS), which tallies the number of mutations at a given Variant Allele Frequency (VAF).
